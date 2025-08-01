@@ -107,6 +107,7 @@ fn process_json(json_string: &str, selected: &str) -> Result<String, String> {//
 
 fn save_to_excel(json_string: &str, selected: &str) -> Result<String, Box<dyn Error>> {
     // Parse the JSON string
+    
     println!("Selected: {}", selected);
     let route_data: Vec<RouteData> = serde_json::from_str(json_string)?;
     println!("Parsed {} routes", route_data.len());
@@ -116,28 +117,56 @@ fn save_to_excel(json_string: &str, selected: &str) -> Result<String, Box<dyn Er
     // Create formats
     let header_format = Format::new()
         .set_bold()
-        .set_background_color(Color::RGB(0xE6E6FA))
+        .set_background_color(Color::RGB(0x006600))
         .set_border(FormatBorder::Thin);
-    
+    let light_green = Format::new()
+        .set_background_color(Color::RGB(0x99FF99));
+    let light_grey = Format::new()
+        .set_background_color(Color::RGB(0xC6C6C6));
+    let green_grey_mix = Format::new()
+        .set_background_color(Color::RGB(0xA1C5A1));
+    let white = Format::new()
+        .set_background_color(Color::RGB(0xFFFFFF));
+
     let number_format = Format::new().set_num_format("#,##0.00");
     let integer_format = Format::new().set_num_format("#,##0");
     let percentage_format = Format::new().set_num_format("0.00%");
 
     // Add worksheet
     let worksheet = workbook.add_worksheet();
-
+    let choice = "pax"; // pax,cargo
     // Define headers
-    let headers = vec![
-        "Airport ID", "Airport Name", "Full Name", "Country", "Continent", 
-        "IATA", "ICAO", "Latitude", "Longitude", "Runway Length", "Market", "Hub Cost",
-        "Runway Codes", "Pax Y Demand", "Pax J Demand", "Pax F Demand", 
-        "Cargo L Demand", "Cargo H Demand", "Direct Distance", "Valid Route",
-        "Needs Stopover", "Stopover Airport", "Stopover Country", "Flight Time",
-        "Trips Per Day", "Aircraft Count", "Config Y", "Config J", "Config F",
-        "Ticket Y", "Ticket J", "Ticket F", "Max Income", "Income", "Fuel Cost",
-        "CO2 Emissions", "A-Check Cost", "Repair Cost", "Profit", "CI", "Contribution"
-    ];
-
+    let headers: Vec<&str>;
+    if choice == "pax"{
+        headers = vec![
+            "ID", "Airport Name", "Full Name", "Country",  
+            "Runway Length", "Config Y-J-F", "Ticket Y-J-F", "Demand Y-J-F",
+            "Direct Distance", "Needs Stopover", "Stopover Airport", "Stopover Country",
+            "Flight Time", "Trips Per Day", "Aircraft Count", "Max Income", "Income", "Fuel Cost",
+            "CO2 Emissions", "A-Check Cost", "Repair Cost"
+        ];
+    }
+    else if choice == "cargo"{
+        headers = vec![
+            "ID", "Airport Name", "Full Name", "Country",  
+            "Runway Length", "Demand L", "Demand H",
+            "Direct Distance", "Needs Stopover", "Stopover Airport", "Stopover Country",
+            "Flight Time", "Trips Per Day", "Aircraft Count", "Max Income", "Income", "Fuel Cost",
+            "CO2 Emissions", "A-Check Cost", "Repair Cost"
+        ];
+    }
+    else {
+        headers = vec![
+            "Airport ID", "Airport Name", "Full Name", "Country", "Continent", 
+            "IATA", "ICAO", "Latitude", "Longitude", "Runway Length", "Market", "Hub Cost",
+            "Runway Codes", "Pax Y Demand", "Pax J Demand", "Pax F Demand", 
+            "Cargo L Demand", "Cargo H Demand", "Direct Distance", "Valid Route",
+            "Needs Stopover", "Stopover Airport", "Stopover Country", "Flight Time",
+            "Trips Per Day", "Aircraft Count", "Config Y", "Config J", "Config F",
+            "Ticket Y", "Ticket J", "Ticket F", "Max Income", "Income", "Fuel Cost",
+            "CO2 Emissions", "A-Check Cost", "Repair Cost", "Profit", "CI", "Contribution"
+        ];
+    }
     // Write headers
     for (col, header) in headers.iter().enumerate() {
         worksheet.write_with_format(0, col as u16, *header, &header_format)?;
@@ -145,87 +174,152 @@ fn save_to_excel(json_string: &str, selected: &str) -> Result<String, Box<dyn Er
     }
 
     // Write data rows
+    let mut color_one = light_grey.clone();
+    let mut color_two = green_grey_mix.clone();
+    let mut column = 0;
     for (row_idx, route) in route_data.iter().enumerate() {
         let row = (row_idx + 1) as u32;
-        
+        column = 0;
+        let (color_one, color_two) = if row % 2 == 0 {
+            (&light_grey, &green_grey_mix)
+        } else {
+            (&white, &light_green)
+        };
         // Airport data
-        worksheet.write_with_format(row, 0, route.airport.id, &integer_format)?;
-        worksheet.write(row, 1, &route.airport.name)?;
-        worksheet.write(row, 2, &route.airport.fullname)?;
-        worksheet.write(row, 3, &route.airport.country)?;
-        worksheet.write(row, 4, &route.airport.continent)?;
-        worksheet.write(row, 5, &route.airport.iata)?;
-        worksheet.write(row, 6, &route.airport.icao)?;
-        worksheet.write_with_format(row, 7, route.airport.lat, &number_format)?;
-        worksheet.write_with_format(row, 8, route.airport.lng, &number_format)?;
-        worksheet.write_with_format(row, 9, route.airport.rwy, &integer_format)?;
-        worksheet.write_with_format(row, 10, route.airport.market, &integer_format)?;
-        worksheet.write_with_format(row, 11, route.airport.hub_cost, &integer_format)?;
-        worksheet.write(row, 12, &route.airport.rwy_codes)?;
-        
-        // Route demand data
-        worksheet.write_with_format(row, 13, route.ac_route.route.pax_demand.y, &integer_format)?;
-        worksheet.write_with_format(row, 14, route.ac_route.route.pax_demand.j, &integer_format)?;
-        worksheet.write_with_format(row, 15, route.ac_route.route.pax_demand.f, &integer_format)?;
-        worksheet.write_with_format(row, 16, route.ac_route.route.cargo_demand.l, &integer_format)?;
-        worksheet.write_with_format(row, 17, route.ac_route.route.cargo_demand.h, &integer_format)?;
-        worksheet.write_with_format(row, 18, route.ac_route.route.direct_distance, &number_format)?;
-        
-        // Route status
-        worksheet.write(row, 19, if route.ac_route.valid { "Yes" } else { "No" })?;
-        worksheet.write(row, 20, if route.ac_route.needs_stopover { "Yes" } else { "No" })?;
-        
-        // Stopover data
+        let format_to_use = if column % 2 == 0 { color_one } else { color_two };
+        worksheet.write_with_format(row, column, row_idx as i64, format_to_use)?;
+        column += 1; 
+        let format_to_use = if column % 2 == 0 { color_one } else { color_two };
+        worksheet.write_with_format(row, column, &route.airport.name, format_to_use)?;
+        column += 1;
+        let format_to_use = if column % 2 == 0 { color_one } else { color_two };
+        worksheet.write_with_format(row, column, &route.airport.fullname, format_to_use)?;
+        column += 1;
+        let format_to_use = if column % 2 == 0 { color_one } else { color_two };
+        worksheet.write_with_format(row, column, &route.airport.country, format_to_use)?;
+        column += 1;
+        let format_to_use = if column % 2 == 0 { color_one } else { color_two };
+        worksheet.write_with_format(row, column, route.airport.rwy as f64, format_to_use)?;
+        column += 1;
+        let format_to_use = if column % 2 == 0 { color_one } else { color_two };
+
+        //ticket price
+        if choice == "pax"{
+            worksheet.write_with_format(row, column, format!("{}-{}-{}", route.ac_route.config.y, route.ac_route.config.j, route.ac_route.config.f), format_to_use)?;
+            column += 1;
+            let format_to_use = if column % 2 == 0 { color_one } else { color_two };
+            worksheet.write_with_format(row, column, format!("{}-{}-{}", route.ac_route.ticket.y, route.ac_route.ticket.j, route.ac_route.ticket.f), format_to_use)?;
+            column += 1;
+            let format_to_use = if column % 2 == 0 { color_one } else { color_two };
+            worksheet.write_with_format(row, column, format!("{}-{}-{}", route.ac_route.route.pax_demand.y, route.ac_route.route.pax_demand.j, route.ac_route.route.pax_demand.f), format_to_use)?;
+            column += 1;
+        }
+        else if choice == "cargo"{
+            worksheet.write_with_format(row, column, route.ac_route.route.cargo_demand.l as f64, format_to_use)?;
+            column += 1;
+            let format_to_use = if column % 2 == 0 { color_one } else { color_two };
+            worksheet.write_with_format(row, column, route.ac_route.route.cargo_demand.h as f64, format_to_use)?;
+            column += 1;
+        }
+
+        // Distance
+        let format_to_use = if column % 2 == 0 { color_one } else { color_two };
+        worksheet.write_with_format(row, column, route.ac_route.route.direct_distance as f64, format_to_use)?;
+        column += 1;
+
+        // Stop-over
+        let format_to_use = if column % 2 == 0 { color_one } else { color_two };
+        worksheet.write_with_format(row, column, if route.ac_route.needs_stopover { "Yes" } else { "No" }, format_to_use)?;
+        column += 1;
+        let format_to_use = if column % 2 == 0 { color_one } else { color_two };
         if route.ac_route.needs_stopover {
             if let Some(ref stopover) = route.ac_route.stopover {
                 if let Some(ref airport) = stopover.airport {
-                    worksheet.write(row, 21, &airport.name)?;
-                    worksheet.write(row, 22, &airport.country)?;
+                    worksheet.write_with_format(row, column, &airport.name, format_to_use)?;
+                    column += 1;
+                    let format_to_use = if column % 2 == 0 { color_one } else { color_two };
+                    worksheet.write_with_format(row, column, &airport.country, format_to_use)?;
+                    column += 1;
                 } else {
-                    worksheet.write(row, 21, "No stopover data")?;
-                    worksheet.write(row, 22, "No stopover data")?;
+                    worksheet.write_with_format(row, column, "No stopover data", format_to_use)?;
+                    column += 1;
+                    let format_to_use = if column % 2 == 0 { color_one } else { color_two };
+                    worksheet.write_with_format(row, column, "No stopover data", format_to_use)?;
+                    column += 1;
                 }
             } else {
-                worksheet.write(row, 21, "No stopover data")?;
-                worksheet.write(row, 22, "No stopover data")?;
+                worksheet.write_with_format(row, column, "No stopover data", format_to_use)?;
+                column += 1;
+                let format_to_use = if column % 2 == 0 { color_one } else { color_two };
+                worksheet.write_with_format(row, column, "No stopover data", format_to_use)?;
+                column += 1;
             }
         } else {
-            worksheet.write(row, 21, "N/A")?;
-            worksheet.write(row, 22, "N/A")?;
+            worksheet.write_with_format(row, column, "N/A", format_to_use)?;
+            column += 1;
+            let format_to_use = if column % 2 == 0 { color_one } else { color_two };
+            worksheet.write_with_format(row, column, "N/A", format_to_use)?;
+            column += 1;
         }
+        let format_to_use = if column % 2 == 0 { color_one } else { color_two };
+        worksheet.write_with_format(row, column, route.ac_route.flight_time as f64, format_to_use)?;
+        column += 1;
+        let format_to_use = if column % 2 == 0 { color_one } else { color_two };
+        worksheet.write_with_format(row, column, route.ac_route.trips_per_day_per_ac as i64, format_to_use)?;
+        column += 1;
+        let format_to_use = if column % 2 == 0 { color_one } else { color_two };
+        worksheet.write_with_format(row, column, route.ac_route.num_ac as i64, format_to_use)?;
+        column += 1;
+
+
+        // Financial Data
+        let format_to_use = if column % 2 == 0 { color_one } else { color_two };
+        worksheet.write_with_format(row, column, route.ac_route.max_income as f64, format_to_use)?;
+        column += 1;
+        let format_to_use = if column % 2 == 0 { color_one } else { color_two };
+        worksheet.write_with_format(row, column, route.ac_route.income as f64, format_to_use)?;
+        column += 1;
+        let format_to_use = if column % 2 == 0 { color_one } else { color_two };
+        worksheet.write_with_format(row, column, route.ac_route.fuel as f64, format_to_use)?;
+        column += 1;
+        let format_to_use = if column % 2 == 0 { color_one } else { color_two };
+        worksheet.write_with_format(row, column, route.ac_route.co2 as f64, format_to_use)?;
+        column += 1;
+        let format_to_use = if column % 2 == 0 { color_one } else { color_two };
+        worksheet.write_with_format(row, column, route.ac_route.acheck_cost as f64, format_to_use)?;
+        column += 1;
+        let format_to_use = if column % 2 == 0 { color_one } else { color_two };
+        worksheet.write_with_format(row,column, route.ac_route.repair_cost as f64, format_to_use)?;
         
-        // Flight data
-        worksheet.write_with_format(row, 23, route.ac_route.flight_time, &number_format)?;
-        worksheet.write_with_format(row, 24, route.ac_route.trips_per_day_per_ac, &integer_format)?;
-        worksheet.write_with_format(row, 25, route.ac_route.num_ac, &integer_format)?;
-        
-        // Configuration
-        worksheet.write_with_format(row, 26, route.ac_route.config.y, &integer_format)?;
-        worksheet.write_with_format(row, 27, route.ac_route.config.j, &integer_format)?;
-        worksheet.write_with_format(row, 28, route.ac_route.config.f, &integer_format)?;
-        
-        // Ticket prices
-        worksheet.write_with_format(row, 29, route.ac_route.ticket.y, &integer_format)?;
-        worksheet.write_with_format(row, 30, route.ac_route.ticket.j, &integer_format)?;
-        worksheet.write_with_format(row, 31, route.ac_route.ticket.f, &integer_format)?;
-        
-        // Financial data
-        worksheet.write_with_format(row, 32, route.ac_route.max_income, &number_format)?;
-        worksheet.write_with_format(row, 33, route.ac_route.income, &number_format)?;
-        worksheet.write_with_format(row, 34, route.ac_route.fuel, &number_format)?;
-        worksheet.write_with_format(row, 35, route.ac_route.co2, &number_format)?;
-        worksheet.write_with_format(row, 36, route.ac_route.acheck_cost, &number_format)?;
-        worksheet.write_with_format(row, 37, route.ac_route.repair_cost, &number_format)?;
-        worksheet.write_with_format(row, 38, route.ac_route.profit, &number_format)?;
-        worksheet.write_with_format(row, 39, route.ac_route.ci, &integer_format)?;
-        worksheet.write_with_format(row, 40, route.ac_route.contribution / 100.0, &percentage_format)?;
+
+
     }
 
     // Auto-fit some important columns
-    worksheet.set_column_width(1, 20)?; // Airport name
-    worksheet.set_column_width(2, 25)?; // Full name
-    worksheet.set_column_width(3, 15)?; // Country
-    worksheet.set_column_width(21, 20)?; // Stopover airport
+    
+    worksheet.set_column_width(0, 5)?;  // ID
+    worksheet.set_column_width(1, 25)?; // Airport name
+    worksheet.set_column_width(2, 30)?; // Full name
+    worksheet.set_column_width(3, 30)?; // Country
+    worksheet.set_column_width(4, 8)?;  // Rnwy
+    if choice == "pax"{
+        worksheet.set_column_width(6, 20)?;  // ticket price
+        worksheet.set_column_width(9, 5)?;  // needs stopover
+        worksheet.set_column_width(10, 30)?;  // SO Airport name
+        worksheet.set_column_width(11, 30)?;  // SO country
+        worksheet.set_column_width(12, 10)?;  // Flight time 
+        worksheet.set_column_width(13, 10)?;  // Trips a day
+        worksheet.set_column_width(14, 10)?;  // AC no.
+    }
+    else if choice == "cargo"{
+
+        worksheet.set_column_width(8, 5)?;  // needs stopover
+        worksheet.set_column_width(9, 30)?;  // SO Airport name
+        worksheet.set_column_width(10, 30)?;  // SO country
+        worksheet.set_column_width(11, 10)?;  // Flight time 
+        worksheet.set_column_width(12, 10)?;  // Trips a day
+        worksheet.set_column_width(13, 10)?;  // AC no.
+    }
 
     // Save the file to the user's Documents folder or current directory
     let filename = "route_analysis.xlsx";
