@@ -25,7 +25,14 @@ A simple GUI application that converts JSON dictionaries from Airline Manager 4 
 
 ## Screenshots
 
-> *Screenshots coming soon*
+<div align="center">
+  <img src="https://github.com/teot59/airline-manager-JSON-to-excel/blob/69482a877ec1daa2dd5bc4a9912cf1f172cfbf0f/images/pax.png" alt="Passenger mode" width="45%" style="display: inline-block; margin: 5px;">
+  <img src="https://github.com/teot59/airline-manager-JSON-to-excel/blob/69482a877ec1daa2dd5bc4a9912cf1f172cfbf0f/images/cargo.png" alt="Cargo mode" width="45%" style="display: inline-block; margin: 5px;">
+</div>
+
+<div align="center">
+  <img src="https://github.com/teot59/airline-manager-JSON-to-excel/blob/69482a877ec1daa2dd5bc4a9912cf1f172cfbf0f/images/excel.png" alt="Excel output" width="70%">
+</div>
 
 ## Tech Stack
 
