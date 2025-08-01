@@ -1,0 +1,7253 @@
+[
+  {
+    "airport": {
+      "id": 3320,
+      "name": "Kiev Boryspil",
+      "fullname": "Boryspil International Airport",
+      "country": "Ukraine",
+      "continent": "Europe",
+      "iata": "KBP",
+      "icao": "UKBB",
+      "lat": 50.345001220703125,
+      "lng": 30.894699096679688,
+      "rwy": 13123,
+      "market": 40,
+      "hub_cost": 237000,
+      "rwy_codes": "18L/36R"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 814,
+          "j": 221,
+          "f": 318
+        },
+        "cargo_demand": {
+          "l": 407000,
+          "h": 221000
+        },
+        "direct_distance": 2032.40495432255
+      },
+      "warnings": [],
+      "valid": true,
+      "max_tpd": 0,
+      "needs_stopover": false,
+      "stopover": {
+        "exists": false
+      },
+      "flight_time": 1.9375613927841187,
+      "trips_per_day_per_ac": 2,
+      "num_ac": 1,
+      "config": {
+        "y": 0,
+        "j": 60,
+        "f": 160,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 833,
+        "j": 1854,
+        "f": 2996
+      },
+      "max_income": 590600.0,
+      "income": 584694.0056324005,
+      "fuel": 45241.44706518173,
+      "co2": 193380.24208253206,
+      "acheck_cost": 28750.6,
+      "repair_cost": 1617.2212725,
+      "profit": 499451.5423643695,
+      "ci": 200,
+      "contribution": 19.511085510253906
+    }
+  },
+  {
+    "airport": {
+      "id": 2107,
+      "name": "Chişinău",
+      "fullname": "Chişinău International Airport",
+      "country": "Moldova",
+      "continent": "Europe",
+      "iata": "KIV",
+      "icao": "LUKK",
+      "lat": 46.92770004272461,
+      "lng": 28.930999755859375,
+      "rwy": 11779,
+      "market": 62,
+      "hub_cost": 237000,
+      "rwy_codes": "08/26"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 572,
+          "j": 528,
+          "f": 207
+        },
+        "cargo_demand": {
+          "l": 286000,
+          "h": 528000
+        },
+        "direct_distance": 1967.531425833032
+      },
+      "warnings": [],
+      "valid": true,
+      "max_tpd": 0,
+      "needs_stopover": false,
+      "stopover": {
+        "exists": false
+      },
+      "flight_time": 1.8757152557373047,
+      "trips_per_day_per_ac": 2,
+      "num_ac": 1,
+      "config": {
+        "y": 0,
+        "j": 144,
+        "f": 104,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 812,
+        "j": 1812,
+        "f": 2935
+      },
+      "max_income": 566168.0,
+      "income": 560506.3253993988,
+      "fuel": 43797.44085033417,
+      "co2": 187242.99742033603,
+      "acheck_cost": 28750.6,
+      "repair_cost": 1617.2212725,
+      "profit": 477011.1358412245,
+      "ci": 200,
+      "contribution": 18.8882999420166
+    }
+  },
+  {
+    "airport": {
+      "id": 2041,
+      "name": "Constanta",
+      "fullname": "Mihail Kogălniceanu International Airport",
+      "country": "Romania",
+      "continent": "Europe",
+      "iata": "CND",
+      "icao": "LRCK",
+      "lat": 44.36220169067383,
+      "lng": 28.488300323486328,
+      "rwy": 11483,
+      "market": 70,
+      "hub_cost": 24000,
+      "rwy_codes": "18/36"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 278,
+          "j": 317,
+          "f": 128
+        },
+        "cargo_demand": {
+          "l": 139000,
+          "h": 317000
+        },
+        "direct_distance": 2033.934224725325
+      },
+      "warnings": [],
+      "valid": true,
+      "max_tpd": 0,
+      "needs_stopover": false,
+      "stopover": {
+        "exists": false
+      },
+      "flight_time": 1.9390193223953247,
+      "trips_per_day_per_ac": 2,
+      "num_ac": 1,
+      "config": {
+        "y": 88,
+        "j": 160,
+        "f": 64,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 834,
+        "j": 1855,
+        "f": 2998
+      },
+      "max_income": 562064.0,
+      "income": 556443.36536026,
+      "fuel": 45275.504865531926,
+      "co2": 193617.65327928186,
+      "acheck_cost": 28750.6,
+      "repair_cost": 1617.2212725,
+      "profit": 471148.57228837383,
+      "ci": 200,
+      "contribution": 19.525768280029297
+    }
+  },
+  {
+    "airport": {
+      "id": 496,
+      "name": "Tallinn",
+      "fullname": "Lennart Meri Tallinn Airport",
+      "country": "Estonia",
+      "continent": "Europe",
+      "iata": "TLL",
+      "icao": "EETN",
+      "lat": 59.41329956049999,
+      "lng": 24.832799911499997,
+      "rwy": 10072,
+      "market": 68,
+      "hub_cost": 213300,
+      "rwy_codes": "08/26"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 812,
+          "j": 588,
+          "f": 271
+        },
+        "cargo_demand": {
+          "l": 406000,
+          "h": 588000
+        },
+        "direct_distance": 1838.5857285083314
+      },
+      "warnings": [],
+      "valid": true,
+      "max_tpd": 0,
+      "needs_stopover": false,
+      "stopover": {
+        "exists": false
+      },
+      "flight_time": 1.7527868747711182,
+      "trips_per_day_per_ac": 2,
+      "num_ac": 1,
+      "config": {
+        "y": 0,
+        "j": 96,
+        "f": 136,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 769,
+        "j": 1729,
+        "f": 2812
+      },
+      "max_income": 548416.0,
+      "income": 542931.8452301025,
+      "fuel": 40927.013820819855,
+      "co2": 174971.5896942657,
+      "acheck_cost": 28750.6,
+      "repair_cost": 1617.2212725,
+      "profit": 462918.52351971675,
+      "ci": 200,
+      "contribution": 17.650421142578125
+    }
+  },
+  {
+    "airport": {
+      "id": 501,
+      "name": "Helsinki intl",
+      "fullname": "Helsinki Vantaa Airport",
+      "country": "Finland",
+      "continent": "Europe",
+      "iata": "HEL",
+      "icao": "EFHK",
+      "lat": 60.317199707031,
+      "lng": 24.963300704956,
+      "rwy": 11286,
+      "market": 35,
+      "hub_cost": 237000,
+      "rwy_codes": "04L/22R|15/33"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 1003,
+          "j": 472,
+          "f": 180
+        },
+        "cargo_demand": {
+          "l": 502000,
+          "h": 472000
+        },
+        "direct_distance": 1895.5584206947424
+      },
+      "warnings": [],
+      "valid": true,
+      "max_tpd": 0,
+      "needs_stopover": false,
+      "stopover": {
+        "exists": false
+      },
+      "flight_time": 1.8071010112762451,
+      "trips_per_day_per_ac": 2,
+      "num_ac": 1,
+      "config": {
+        "y": 0,
+        "j": 165,
+        "f": 90,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 788,
+        "j": 1766,
+        "f": 2866
+      },
+      "max_income": 549330.0,
+      "income": 543836.7052388191,
+      "fuel": 42195.16603385925,
+      "co2": 180409.0183732438,
+      "acheck_cost": 28750.6,
+      "repair_cost": 1617.2212725,
+      "profit": 462283.1855378284,
+      "ci": 200,
+      "contribution": 18.19736099243164
+    }
+  },
+  {
+    "airport": {
+      "id": 3349,
+      "name": "Minsk",
+      "fullname": "Minsk National Airport",
+      "country": "Belarus",
+      "continent": "Europe",
+      "iata": "MSQ",
+      "icao": "UMMS",
+      "lat": 53.882499694824,
+      "lng": 28.030700683594,
+      "rwy": 11946,
+      "market": 70,
+      "hub_cost": 237000,
+      "rwy_codes": "13/31"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 1162,
+          "j": 435,
+          "f": 258
+        },
+        "cargo_demand": {
+          "l": 581000,
+          "h": 435000
+        },
+        "direct_distance": 1835.4985347795146
+      },
+      "warnings": [],
+      "valid": true,
+      "max_tpd": 0,
+      "needs_stopover": false,
+      "stopover": {
+        "exists": false
+      },
+      "flight_time": 1.749843716621399,
+      "trips_per_day_per_ac": 2,
+      "num_ac": 1,
+      "config": {
+        "y": 0,
+        "j": 105,
+        "f": 130,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 768,
+        "j": 1727,
+        "f": 2809
+      },
+      "max_income": 546505.0,
+      "income": 541039.9552118778,
+      "fuel": 40858.23042011261,
+      "co2": 174680.91610082984,
+      "acheck_cost": 28750.6,
+      "repair_cost": 1617.2212725,
+      "profit": 461109.66271319945,
+      "ci": 200,
+      "contribution": 17.620784759521484
+    }
+  },
+  {
+    "airport": {
+      "id": 378,
+      "name": "El Golea",
+      "fullname": "El Golea Airport",
+      "country": "Algeria",
+      "continent": "Africa",
+      "iata": "ELG",
+      "icao": "DAUE",
+      "lat": 30.571300506591797,
+      "lng": 2.8595900535583496,
+      "rwy": 9843,
+      "market": 87,
+      "hub_cost": 24000,
+      "rwy_codes": "10/28"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 673,
+          "j": 119,
+          "f": 138
+        },
+        "cargo_demand": {
+          "l": 337000,
+          "h": 119000
+        },
+        "direct_distance": 2050.76698554694
+      },
+      "warnings": [],
+      "valid": true,
+      "max_tpd": 0,
+      "needs_stopover": false,
+      "stopover": {
+        "exists": false
+      },
+      "flight_time": 1.9550666809082031,
+      "trips_per_day_per_ac": 2,
+      "num_ac": 1,
+      "config": {
+        "y": 273,
+        "j": 60,
+        "f": 69,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 839,
+        "j": 1866,
+        "f": 3014
+      },
+      "max_income": 548973.0,
+      "income": 543483.2752354145,
+      "fuel": 45650.140669384,
+      "co2": 195307.17644352972,
+      "acheck_cost": 28750.6,
+      "repair_cost": 1617.2212725,
+      "profit": 457723.4943211221,
+      "ci": 200,
+      "contribution": 19.68736457824707
+    }
+  },
+  {
+    "airport": {
+      "id": 977,
+      "name": "Errachidia",
+      "fullname": "Moulay Ali Cherif Airport",
+      "country": "Morocco",
+      "continent": "Africa",
+      "iata": "ERH",
+      "icao": "GMFK",
+      "lat": 31.9475002289,
+      "lng": -4.39833021164,
+      "rwy": 10499,
+      "market": 42,
+      "hub_cost": 30000,
+      "rwy_codes": "13/31"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 277,
+          "j": 359,
+          "f": 89
+        },
+        "cargo_demand": {
+          "l": 139000,
+          "h": 359000
+        },
+        "direct_distance": 1984.388560674714
+      },
+      "warnings": [],
+      "valid": true,
+      "max_tpd": 0,
+      "needs_stopover": false,
+      "stopover": {
+        "exists": false
+      },
+      "flight_time": 1.891785740852356,
+      "trips_per_day_per_ac": 2,
+      "num_ac": 1,
+      "config": {
+        "y": 106,
+        "j": 181,
+        "f": 44,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 817,
+        "j": 1823,
+        "f": 2951
+      },
+      "max_income": 546409.0,
+      "income": 540944.9152109623,
+      "fuel": 44172.521854190825,
+      "co2": 188927.4213845414,
+      "acheck_cost": 28750.6,
+      "repair_cost": 1617.2212725,
+      "profit": 456985.03807438374,
+      "ci": 200,
+      "contribution": 19.050128936767578
+    }
+  },
+  {
+    "airport": {
+      "id": 1070,
+      "name": "Tripoli Int",
+      "fullname": "Tripoli International Airport",
+      "country": "Libya",
+      "continent": "Africa",
+      "iata": "TIP",
+      "icao": "HLLT",
+      "lat": 32.6635017395,
+      "lng": 13.1590003967,
+      "rwy": 11815,
+      "market": 82,
+      "hub_cost": 213300,
+      "rwy_codes": "09/27"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 1511,
+          "j": 169,
+          "f": 134
+        },
+        "cargo_demand": {
+          "l": 756000,
+          "h": 169000
+        },
+        "direct_distance": 2020.625500879483
+      },
+      "warnings": [],
+      "valid": true,
+      "max_tpd": 0,
+      "needs_stopover": false,
+      "stopover": {
+        "exists": false
+      },
+      "flight_time": 1.926331639289856,
+      "trips_per_day_per_ac": 2,
+      "num_ac": 1,
+      "config": {
+        "y": 229,
+        "j": 85,
+        "f": 67,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 829,
+        "j": 1847,
+        "f": 2985
+      },
+      "max_income": 546831.0,
+      "income": 541362.6952149868,
+      "fuel": 44979.224262485506,
+      "co2": 192421.67090755643,
+      "acheck_cost": 28750.6,
+      "repair_cost": 1617.2212725,
+      "profit": 456418.8164498402,
+      "ci": 200,
+      "contribution": 19.39800453186035
+    }
+  },
+  {
+    "airport": {
+      "id": 380,
+      "name": "Hassi Messaoud",
+      "fullname": "Oued Irara Airport",
+      "country": "Algeria",
+      "continent": "Africa",
+      "iata": "HME",
+      "icao": "DAUH",
+      "lat": 31.673000335699996,
+      "lng": 6.140439987180001,
+      "rwy": 9843,
+      "market": 67,
+      "hub_cost": 24000,
+      "rwy_codes": "18/36"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 440,
+          "j": 128,
+          "f": 195
+        },
+        "cargo_demand": {
+          "l": 220000,
+          "h": 128000
+        },
+        "direct_distance": 1951.3822630256848
+      },
+      "warnings": [],
+      "valid": true,
+      "max_tpd": 0,
+      "needs_stopover": false,
+      "stopover": {
+        "exists": false
+      },
+      "flight_time": 1.8603196144104004,
+      "trips_per_day_per_ac": 2,
+      "num_ac": 1,
+      "config": {
+        "y": 178,
+        "j": 64,
+        "f": 98,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 806,
+        "j": 1802,
+        "f": 2919
+      },
+      "max_income": 544858.0,
+      "income": 539409.4251961708,
+      "fuel": 43437.941846637725,
+      "co2": 185800.10145464362,
+      "acheck_cost": 28750.6,
+      "repair_cost": 1617.2212725,
+      "profit": 456339.03245646716,
+      "ci": 200,
+      "contribution": 18.73326873779297
+    }
+  },
+  {
+    "airport": {
+      "id": 2040,
+      "name": "Bucharest Baneasa",
+      "fullname": "Baneasa International Airport",
+      "country": "Romania",
+      "continent": "Europe",
+      "iata": "BBU",
+      "icao": "LRBS",
+      "lat": 44.50320053100586,
+      "lng": 26.102100372314453,
+      "rwy": 10499,
+      "market": 32,
+      "hub_cost": 213300,
+      "rwy_codes": "07/25"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 975,
+          "j": 595,
+          "f": 160
+        },
+        "cargo_demand": {
+          "l": 488000,
+          "h": 595000
+        },
+        "direct_distance": 1854.4361652054668
+      },
+      "warnings": [],
+      "valid": true,
+      "max_tpd": 0,
+      "needs_stopover": false,
+      "stopover": {
+        "exists": false
+      },
+      "flight_time": 1.767897605895996,
+      "trips_per_day_per_ac": 2,
+      "num_ac": 1,
+      "config": {
+        "y": 0,
+        "j": 180,
+        "f": 80,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 774,
+        "j": 1739,
+        "f": 2827
+      },
+      "max_income": 539180.0,
+      "income": 533788.2051420212,
+      "fuel": 41279.83482444764,
+      "co2": 176505.97366059542,
+      "acheck_cost": 28750.6,
+      "repair_cost": 1617.2212725,
+      "profit": 453343.7826531364,
+      "ci": 200,
+      "contribution": 17.80258560180664
+    }
+  },
+  {
+    "airport": {
+      "id": 981,
+      "name": "Rabat",
+      "fullname": "Rabat-Salé Airport",
+      "country": "Morocco",
+      "continent": "Africa",
+      "iata": "RBA",
+      "icao": "GMME",
+      "lat": 34.051498,
+      "lng": -6.75152,
+      "rwy": 11483,
+      "market": 84,
+      "hub_cost": 237000,
+      "rwy_codes": "04/22"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 479,
+          "j": 763,
+          "f": 180
+        },
+        "cargo_demand": {
+          "l": 240000,
+          "h": 763000
+        },
+        "direct_distance": 1831.6768443276153
+      },
+      "warnings": [],
+      "valid": true,
+      "max_tpd": 0,
+      "needs_stopover": false,
+      "stopover": {
+        "exists": false
+      },
+      "flight_time": 1.746200442314148,
+      "trips_per_day_per_ac": 2,
+      "num_ac": 1,
+      "config": {
+        "y": 0,
+        "j": 165,
+        "f": 90,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 767,
+        "j": 1724,
+        "f": 2805
+      },
+      "max_income": 536910.0,
+      "income": 531540.9051203728,
+      "fuel": 40773.19721923828,
+      "co2": 174337.8633089447,
+      "acheck_cost": 28750.6,
+      "repair_cost": 1617.2212725,
+      "profit": 451711.30219733267,
+      "ci": 200,
+      "contribution": 17.584096908569336
+    }
+  },
+  {
+    "airport": {
+      "id": 984,
+      "name": "Casablanca",
+      "fullname": "Mohammed V International Airport",
+      "country": "Morocco",
+      "continent": "Africa",
+      "iata": "CMN",
+      "icao": "GMMN",
+      "lat": 33.36750030517578,
+      "lng": -7.589970111846924,
+      "rwy": 12205,
+      "market": 85,
+      "hub_cost": 30000,
+      "rwy_codes": "17L/35R"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 291,
+          "j": 335,
+          "f": 86
+        },
+        "cargo_demand": {
+          "l": 146000,
+          "h": 335000
+        },
+        "direct_distance": 1931.5200365397375
+      },
+      "warnings": [],
+      "valid": true,
+      "max_tpd": 0,
+      "needs_stopover": false,
+      "stopover": {
+        "exists": false
+      },
+      "flight_time": 1.8413842916488647,
+      "trips_per_day_per_ac": 2,
+      "num_ac": 1,
+      "config": {
+        "y": 133,
+        "j": 169,
+        "f": 43,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 800,
+        "j": 1789,
+        "f": 2900
+      },
+      "max_income": 533441.0,
+      "income": 528106.5950872898,
+      "fuel": 42995.85824209213,
+      "co2": 183917.6070968324,
+      "acheck_cost": 28750.6,
+      "repair_cost": 1617.2212725,
+      "profit": 445571.56019370543,
+      "ci": 200,
+      "contribution": 18.542591094970703
+    }
+  },
+  {
+    "airport": {
+      "id": 2047,
+      "name": "Bucharest Henri Coanda",
+      "fullname": "Henri Coanda International Airport",
+      "country": "Romania",
+      "continent": "Europe",
+      "iata": "OTP",
+      "icao": "LROP",
+      "lat": 44.5711111,
+      "lng": 26.085,
+      "rwy": 11484,
+      "market": 69,
+      "hub_cost": 237000,
+      "rwy_codes": "08L/26R"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 1208,
+          "j": 915,
+          "f": 77
+        },
+        "cargo_demand": {
+          "l": 604000,
+          "h": 915000
+        },
+        "direct_distance": 1850.1330185953934
+      },
+      "warnings": [],
+      "valid": true,
+      "max_tpd": 0,
+      "needs_stopover": false,
+      "stopover": {
+        "exists": false
+      },
+      "flight_time": 1.7637953758239746,
+      "trips_per_day_per_ac": 2,
+      "num_ac": 1,
+      "config": {
+        "y": 0,
+        "j": 243,
+        "f": 38,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 773,
+        "j": 1736,
+        "f": 2823
+      },
+      "max_income": 529122.0,
+      "income": 523830.7850461006,
+      "fuel": 41184.11682346344,
+      "co2": 176118.30166972996,
+      "acheck_cost": 28750.6,
+      "repair_cost": 1617.2212725,
+      "profit": 443499.88579680864,
+      "ci": 200,
+      "contribution": 17.761276245117188
+    }
+  },
+  {
+    "airport": {
+      "id": 1760,
+      "name": "Sofia",
+      "fullname": "Sofia Airport",
+      "country": "Bulgaria",
+      "continent": "Europe",
+      "iata": "SOF",
+      "icao": "LBSF",
+      "lat": 42.696693420410156,
+      "lng": 23.411436080932617,
+      "rwy": 11811,
+      "market": 42,
+      "hub_cost": 237000,
+      "rwy_codes": "09/27"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 909,
+          "j": 361,
+          "f": 186
+        },
+        "cargo_demand": {
+          "l": 455000,
+          "h": 361000
+        },
+        "direct_distance": 1754.2796463646687
+      },
+      "warnings": [],
+      "valid": true,
+      "max_tpd": 0,
+      "needs_stopover": false,
+      "stopover": {
+        "exists": false
+      },
+      "flight_time": 1.672415018081665,
+      "trips_per_day_per_ac": 2,
+      "num_ac": 1,
+      "config": {
+        "y": 1,
+        "j": 160,
+        "f": 93,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 741,
+        "j": 1674,
+        "f": 2731
+      },
+      "max_income": 522564.0,
+      "income": 517338.36498355865,
+      "fuel": 39050.273201522825,
+      "co2": 166980.76747336626,
+      "acheck_cost": 28750.6,
+      "repair_cost": 1617.2212725,
+      "profit": 439597.66037318873,
+      "ci": 200,
+      "contribution": 16.841083526611328
+    }
+  },
+  {
+    "airport": {
+      "id": 367,
+      "name": "Tilrempt",
+      "fullname": "Hassi R'Mel Airport",
+      "country": "Algeria",
+      "continent": "Africa",
+      "iata": "HRM",
+      "icao": "DAFH",
+      "lat": 32.93040084838867,
+      "lng": 3.311539888381958,
+      "rwy": 9835,
+      "market": 50,
+      "hub_cost": 24000,
+      "rwy_codes": "08/26"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 291,
+          "j": 368,
+          "f": 140
+        },
+        "cargo_demand": {
+          "l": 146000,
+          "h": 368000
+        },
+        "direct_distance": 1789.3989506166467
+      },
+      "warnings": [],
+      "valid": true,
+      "max_tpd": 0,
+      "needs_stopover": false,
+      "stopover": {
+        "exists": false
+      },
+      "flight_time": 1.7058954238891602,
+      "trips_per_day_per_ac": 2,
+      "num_ac": 1,
+      "config": {
+        "y": 20,
+        "j": 185,
+        "f": 70,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 753,
+        "j": 1697,
+        "f": 2765
+      },
+      "max_income": 522555.0,
+      "income": 517329.4549834728,
+      "fuel": 39832.04440956116,
+      "co2": 170339.57219876052,
+      "acheck_cost": 28750.6,
+      "repair_cost": 1617.2212725,
+      "profit": 438638.4539604288,
+      "ci": 200,
+      "contribution": 17.17823028564453
+    }
+  },
+  {
+    "airport": {
+      "id": 435,
+      "name": "Djerba",
+      "fullname": "Djerba Zarzis International Airport",
+      "country": "Tunisia",
+      "continent": "Africa",
+      "iata": "DJE",
+      "icao": "DTTJ",
+      "lat": 33.875,
+      "lng": 10.775500297546387,
+      "rwy": 10171,
+      "market": 71,
+      "hub_cost": 24000,
+      "rwy_codes": "09/27"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 519,
+          "j": 138,
+          "f": 195
+        },
+        "cargo_demand": {
+          "l": 260000,
+          "h": 138000
+        },
+        "direct_distance": 1814.899335265482
+      },
+      "warnings": [],
+      "valid": true,
+      "max_tpd": 0,
+      "needs_stopover": false,
+      "stopover": {
+        "exists": false
+      },
+      "flight_time": 1.730205774307251,
+      "trips_per_day_per_ac": 2,
+      "num_ac": 1,
+      "config": {
+        "y": 168,
+        "j": 69,
+        "f": 98,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 761,
+        "j": 1714,
+        "f": 2789
+      },
+      "max_income": 519436.0,
+      "income": 514241.6449537277,
+      "fuel": 40399.67441539765,
+      "co2": 172823.09214459063,
+      "acheck_cost": 28750.6,
+      "repair_cost": 1617.2212725,
+      "profit": 434855.28053309856,
+      "ci": 200,
+      "contribution": 17.423032760620117
+    }
+  },
+  {
+    "airport": {
+      "id": 386,
+      "name": "Ouargla",
+      "fullname": "Ain el Beida Airport",
+      "country": "Algeria",
+      "continent": "Africa",
+      "iata": "OGX",
+      "icao": "DAUU",
+      "lat": 31.917200088500977,
+      "lng": 5.412779808044434,
+      "rwy": 10171,
+      "market": 64,
+      "hub_cost": 24000,
+      "rwy_codes": "02/20"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 443,
+          "j": 291,
+          "f": 63
+        },
+        "cargo_demand": {
+          "l": 222000,
+          "h": 291000
+        },
+        "direct_distance": 1915.9441957866934
+      },
+      "warnings": [],
+      "valid": true,
+      "max_tpd": 0,
+      "needs_stopover": false,
+      "stopover": {
+        "exists": false
+      },
+      "flight_time": 1.8265353441238403,
+      "trips_per_day_per_ac": 2,
+      "num_ac": 1,
+      "config": {
+        "y": 215,
+        "j": 146,
+        "f": 31,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 795,
+        "j": 1779,
+        "f": 2885
+      },
+      "max_income": 520094.0,
+      "income": 514893.0649600029,
+      "fuel": 42649.047438526155,
+      "co2": 182483.88392992914,
+      "acheck_cost": 28750.6,
+      "repair_cost": 1617.2212725,
+      "profit": 432772.8444089431,
+      "ci": 200,
+      "contribution": 18.393064498901367
+    }
+  },
+  {
+    "airport": {
+      "id": 2006,
+      "name": "Luqa",
+      "fullname": "Malta International Airport",
+      "country": "Malta",
+      "continent": "Europe",
+      "iata": "MLA",
+      "icao": "LMML",
+      "lat": 35.857498,
+      "lng": 14.4775,
+      "rwy": 11627,
+      "market": 59,
+      "hub_cost": 237000,
+      "rwy_codes": "05/23"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 1763,
+          "j": 534,
+          "f": 104
+        },
+        "cargo_demand": {
+          "l": 882000,
+          "h": 534000
+        },
+        "direct_distance": 1755.4327753702112
+      },
+      "warnings": [],
+      "valid": true,
+      "max_tpd": 0,
+      "needs_stopover": false,
+      "stopover": {
+        "exists": false
+      },
+      "flight_time": 1.6735142469406128,
+      "trips_per_day_per_ac": 2,
+      "num_ac": 1,
+      "config": {
+        "y": 0,
+        "j": 222,
+        "f": 52,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 742,
+        "j": 1675,
+        "f": 2732
+      },
+      "max_income": 513914.0,
+      "income": 508774.8649010658,
+      "fuel": 39076.094801788335,
+      "co2": 167111.01387090207,
+      "acheck_cost": 28750.6,
+      "repair_cost": 1617.2212725,
+      "profit": 431000.45560280577,
+      "ci": 200,
+      "contribution": 16.852153778076172
+    }
+  },
+  {
+    "airport": {
+      "id": 1930,
+      "name": "Patras",
+      "fullname": "Araxos Airport",
+      "country": "Greece",
+      "continent": "Europe",
+      "iata": "GPA",
+      "icao": "LGRX",
+      "lat": 38.1511,
+      "lng": 21.4256,
+      "rwy": 10999,
+      "market": 36,
+      "hub_cost": 30000,
+      "rwy_codes": "18L/36R"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 584,
+          "j": 258,
+          "f": 43
+        },
+        "cargo_demand": {
+          "l": 292000,
+          "h": 258000
+        },
+        "direct_distance": 1932.500631008686
+      },
+      "warnings": [],
+      "valid": true,
+      "max_tpd": 0,
+      "needs_stopover": false,
+      "stopover": {
+        "exists": false
+      },
+      "flight_time": 1.842319130897522,
+      "trips_per_day_per_ac": 2,
+      "num_ac": 1,
+      "config": {
+        "y": 277,
+        "j": 130,
+        "f": 21,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 800,
+        "j": 1790,
+        "f": 2901
+      },
+      "max_income": 515221.0,
+      "income": 510068.79491353035,
+      "fuel": 43017.67304231643,
+      "co2": 184093.74629475057,
+      "acheck_cost": 28750.6,
+      "repair_cost": 1617.2212725,
+      "profit": 427497.3529560388,
+      "ci": 200,
+      "contribution": 18.552005767822266
+    }
+  },
+  {
+    "airport": {
+      "id": 735,
+      "name": "Riga",
+      "fullname": "Riga International Airport",
+      "country": "Latvia",
+      "continent": "Europe",
+      "iata": "RIX",
+      "icao": "EVRA",
+      "lat": 56.92359924316406,
+      "lng": 23.971099853515625,
+      "rwy": 10499,
+      "market": 77,
+      "hub_cost": 237000,
+      "rwy_codes": "18/36"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 1664,
+          "j": 405,
+          "f": 175
+        },
+        "cargo_demand": {
+          "l": 832000,
+          "h": 405000
+        },
+        "direct_distance": 1672.0898432648983
+      },
+      "warnings": [],
+      "valid": true,
+      "max_tpd": 0,
+      "needs_stopover": false,
+      "stopover": {
+        "exists": false
+      },
+      "flight_time": 1.5940606594085693,
+      "trips_per_day_per_ac": 2,
+      "num_ac": 1,
+      "config": {
+        "y": 0,
+        "j": 168,
+        "f": 88,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 714,
+        "j": 1621,
+        "f": 2653
+      },
+      "max_income": 505792.0,
+      "income": 500734.0848236084,
+      "fuel": 37220.72378271103,
+      "co2": 159171.43004796325,
+      "acheck_cost": 28750.6,
+      "repair_cost": 1617.2212725,
+      "profit": 425211.1852974551,
+      "ci": 200,
+      "contribution": 16.05206298828125
+    }
+  },
+  {
+    "airport": {
+      "id": 437,
+      "name": "Sfax",
+      "fullname": "Sfax Thyna International Airport",
+      "country": "Tunisia",
+      "continent": "Africa",
+      "iata": "SFA",
+      "icao": "DTTX",
+      "lat": 34.71799850463867,
+      "lng": 10.690999984741211,
+      "rwy": 9843,
+      "market": 50,
+      "hub_cost": 24000,
+      "rwy_codes": "15/33"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 504,
+          "j": 242,
+          "f": 132
+        },
+        "cargo_demand": {
+          "l": 252000,
+          "h": 242000
+        },
+        "direct_distance": 1724.1229283450282
+      },
+      "warnings": [],
+      "valid": true,
+      "max_tpd": 0,
+      "needs_stopover": false,
+      "stopover": {
+        "exists": false
+      },
+      "flight_time": 1.6436655521392822,
+      "trips_per_day_per_ac": 2,
+      "num_ac": 1,
+      "config": {
+        "y": 158,
+        "j": 122,
+        "f": 66,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 731,
+        "j": 1655,
+        "f": 2702
+      },
+      "max_income": 495740.0,
+      "income": 490782.60472774506,
+      "fuel": 38379.13419462204,
+      "co2": 164207.3115374142,
+      "acheck_cost": 28750.6,
+      "repair_cost": 1617.2212725,
+      "profit": 413844.51213451993,
+      "ci": 200,
+      "contribution": 16.55158042907715
+    }
+  },
+  {
+    "airport": {
+      "id": 985,
+      "name": "Nador",
+      "fullname": "Nador International Airport",
+      "country": "Morocco",
+      "continent": "Africa",
+      "iata": "NDR",
+      "icao": "GMMW",
+      "lat": 34.988800048799995,
+      "lng": -3.0282099247,
+      "rwy": 9842,
+      "market": 64,
+      "hub_cost": 30000,
+      "rwy_codes": "08/26"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 315,
+          "j": 372,
+          "f": 134
+        },
+        "cargo_demand": {
+          "l": 158000,
+          "h": 372000
+        },
+        "direct_distance": 1624.949055068644
+      },
+      "warnings": [],
+      "valid": true,
+      "max_tpd": 0,
+      "needs_stopover": false,
+      "stopover": {
+        "exists": false
+      },
+      "flight_time": 1.5491197109222412,
+      "trips_per_day_per_ac": 2,
+      "num_ac": 1,
+      "config": {
+        "y": 25,
+        "j": 187,
+        "f": 67,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 699,
+        "j": 1590,
+        "f": 2608
+      },
+      "max_income": 489541.0,
+      "income": 484645.5946686268,
+      "fuel": 36171.38737192154,
+      "co2": 154714.24454810322,
+      "acheck_cost": 28750.6,
+      "repair_cost": 1617.2212725,
+      "profit": 410392.09289000934,
+      "ci": 200,
+      "contribution": 15.599512100219727
+    }
+  },
+  {
+    "airport": {
+      "id": 383,
+      "name": "Laghouat",
+      "fullname": "Laghouat Airport",
+      "country": "Algeria",
+      "continent": "Africa",
+      "iata": "LOO",
+      "icao": "DAUL",
+      "lat": 33.764400482199996,
+      "lng": 2.92833995819,
+      "rwy": 12486,
+      "market": 37,
+      "hub_cost": 24000,
+      "rwy_codes": "16L/34R"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 304,
+          "j": 368,
+          "f": 77
+        },
+        "cargo_demand": {
+          "l": 152000,
+          "h": 368000
+        },
+        "direct_distance": 1695.8323828953644
+      },
+      "warnings": [],
+      "valid": true,
+      "max_tpd": 0,
+      "needs_stopover": false,
+      "stopover": {
+        "exists": false
+      },
+      "flight_time": 1.6166952848434448,
+      "trips_per_day_per_ac": 2,
+      "num_ac": 1,
+      "config": {
+        "y": 116,
+        "j": 185,
+        "f": 38,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 722,
+        "j": 1636,
+        "f": 2675
+      },
+      "max_income": 488062.0,
+      "income": 483181.38465452194,
+      "fuel": 37749.39878814697,
+      "co2": 161511.6299975109,
+      "acheck_cost": 28750.6,
+      "repair_cost": 1617.2212725,
+      "profit": 407007.58863061777,
+      "ci": 200,
+      "contribution": 16.279991149902344
+    }
+  },
+  {
+    "airport": {
+      "id": 976,
+      "name": "Fes",
+      "fullname": "Saïss Airport",
+      "country": "Morocco",
+      "continent": "Africa",
+      "iata": "FEZ",
+      "icao": "GMFF",
+      "lat": 33.9272994995,
+      "lng": -4.977960109709999,
+      "rwy": 10499,
+      "market": 78,
+      "hub_cost": 30000,
+      "rwy_codes": "09/27"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 603,
+          "j": 240,
+          "f": 60
+        },
+        "cargo_demand": {
+          "l": 302000,
+          "h": 240000
+        },
+        "direct_distance": 1788.6582098992885
+      },
+      "warnings": [],
+      "valid": true,
+      "max_tpd": 0,
+      "needs_stopover": false,
+      "stopover": {
+        "exists": false
+      },
+      "flight_time": 1.7051892280578613,
+      "trips_per_day_per_ac": 2,
+      "num_ac": 1,
+      "config": {
+        "y": 268,
+        "j": 121,
+        "f": 30,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 753,
+        "j": 1697,
+        "f": 2764
+      },
+      "max_income": 490061.0,
+      "income": 485160.3946735859,
+      "fuel": 39815.572009391784,
+      "co2": 170413.2426003325,
+      "acheck_cost": 28750.6,
+      "repair_cost": 1617.2212725,
+      "profit": 406472.0838824718,
+      "ci": 200,
+      "contribution": 17.171119689941406
+    }
+  },
+  {
+    "airport": {
+      "id": 716,
+      "name": "Stockholm intl",
+      "fullname": "Stockholm-Arlanda Airport",
+      "country": "Sweden",
+      "continent": "Europe",
+      "iata": "ARN",
+      "icao": "ESSA",
+      "lat": 59.651901245117,
+      "lng": 17.918600082397,
+      "rwy": 10830,
+      "market": 81,
+      "hub_cost": 237000,
+      "rwy_codes": "01L/19R|08/26"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 1535,
+          "j": 377,
+          "f": 136
+        },
+        "cargo_demand": {
+          "l": 768000,
+          "h": 377000
+        },
+        "direct_distance": 1539.1558006232403
+      },
+      "warnings": [],
+      "valid": true,
+      "max_tpd": 0,
+      "needs_stopover": false,
+      "stopover": {
+        "exists": false
+      },
+      "flight_time": 1.467329978942871,
+      "trips_per_day_per_ac": 2,
+      "num_ac": 1,
+      "config": {
+        "y": 16,
+        "j": 190,
+        "f": 68,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 670,
+        "j": 1535,
+        "f": 2526
+      },
+      "max_income": 474138.0,
+      "income": 469396.62452173233,
+      "fuel": 34261.701952285766,
+      "co2": 146555.76313034774,
+      "acheck_cost": 28750.6,
+      "repair_cost": 1617.2212725,
+      "profit": 397458.92030699056,
+      "ci": 200,
+      "contribution": 14.775894165039062
+    }
+  },
+  {
+    "airport": {
+      "id": 2111,
+      "name": "Belgrade",
+      "fullname": "Belgrade Nikola Tesla Airport",
+      "country": "Serbia",
+      "continent": "Europe",
+      "iata": "BEG",
+      "icao": "LYBE",
+      "lat": 44.8184013367,
+      "lng": 20.3090991974,
+      "rwy": 11155,
+      "market": 55,
+      "hub_cost": 213300,
+      "rwy_codes": "12/30"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 1253,
+          "j": 491,
+          "f": 278
+        },
+        "cargo_demand": {
+          "l": 627000,
+          "h": 491000
+        },
+        "direct_distance": 1423.2435779437833
+      },
+      "warnings": [],
+      "valid": true,
+      "max_tpd": 0,
+      "needs_stopover": false,
+      "stopover": {
+        "exists": false
+      },
+      "flight_time": 1.356826901435852,
+      "trips_per_day_per_ac": 2,
+      "num_ac": 1,
+      "config": {
+        "y": 0,
+        "j": 90,
+        "f": 140,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 632,
+        "j": 1460,
+        "f": 2415
+      },
+      "max_income": 469500.0,
+      "income": 464805.0044775009,
+      "fuel": 31681.545325756073,
+      "co2": 135495.67697657645,
+      "acheck_cost": 28750.6,
+      "repair_cost": 1617.2212725,
+      "profit": 396000.62023978255,
+      "ci": 200,
+      "contribution": 13.663137435913086
+    }
+  },
+  {
+    "airport": {
+      "id": 979,
+      "name": "Oujda",
+      "fullname": "Angads Airport",
+      "country": "Morocco",
+      "continent": "Africa",
+      "iata": "OUD",
+      "icao": "GMFO",
+      "lat": 34.787200927734375,
+      "lng": -1.92399001121521,
+      "rwy": 9843,
+      "market": 77,
+      "hub_cost": 30000,
+      "rwy_codes": "06/24"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 686,
+          "j": 212,
+          "f": 134
+        },
+        "cargo_demand": {
+          "l": 343000,
+          "h": 212000
+        },
+        "direct_distance": 1623.8227543182802
+      },
+      "warnings": [],
+      "valid": true,
+      "max_tpd": 0,
+      "needs_stopover": false,
+      "stopover": {
+        "exists": false
+      },
+      "flight_time": 1.5480459928512573,
+      "trips_per_day_per_ac": 2,
+      "num_ac": 1,
+      "config": {
+        "y": 185,
+        "j": 107,
+        "f": 67,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 698,
+        "j": 1590,
+        "f": 2607
+      },
+      "max_income": 473929.0,
+      "income": 469189.71451973915,
+      "fuel": 36146.45617166519,
+      "co2": 154687.79975048243,
+      "acheck_cost": 28750.6,
+      "repair_cost": 1617.2212725,
+      "profit": 394956.83795701567,
+      "ci": 200,
+      "contribution": 15.588698387145996
+    }
+  },
+  {
+    "airport": {
+      "id": 365,
+      "name": "Tébessi",
+      "fullname": "Cheikh Larbi Tébessi Airport",
+      "country": "Algeria",
+      "continent": "Africa",
+      "iata": "TEE",
+      "icao": "DABS",
+      "lat": 35.4315986633,
+      "lng": 8.12071990967,
+      "rwy": 9843,
+      "market": 42,
+      "hub_cost": 24000,
+      "rwy_codes": "11/29"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 249,
+          "j": 374,
+          "f": 98
+        },
+        "cargo_demand": {
+          "l": 125000,
+          "h": 374000
+        },
+        "direct_distance": 1577.1816517550196
+      },
+      "warnings": [],
+      "valid": true,
+      "max_tpd": 0,
+      "needs_stopover": false,
+      "stopover": {
+        "exists": false
+      },
+      "flight_time": 1.5035814046859741,
+      "trips_per_day_per_ac": 2,
+      "num_ac": 1,
+      "config": {
+        "y": 77,
+        "j": 188,
+        "f": 49,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 683,
+        "j": 1560,
+        "f": 2562
+      },
+      "max_income": 471409.0,
+      "income": 466694.91449570656,
+      "fuel": 35108.24976099015,
+      "co2": 150210.13424956024,
+      "acheck_cost": 28750.6,
+      "repair_cost": 1617.2212725,
+      "profit": 393726.10228056624,
+      "ci": 200,
+      "contribution": 15.14094352722168
+    }
+  },
+  {
+    "airport": {
+      "id": 362,
+      "name": "Mecheria",
+      "fullname": "Mecheria Airport",
+      "country": "Algeria",
+      "continent": "Africa",
+      "iata": "MZW",
+      "icao": "DAAY",
+      "lat": 33.535900116,
+      "lng": -0.242353007197,
+      "rwy": 11780,
+      "market": 51,
+      "hub_cost": 24000,
+      "rwy_codes": "06/24"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 757,
+          "j": 200,
+          "f": 59
+        },
+        "cargo_demand": {
+          "l": 379000,
+          "h": 200000
+        },
+        "direct_distance": 1736.383128690248
+      },
+      "warnings": [],
+      "valid": true,
+      "max_tpd": 0,
+      "needs_stopover": false,
+      "stopover": {
+        "exists": false
+      },
+      "flight_time": 1.6553536653518677,
+      "trips_per_day_per_ac": 2,
+      "num_ac": 1,
+      "config": {
+        "y": 311,
+        "j": 101,
+        "f": 29,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 736,
+        "j": 1663,
+        "f": 2714
+      },
+      "max_income": 475565.0,
+      "income": 470809.35453534126,
+      "fuel": 38652.04179742813,
+      "co2": 165467.50191137017,
+      "acheck_cost": 28750.6,
+      "repair_cost": 1617.2212725,
+      "profit": 393529.0037752772,
+      "ci": 200,
+      "contribution": 16.66927719116211
+    }
+  },
+  {
+    "airport": {
+      "id": 1947,
+      "name": "Brindisi",
+      "fullname": "Brindisi – Salento Airport",
+      "country": "Italy",
+      "continent": "Europe",
+      "iata": "BDS",
+      "icao": "LIBR",
+      "lat": 40.6576,
+      "lng": 17.947001,
+      "rwy": 10000,
+      "market": 46,
+      "hub_cost": 42000,
+      "rwy_codes": "05/23"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 641,
+          "j": 187,
+          "f": 182
+        },
+        "cargo_demand": {
+          "l": 321000,
+          "h": 187000
+        },
+        "direct_distance": 1523.934621270872
+      },
+      "warnings": [],
+      "valid": true,
+      "max_tpd": 0,
+      "needs_stopover": false,
+      "stopover": {
+        "exists": false
+      },
+      "flight_time": 1.4528191089630127,
+      "trips_per_day_per_ac": 2,
+      "num_ac": 1,
+      "config": {
+        "y": 139,
+        "j": 94,
+        "f": 91,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 665,
+        "j": 1525,
+        "f": 2511
+      },
+      "max_income": 464286.0,
+      "income": 459643.14442777634,
+      "fuel": 33922.90474880219,
+      "co2": 145159.25436267973,
+      "acheck_cost": 28750.6,
+      "repair_cost": 1617.2212725,
+      "profit": 388110.17930759327,
+      "ci": 200,
+      "contribution": 14.629772186279297
+    }
+  },
+  {
+    "airport": {
+      "id": 991,
+      "name": "Tangier",
+      "fullname": "Ibn Batouta Airport",
+      "country": "Morocco",
+      "continent": "Africa",
+      "iata": "TNG",
+      "icao": "GMTT",
+      "lat": 35.726898193400004,
+      "lng": -5.91689014435,
+      "rwy": 11483,
+      "market": 54,
+      "hub_cost": 30000,
+      "rwy_codes": "07/25"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 721,
+          "j": 115,
+          "f": 135
+        },
+        "cargo_demand": {
+          "l": 361000,
+          "h": 115000
+        },
+        "direct_distance": 1630.4301555005986
+      },
+      "warnings": [],
+      "valid": true,
+      "max_tpd": 0,
+      "needs_stopover": false,
+      "stopover": {
+        "exists": false
+      },
+      "flight_time": 1.5543450117111206,
+      "trips_per_day_per_ac": 2,
+      "num_ac": 1,
+      "config": {
+        "y": 280,
+        "j": 58,
+        "f": 68,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 701,
+        "j": 1594,
+        "f": 2613
+      },
+      "max_income": 466416.0,
+      "income": 461751.8444480896,
+      "fuel": 36293.594773178105,
+      "co2": 155363.01413644076,
+      "acheck_cost": 28750.6,
+      "repair_cost": 1617.2212725,
+      "profit": 387334.9451379921,
+      "ci": 200,
+      "contribution": 15.652128219604492
+    }
+  },
+  {
+    "airport": {
+      "id": 1792,
+      "name": "Málaga",
+      "fullname": "Málaga Airport",
+      "country": "Spain",
+      "continent": "Europe",
+      "iata": "AGP",
+      "icao": "LEMG",
+      "lat": 36.67490005493164,
+      "lng": -4.499110221862793,
+      "rwy": 10500,
+      "market": 59,
+      "hub_cost": 48000,
+      "rwy_codes": "12/30"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 468,
+          "j": 182,
+          "f": 191
+        },
+        "cargo_demand": {
+          "l": 234000,
+          "h": 182000
+        },
+        "direct_distance": 1485.8180661695942
+      },
+      "warnings": [],
+      "valid": true,
+      "max_tpd": 0,
+      "needs_stopover": false,
+      "stopover": {
+        "exists": false
+      },
+      "flight_time": 1.416481375694275,
+      "trips_per_day_per_ac": 2,
+      "num_ac": 1,
+      "config": {
+        "y": 130,
+        "j": 91,
+        "f": 96,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 653,
+        "j": 1500,
+        "f": 2475
+      },
+      "max_income": 458990.0,
+      "income": 454400.10437726974,
+      "fuel": 33074.35354007721,
+      "co2": 141529.3296436584,
+      "acheck_cost": 28750.6,
+      "repair_cost": 1617.2212725,
+      "profit": 383896.7160694767,
+      "ci": 200,
+      "contribution": 14.263853073120117
+    }
+  },
+  {
+    "airport": {
+      "id": 432,
+      "name": "Tunis",
+      "fullname": "Tunis Carthage International Airport",
+      "country": "Tunisia",
+      "continent": "Africa",
+      "iata": "TUN",
+      "icao": "DTTA",
+      "lat": 36.85100173950195,
+      "lng": 10.22719955444336,
+      "rwy": 10499,
+      "market": 89,
+      "hub_cost": 213300,
+      "rwy_codes": "01/19"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 1069,
+          "j": 904,
+          "f": 63
+        },
+        "cargo_demand": {
+          "l": 535000,
+          "h": 904000
+        },
+        "direct_distance": 1487.9143038525501
+      },
+      "warnings": [],
+      "valid": true,
+      "max_tpd": 0,
+      "needs_stopover": false,
+      "stopover": {
+        "exists": false
+      },
+      "flight_time": 1.4184798002243042,
+      "trips_per_day_per_ac": 2,
+      "num_ac": 1,
+      "config": {
+        "y": 1,
+        "j": 253,
+        "f": 31,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 654,
+        "j": 1502,
+        "f": 2477
+      },
+      "max_income": 457447.0,
+      "income": 452872.53436255455,
+      "fuel": 33121.099540557865,
+      "co2": 141696.91363919736,
+      "acheck_cost": 28750.6,
+      "repair_cost": 1617.2212725,
+      "profit": 382316.31377496035,
+      "ci": 200,
+      "contribution": 14.283977508544922
+    }
+  },
+  {
+    "airport": {
+      "id": 356,
+      "name": "Algiers",
+      "fullname": "Houari Boumediene Airport",
+      "country": "Algeria",
+      "continent": "Africa",
+      "iata": "ALG",
+      "icao": "DAAG",
+      "lat": 36.691001892089844,
+      "lng": 3.215409994125366,
+      "rwy": 11483,
+      "market": 30,
+      "hub_cost": 213300,
+      "rwy_codes": "05/23"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 1027,
+          "j": 433,
+          "f": 219
+        },
+        "cargo_demand": {
+          "l": 514000,
+          "h": 433000
+        },
+        "direct_distance": 1371.1796814652757
+      },
+      "warnings": [],
+      "valid": true,
+      "max_tpd": 0,
+      "needs_stopover": false,
+      "stopover": {
+        "exists": false
+      },
+      "flight_time": 1.3071926832199097,
+      "trips_per_day_per_ac": 2,
+      "num_ac": 1,
+      "config": {
+        "y": 0,
+        "j": 135,
+        "f": 110,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 615,
+        "j": 1426,
+        "f": 2366
+      },
+      "max_income": 452770.0,
+      "income": 448242.3043179512,
+      "fuel": 30522.467113838196,
+      "co2": 130561.94428718924,
+      "acheck_cost": 28750.6,
+      "repair_cost": 1617.2212725,
+      "profit": 380841.32275130175,
+      "ci": 200,
+      "contribution": 13.163324356079102
+    }
+  },
+  {
+    "airport": {
+      "id": 2029,
+      "name": "Lisbon",
+      "fullname": "Humberto Delgado Airport (Lisbon Portela Airport)",
+      "country": "Portugal",
+      "continent": "Europe",
+      "iata": "LIS",
+      "icao": "LPPT",
+      "lat": 38.7813,
+      "lng": -9.13592,
+      "rwy": 12484,
+      "market": 52,
+      "hub_cost": 237000,
+      "rwy_codes": "03/21"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 1134,
+          "j": 824,
+          "f": 72
+        },
+        "cargo_demand": {
+          "l": 567000,
+          "h": 824000
+        },
+        "direct_distance": 1469.9641325155922
+      },
+      "warnings": [],
+      "valid": true,
+      "max_tpd": 0,
+      "needs_stopover": false,
+      "stopover": {
+        "exists": false
+      },
+      "flight_time": 1.4013673067092896,
+      "trips_per_day_per_ac": 2,
+      "num_ac": 1,
+      "config": {
+        "y": 0,
+        "j": 246,
+        "f": 36,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 648,
+        "j": 1490,
+        "f": 2460
+      },
+      "max_income": 455100.0,
+      "income": 450549.0043401718,
+      "fuel": 32721.532536449435,
+      "co2": 139987.9456773287,
+      "acheck_cost": 28750.6,
+      "repair_cost": 1617.2212725,
+      "profit": 380477.55681087775,
+      "ci": 200,
+      "contribution": 14.111655235290527
+    }
+  },
+  {
+    "airport": {
+      "id": 645,
+      "name": "Oslo",
+      "fullname": "Oslo Gardermoen Airport",
+      "country": "Norway",
+      "continent": "Europe",
+      "iata": "OSL",
+      "icao": "ENGM",
+      "lat": 60.193901062012,
+      "lng": 11.100399971008,
+      "rwy": 11811,
+      "market": 38,
+      "hub_cost": 237000,
+      "rwy_codes": "01L/19R"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 1596,
+          "j": 466,
+          "f": 228
+        },
+        "cargo_demand": {
+          "l": 798000,
+          "h": 466000
+        },
+        "direct_distance": 1357.1901178389778
+      },
+      "warnings": [],
+      "valid": true,
+      "max_tpd": 0,
+      "needs_stopover": false,
+      "stopover": {
+        "exists": false
+      },
+      "flight_time": 1.293855905532837,
+      "trips_per_day_per_ac": 2,
+      "num_ac": 1,
+      "config": {
+        "y": 1,
+        "j": 127,
+        "f": 115,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 610,
+        "j": 1417,
+        "f": 2352
+      },
+      "max_income": 451049.0,
+      "income": 446538.51430153847,
+      "fuel": 30211.27231063843,
+      "co2": 129231.2851168871,
+      "acheck_cost": 28750.6,
+      "repair_cost": 1617.2212725,
+      "profit": 379515.04819756513,
+      "ci": 200,
+      "contribution": 13.029024124145508
+    }
+  },
+  {
+    "airport": {
+      "id": 3347,
+      "name": "Kaliningrad",
+      "fullname": "Khrabrovo Airport",
+      "country": "Russia",
+      "continent": "Europe",
+      "iata": "KGD",
+      "icao": "UMKK",
+      "lat": 54.88999938964844,
+      "lng": 20.592599868774414,
+      "rwy": 10990,
+      "market": 74,
+      "hub_cost": 48000,
+      "rwy_codes": "06/24"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 328,
+          "j": 561,
+          "f": 151
+        },
+        "cargo_demand": {
+          "l": 164000,
+          "h": 561000
+        },
+        "direct_distance": 1392.9442989968356
+      },
+      "warnings": [],
+      "valid": true,
+      "max_tpd": 0,
+      "needs_stopover": false,
+      "stopover": {
+        "exists": false
+      },
+      "flight_time": 1.327941656112671,
+      "trips_per_day_per_ac": 2,
+      "num_ac": 1,
+      "config": {
+        "y": 0,
+        "j": 186,
+        "f": 76,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 622,
+        "j": 1440,
+        "f": 2386
+      },
+      "max_income": 449176.0,
+      "income": 444684.24428367615,
+      "fuel": 31007.067318820955,
+      "co2": 132647.96504094303,
+      "acheck_cost": 28750.6,
+      "repair_cost": 1617.2212725,
+      "profit": 376693.7200830883,
+      "ci": 200,
+      "contribution": 13.372264862060547
+    }
+  },
+  {
+    "airport": {
+      "id": 1945,
+      "name": "Grottaglie",
+      "fullname": "Taranto-Grottaglie Marcello Arlotta Airport",
+      "country": "Italy",
+      "continent": "Europe",
+      "iata": "TAR",
+      "icao": "LIBG",
+      "lat": 40.517502,
+      "lng": 17.4032,
+      "rwy": 10499,
+      "market": 57,
+      "hub_cost": 42000,
+      "rwy_codes": "17/35"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 621,
+          "j": 457,
+          "f": 43
+        },
+        "cargo_demand": {
+          "l": 311000,
+          "h": 457000
+        },
+        "direct_distance": 1501.2046917491962
+      },
+      "warnings": [],
+      "valid": true,
+      "max_tpd": 0,
+      "needs_stopover": false,
+      "stopover": {
+        "exists": false
+      },
+      "flight_time": 1.431149959564209,
+      "trips_per_day_per_ac": 2,
+      "num_ac": 1,
+      "config": {
+        "y": 77,
+        "j": 230,
+        "f": 21,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 658,
+        "j": 1510,
+        "f": 2490
+      },
+      "max_income": 450256.0,
+      "income": 445753.44429397583,
+      "fuel": 33416.9349435997,
+      "co2": 143002.99521096528,
+      "acheck_cost": 28750.6,
+      "repair_cost": 1617.2212725,
+      "profit": 374833.40913564025,
+      "ci": 200,
+      "contribution": 14.411564826965332
+    }
+  },
+  {
+    "airport": {
+      "id": 1938,
+      "name": "Budapest",
+      "fullname": "Budapest Liszt Ferenc International Airport",
+      "country": "Hungary",
+      "continent": "Europe",
+      "iata": "BUD",
+      "icao": "LHBP",
+      "lat": 47.42976,
+      "lng": 19.261093,
+      "rwy": 12162,
+      "market": 84,
+      "hub_cost": 213300,
+      "rwy_codes": "13L/31R"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 979,
+          "j": 166,
+          "f": 301
+        },
+        "cargo_demand": {
+          "l": 490000,
+          "h": 166000
+        },
+        "direct_distance": 1247.870586566548
+      },
+      "warnings": [],
+      "valid": true,
+      "max_tpd": 0,
+      "needs_stopover": false,
+      "stopover": {
+        "exists": false
+      },
+      "flight_time": 1.1896378993988037,
+      "trips_per_day_per_ac": 2,
+      "num_ac": 1,
+      "config": {
+        "y": 0,
+        "j": 72,
+        "f": 152,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 574,
+        "j": 1346,
+        "f": 2248
+      },
+      "max_income": 438608.0,
+      "income": 434221.92418289185,
+      "fuel": 27777.809085617067,
+      "co2": 118822.51254911663,
+      "acheck_cost": 28750.6,
+      "repair_cost": 1617.2212725,
+      "profit": 370150.9350445659,
+      "ci": 200,
+      "contribution": 11.979557037353516
+    }
+  },
+  {
+    "airport": {
+      "id": 368,
+      "name": "Tiaret",
+      "fullname": "Bou Chekif Airport",
+      "country": "Algeria",
+      "continent": "Africa",
+      "iata": "TID",
+      "icao": "DAOB",
+      "lat": 35.3410987854,
+      "lng": 1.46315002441,
+      "rwy": 9843,
+      "market": 78,
+      "hub_cost": 24000,
+      "rwy_codes": "08/26"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 455,
+          "j": 262,
+          "f": 72
+        },
+        "cargo_demand": {
+          "l": 228000,
+          "h": 262000
+        },
+        "direct_distance": 1522.8159712700337
+      },
+      "warnings": [],
+      "valid": true,
+      "max_tpd": 0,
+      "needs_stopover": false,
+      "stopover": {
+        "exists": false
+      },
+      "flight_time": 1.4517526626586914,
+      "trips_per_day_per_ac": 2,
+      "num_ac": 1,
+      "config": {
+        "y": 228,
+        "j": 132,
+        "f": 36,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 665,
+        "j": 1524,
+        "f": 2510
+      },
+      "max_income": 443148.0,
+      "income": 438716.52422618866,
+      "fuel": 33897.97354854584,
+      "co2": 145124.80956505894,
+      "acheck_cost": 28750.6,
+      "repair_cost": 1617.2212725,
+      "profit": 367205.1443218995,
+      "ci": 200,
+      "contribution": 14.61903190612793
+    }
+  },
+  {
+    "airport": {
+      "id": 2015,
+      "name": "Beja",
+      "fullname": "Beja Airport / Airbase",
+      "country": "Portugal",
+      "continent": "Europe",
+      "iata": "BYJ",
+      "icao": "LPBJ",
+      "lat": 38.078899,
+      "lng": -7.9324,
+      "rwy": 11319,
+      "market": 47,
+      "hub_cost": 36000,
+      "rwy_codes": "01L/19R"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 405,
+          "j": 399,
+          "f": 43
+        },
+        "cargo_demand": {
+          "l": 203000,
+          "h": 399000
+        },
+        "direct_distance": 1477.4709487168966
+      },
+      "warnings": [],
+      "valid": true,
+      "max_tpd": 0,
+      "needs_stopover": false,
+      "stopover": {
+        "exists": false
+      },
+      "flight_time": 1.4085237979888916,
+      "trips_per_day_per_ac": 2,
+      "num_ac": 1,
+      "config": {
+        "y": 135,
+        "j": 201,
+        "f": 21,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 650,
+        "j": 1495,
+        "f": 2467
+      },
+      "max_income": 440052.0,
+      "income": 435651.4841966629,
+      "fuel": 32888.705138168334,
+      "co2": 140776.69606137514,
+      "acheck_cost": 28750.6,
+      "repair_cost": 1617.2212725,
+      "profit": 365368.3658000801,
+      "ci": 200,
+      "contribution": 14.183719635009766
+    }
+  },
+  {
+    "airport": {
+      "id": 1953,
+      "name": "Palermo",
+      "fullname": "Falcone–Borsellino Airport",
+      "country": "Italy",
+      "continent": "Europe",
+      "iata": "PMO",
+      "icao": "LICJ",
+      "lat": 38.175999,
+      "lng": 13.091,
+      "rwy": 10912,
+      "market": 68,
+      "hub_cost": 42000,
+      "rwy_codes": "02/20"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 667,
+          "j": 314,
+          "f": 56
+        },
+        "cargo_demand": {
+          "l": 334000,
+          "h": 314000
+        },
+        "direct_distance": 1470.9346266092336
+      },
+      "warnings": [],
+      "valid": true,
+      "max_tpd": 0,
+      "needs_stopover": false,
+      "stopover": {
+        "exists": false
+      },
+      "flight_time": 1.4022923707962036,
+      "trips_per_day_per_ac": 2,
+      "num_ac": 1,
+      "config": {
+        "y": 200,
+        "j": 158,
+        "f": 28,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 648,
+        "j": 1491,
+        "f": 2461
+      },
+      "max_income": 434086.0,
+      "income": 429745.1441397667,
+      "fuel": 32743.12473667145,
+      "co2": 140184.13447526813,
+      "acheck_cost": 28750.6,
+      "repair_cost": 1617.2212725,
+      "profit": 359635.0394145645,
+      "ci": 200,
+      "contribution": 14.1209716796875
+    }
+  },
+  {
+    "airport": {
+      "id": 1806,
+      "name": "Sevilla",
+      "fullname": "Sevilla Airport",
+      "country": "Spain",
+      "continent": "Europe",
+      "iata": "SVQ",
+      "icao": "LEZL",
+      "lat": 37.417999267578125,
+      "lng": -5.8931097984313965,
+      "rwy": 11024,
+      "market": 67,
+      "hub_cost": 48000,
+      "rwy_codes": "09/27"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 886,
+          "j": 272,
+          "f": 74
+        },
+        "cargo_demand": {
+          "l": 443000,
+          "h": 272000
+        },
+        "direct_distance": 1457.445096815439
+      },
+      "warnings": [],
+      "valid": true,
+      "max_tpd": 0,
+      "needs_stopover": false,
+      "stopover": {
+        "exists": false
+      },
+      "flight_time": 1.389432430267334,
+      "trips_per_day_per_ac": 2,
+      "num_ac": 1,
+      "config": {
+        "y": 215,
+        "j": 137,
+        "f": 37,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 643,
+        "j": 1482,
+        "f": 2448
+      },
+      "max_income": 431855.0,
+      "income": 427536.4541184902,
+      "fuel": 32442.837333583833,
+      "co2": 138905.04490392507,
+      "acheck_cost": 28750.6,
+      "repair_cost": 1617.2212725,
+      "profit": 357790.0413240106,
+      "ci": 200,
+      "contribution": 13.991472244262695
+    }
+  },
+  {
+    "airport": {
+      "id": 681,
+      "name": "Warsaw intl",
+      "fullname": "Warsaw Chopin Airport",
+      "country": "Poland",
+      "continent": "Europe",
+      "iata": "WAW",
+      "icao": "EPWA",
+      "lat": 52.1656990051,
+      "lng": 20.967100143399996,
+      "rwy": 12106,
+      "market": 42,
+      "hub_cost": 237000,
+      "rwy_codes": "11/29"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 1587,
+          "j": 339,
+          "f": 117
+        },
+        "cargo_demand": {
+          "l": 794000,
+          "h": 339000
+        },
+        "direct_distance": 1342.4931134546453
+      },
+      "warnings": [],
+      "valid": true,
+      "max_tpd": 0,
+      "needs_stopover": false,
+      "stopover": {
+        "exists": false
+      },
+      "flight_time": 1.279844880104065,
+      "trips_per_day_per_ac": 2,
+      "num_ac": 1,
+      "config": {
+        "y": 81,
+        "j": 171,
+        "f": 59,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 606,
+        "j": 1407,
+        "f": 2338
+      },
+      "max_income": 427625.0,
+      "income": 423348.7540781498,
+      "fuel": 29884.050307273865,
+      "co2": 127902.19714811444,
+      "acheck_cost": 28750.6,
+      "repair_cost": 1617.2212725,
+      "profit": 356713.8339327844,
+      "ci": 200,
+      "contribution": 12.887933731079102
+    }
+  },
+  {
+    "airport": {
+      "id": 1775,
+      "name": "Almería",
+      "fullname": "Almería International Airport",
+      "country": "Spain",
+      "continent": "Europe",
+      "iata": "LEI",
+      "icao": "LEAM",
+      "lat": 36.84389877319336,
+      "lng": -2.3701000213623047,
+      "rwy": 10499,
+      "market": 67,
+      "hub_cost": 48000,
+      "rwy_codes": "08/26"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 584,
+          "j": 274,
+          "f": 92
+        },
+        "cargo_demand": {
+          "l": 292000,
+          "h": 274000
+        },
+        "direct_distance": 1410.382527231816
+      },
+      "warnings": [],
+      "valid": true,
+      "max_tpd": 0,
+      "needs_stopover": false,
+      "stopover": {
+        "exists": false
+      },
+      "flight_time": 1.3445661067962646,
+      "trips_per_day_per_ac": 2,
+      "num_ac": 1,
+      "config": {
+        "y": 186,
+        "j": 138,
+        "f": 46,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 628,
+        "j": 1451,
+        "f": 2403
+      },
+      "max_income": 427584.0,
+      "income": 423308.1640777588,
+      "fuel": 31395.281722812655,
+      "co2": 134413.46260389508,
+      "acheck_cost": 28750.6,
+      "repair_cost": 1617.2212725,
+      "profit": 354834.0300868226,
+      "ci": 200,
+      "contribution": 13.5396728515625
+    }
+  },
+  {
+    "airport": {
+      "id": 2012,
+      "name": "Vienna",
+      "fullname": "Vienna International Airport",
+      "country": "Austria",
+      "continent": "Europe",
+      "iata": "VIE",
+      "icao": "LOWW",
+      "lat": 48.110298156738,
+      "lng": 16.569700241089,
+      "rwy": 11811,
+      "market": 78,
+      "hub_cost": 237000,
+      "rwy_codes": "11/29"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 874,
+          "j": 794,
+          "f": 238
+        },
+        "cargo_demand": {
+          "l": 437000,
+          "h": 794000
+        },
+        "direct_distance": 1035.0912784581417
+      },
+      "warnings": [],
+      "valid": true,
+      "max_tpd": 0,
+      "needs_stopover": false,
+      "stopover": {
+        "exists": false
+      },
+      "flight_time": 0.9867880940437317,
+      "trips_per_day_per_ac": 2,
+      "num_ac": 1,
+      "config": {
+        "y": 0,
+        "j": 120,
+        "f": 120,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 504,
+        "j": 1208,
+        "f": 2045
+      },
+      "max_income": 390360.0,
+      "income": 386456.40372276306,
+      "fuel": 23041.326236915585,
+      "co2": 98615.90180112718,
+      "acheck_cost": 14375.3,
+      "repair_cost": 1617.2212725,
+      "profit": 342501.04586828686,
+      "ci": 200,
+      "contribution": 9.93687629699707
+    }
+  },
+  {
+    "airport": {
+      "id": 618,
+      "name": "Copenhagen",
+      "fullname": "Copenhagen Kastrup Airport",
+      "country": "Denmark",
+      "continent": "Europe",
+      "iata": "CPH",
+      "icao": "EKCH",
+      "lat": 55.617900848389,
+      "lng": 12.656000137329,
+      "rwy": 11811,
+      "market": 40,
+      "hub_cost": 237000,
+      "rwy_codes": "04L/22R|12/30"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 873,
+          "j": 672,
+          "f": 279
+        },
+        "cargo_demand": {
+          "l": 437000,
+          "h": 672000
+        },
+        "direct_distance": 1003.7004841333946
+      },
+      "warnings": [],
+      "valid": true,
+      "max_tpd": 0,
+      "needs_stopover": false,
+      "stopover": {
+        "exists": false
+      },
+      "flight_time": 0.9568621516227722,
+      "trips_per_day_per_ac": 2,
+      "num_ac": 1,
+      "config": {
+        "y": 0,
+        "j": 90,
+        "f": 140,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 494,
+        "j": 1188,
+        "f": 2015
+      },
+      "max_income": 389020.0,
+      "income": 385129.8037099838,
+      "fuel": 22342.58482973099,
+      "co2": 95622.59626780928,
+      "acheck_cost": 14375.3,
+      "repair_cost": 1617.2212725,
+      "profit": 342022.76150453504,
+      "ci": 200,
+      "contribution": 9.63552474975586
+    }
+  },
+  {
+    "airport": {
+      "id": 364,
+      "name": "Constantine",
+      "fullname": "Mohamed Boudiaf International Airport",
+      "country": "Algeria",
+      "continent": "Africa",
+      "iata": "CZL",
+      "icao": "DABC",
+      "lat": 36.2760009765625,
+      "lng": 6.620389938354492,
+      "rwy": 9843,
+      "market": 64,
+      "hub_cost": 24000,
+      "rwy_codes": "14/32"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 888,
+          "j": 117,
+          "f": 61
+        },
+        "cargo_demand": {
+          "l": 444000,
+          "h": 117000
+        },
+        "direct_distance": 1454.3064990093121
+      },
+      "warnings": [],
+      "valid": true,
+      "max_tpd": 0,
+      "needs_stopover": false,
+      "stopover": {
+        "exists": false
+      },
+      "flight_time": 1.3864402770996094,
+      "trips_per_day_per_ac": 2,
+      "num_ac": 1,
+      "config": {
+        "y": 392,
+        "j": 59,
+        "f": 30,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 642,
+        "j": 1480,
+        "f": 2445
+      },
+      "max_income": 412334.0,
+      "income": 408210.66393232346,
+      "fuel": 32372.94093286514,
+      "co2": 138698.6193105954,
+      "acheck_cost": 28750.6,
+      "repair_cost": 1617.2212725,
+      "profit": 338537.9496895465,
+      "ci": 200,
+      "contribution": 13.961342811584473
+    }
+  },
+  {
+    "airport": {
+      "id": 1774,
+      "name": "Alicante",
+      "fullname": "Alicante International Airport",
+      "country": "Spain",
+      "continent": "Europe",
+      "iata": "ALC",
+      "icao": "LEAL",
+      "lat": 38.28219985961914,
+      "lng": -0.5581560134887695,
+      "rwy": 9842,
+      "market": 50,
+      "hub_cost": 48000,
+      "rwy_codes": "10/28"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 527,
+          "j": 181,
+          "f": 169
+        },
+        "cargo_demand": {
+          "l": 264000,
+          "h": 181000
+        },
+        "direct_distance": 1218.8310911530302
+      },
+      "warnings": [],
+      "valid": true,
+      "max_tpd": 0,
+      "needs_stopover": false,
+      "stopover": {
+        "exists": false
+      },
+      "flight_time": 1.1619534492492676,
+      "trips_per_day_per_ac": 2,
+      "num_ac": 1,
+      "config": {
+        "y": 163,
+        "j": 91,
+        "f": 85,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 565,
+        "j": 1327,
+        "f": 2220
+      },
+      "max_income": 401552.0,
+      "income": 397536.4838294983,
+      "fuel": 27131.378678970334,
+      "co2": 116177.55101080655,
+      "acheck_cost": 28750.6,
+      "repair_cost": 1617.2212725,
+      "profit": 334235.3913604223,
+      "ci": 200,
+      "contribution": 11.700778007507324
+    }
+  },
+  {
+    "airport": {
+      "id": 2027,
+      "name": "Porto",
+      "fullname": "Francisco de Sá Carneiro Airport",
+      "country": "Portugal",
+      "continent": "Europe",
+      "iata": "OPO",
+      "icao": "LPPR",
+      "lat": 41.2481002808,
+      "lng": -8.68138980865,
+      "rwy": 11417,
+      "market": 62,
+      "hub_cost": 36000,
+      "rwy_codes": "17/35"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 561,
+          "j": 415,
+          "f": 69
+        },
+        "cargo_demand": {
+          "l": 281000,
+          "h": 415000
+        },
+        "direct_distance": 1231.138962338449
+      },
+      "warnings": [],
+      "valid": true,
+      "max_tpd": 0,
+      "needs_stopover": false,
+      "stopover": {
+        "exists": false
+      },
+      "flight_time": 1.1736869812011719,
+      "trips_per_day_per_ac": 2,
+      "num_ac": 1,
+      "config": {
+        "y": 80,
+        "j": 209,
+        "f": 34,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 569,
+        "j": 1335,
+        "f": 2232
+      },
+      "max_income": 400423.0,
+      "income": 396418.7738187313,
+      "fuel": 27405.176681785586,
+      "co2": 117330.54298467755,
+      "acheck_cost": 28750.6,
+      "repair_cost": 1617.2212725,
+      "profit": 332787.66371082014,
+      "ci": 200,
+      "contribution": 11.818933486938477
+    }
+  },
+  {
+    "airport": {
+      "id": 1982,
+      "name": "Rome Leonardo d. V.",
+      "fullname": "Leonardo da Vinci–Fiumicino Airport",
+      "country": "Italy",
+      "continent": "Europe",
+      "iata": "FCO",
+      "icao": "LIRF",
+      "lat": 41.8002778,
+      "lng": 12.2388889,
+      "rwy": 12795,
+      "market": 84,
+      "hub_cost": 213300,
+      "rwy_codes": "07/25|16L/34R"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 1185,
+          "j": 437,
+          "f": 146
+        },
+        "cargo_demand": {
+          "l": 593000,
+          "h": 437000
+        },
+        "direct_distance": 1100.693989469904
+      },
+      "warnings": [],
+      "valid": true,
+      "max_tpd": 0,
+      "needs_stopover": false,
+      "stopover": {
+        "exists": false
+      },
+      "flight_time": 1.049329400062561,
+      "trips_per_day_per_ac": 2,
+      "num_ac": 1,
+      "config": {
+        "y": 1,
+        "j": 190,
+        "f": 73,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 526,
+        "j": 1251,
+        "f": 2108
+      },
+      "max_income": 392100.0,
+      "income": 388179.003739357,
+      "fuel": 24501.58225193024,
+      "co2": 104874.5256617725,
+      "acheck_cost": 28750.6,
+      "repair_cost": 1617.2212725,
+      "profit": 328075.1318110932,
+      "ci": 200,
+      "contribution": 10.566661834716797
+    }
+  },
+  {
+    "airport": {
+      "id": 2115,
+      "name": "Bratislava",
+      "fullname": "M. R. Štefánik Airport",
+      "country": "Slovakia",
+      "continent": "Europe",
+      "iata": "BTS",
+      "icao": "LZIB",
+      "lat": 48.17020034790039,
+      "lng": 17.21269989013672,
+      "rwy": 10466,
+      "market": 73,
+      "hub_cost": 237000,
+      "rwy_codes": "04/22"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 768,
+          "j": 692,
+          "f": 171
+        },
+        "cargo_demand": {
+          "l": 384000,
+          "h": 692000
+        },
+        "direct_distance": 1080.7583890313813
+      },
+      "warnings": [],
+      "valid": true,
+      "max_tpd": 0,
+      "needs_stopover": false,
+      "stopover": {
+        "exists": false
+      },
+      "flight_time": 1.030324101448059,
+      "trips_per_day_per_ac": 2,
+      "num_ac": 1,
+      "config": {
+        "y": 0,
+        "j": 171,
+        "f": 86,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 519,
+        "j": 1238,
+        "f": 2089
+      },
+      "max_income": 391352.0,
+      "income": 387438.4837322235,
+      "fuel": 24057.717847366333,
+      "co2": 102972.42810413122,
+      "acheck_cost": 28750.6,
+      "repair_cost": 1617.2212725,
+      "profit": 327873.5685940714,
+      "ci": 200,
+      "contribution": 10.375280380249023
+    }
+  },
+  {
+    "airport": {
+      "id": 2007,
+      "name": "Graz",
+      "fullname": "Graz Airport",
+      "country": "Austria",
+      "continent": "Europe",
+      "iata": "GRZ",
+      "icao": "LOWG",
+      "lat": 46.9911003112793,
+      "lng": 15.439599990844727,
+      "rwy": 9842,
+      "market": 90,
+      "hub_cost": 36000,
+      "rwy_codes": "17C/35|17R/35L"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 416,
+          "j": 400,
+          "f": 163
+        },
+        "cargo_demand": {
+          "l": 208000,
+          "h": 400000
+        },
+        "direct_distance": 983.6793584800147
+      },
+      "warnings": [
+        "Reduced contribution (<1000km)"
+      ],
+      "valid": true,
+      "max_tpd": 0,
+      "needs_stopover": false,
+      "stopover": {
+        "exists": false
+      },
+      "flight_time": 0.9377753138542175,
+      "trips_per_day_per_ac": 2,
+      "num_ac": 1,
+      "config": {
+        "y": 0,
+        "j": 177,
+        "f": 82,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 487,
+        "j": 1175,
+        "f": 1996
+      },
+      "max_income": 371647.0,
+      "income": 367930.533544302,
+      "fuel": 21896.717025146485,
+      "co2": 93747.94511035919,
+      "acheck_cost": 14375.3,
+      "repair_cost": 1617.2212725,
+      "profit": 325360.55694095633,
+      "ci": 200,
+      "contribution": 9.44332218170166
+    }
+  },
+  {
+    "airport": {
+      "id": 586,
+      "name": "Glasgow prestwick",
+      "fullname": "Glasgow Prestwick Airport",
+      "country": "United Kingdom",
+      "continent": "Europe",
+      "iata": "PIK",
+      "icao": "EGPK",
+      "lat": 55.5093994140625,
+      "lng": -4.586669921875,
+      "rwy": 9800,
+      "market": 64,
+      "hub_cost": 54000,
+      "rwy_codes": "03/21"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 584,
+          "j": 304,
+          "f": 258
+        },
+        "cargo_demand": {
+          "l": 292000,
+          "h": 304000
+        },
+        "direct_distance": 869.5116690224278
+      },
+      "warnings": [
+        "Reduced contribution (<1000km)"
+      ],
+      "valid": true,
+      "max_tpd": 0,
+      "needs_stopover": false,
+      "stopover": {
+        "exists": false
+      },
+      "flight_time": 0.8289353251457214,
+      "trips_per_day_per_ac": 2,
+      "num_ac": 1,
+      "config": {
+        "y": 0,
+        "j": 105,
+        "f": 130,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 449,
+        "j": 1101,
+        "f": 1887
+      },
+      "max_income": 360915.0,
+      "income": 357305.85344195366,
+      "fuel": 19355.515399017335,
+      "co2": 82874.17895287038,
+      "acheck_cost": 14375.3,
+      "repair_cost": 1617.2212725,
+      "profit": 317819.5699157971,
+      "ci": 200,
+      "contribution": 8.347311973571777
+    }
+  },
+  {
+    "airport": {
+      "id": 1978,
+      "name": "Ancona",
+      "fullname": "Ancona Falconara Airport",
+      "country": "Italy",
+      "continent": "Europe",
+      "iata": "AOI",
+      "icao": "LIPY",
+      "lat": 43.616299,
+      "lng": 13.3623,
+      "rwy": 9718,
+      "market": 77,
+      "hub_cost": 42000,
+      "rwy_codes": "04/22"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 651,
+          "j": 451,
+          "f": 72
+        },
+        "cargo_demand": {
+          "l": 326000,
+          "h": 451000
+        },
+        "direct_distance": 1022.9351501698493
+      },
+      "warnings": [],
+      "valid": true,
+      "max_tpd": 0,
+      "needs_stopover": false,
+      "stopover": {
+        "exists": false
+      },
+      "flight_time": 0.9751992225646973,
+      "trips_per_day_per_ac": 2,
+      "num_ac": 1,
+      "config": {
+        "y": 38,
+        "j": 227,
+        "f": 36,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 500,
+        "j": 1200,
+        "f": 2033
+      },
+      "max_income": 364588.0,
+      "income": 360942.1234769821,
+      "fuel": 22770.644634132386,
+      "co2": 97521.2154269588,
+      "acheck_cost": 14375.3,
+      "repair_cost": 1617.2212725,
+      "profit": 317307.6051093544,
+      "ci": 200,
+      "contribution": 9.82017707824707
+    }
+  },
+  {
+    "airport": {
+      "id": 1771,
+      "name": "Zagreb",
+      "fullname": "Zagreb Airport",
+      "country": "Croatia",
+      "continent": "Europe",
+      "iata": "ZAG",
+      "icao": "LDZA",
+      "lat": 45.7429008484,
+      "lng": 16.0687999725,
+      "rwy": 10669,
+      "market": 65,
+      "hub_cost": 213300,
+      "rwy_codes": "05/23"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 1177,
+          "j": 832,
+          "f": 81
+        },
+        "cargo_demand": {
+          "l": 589000,
+          "h": 832000
+        },
+        "direct_distance": 1079.1129219449062
+      },
+      "warnings": [],
+      "valid": true,
+      "max_tpd": 0,
+      "needs_stopover": false,
+      "stopover": {
+        "exists": false
+      },
+      "flight_time": 1.0287554264068604,
+      "trips_per_day_per_ac": 2,
+      "num_ac": 1,
+      "config": {
+        "y": 0,
+        "j": 240,
+        "f": 40,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 519,
+        "j": 1237,
+        "f": 2087
+      },
+      "max_income": 380360.0,
+      "income": 376556.40362739563,
+      "fuel": 24021.211446990965,
+      "co2": 102839.56250761508,
+      "acheck_cost": 28750.6,
+      "repair_cost": 1617.2212725,
+      "profit": 317032.98684108816,
+      "ci": 200,
+      "contribution": 10.35948371887207
+    }
+  },
+  {
+    "airport": {
+      "id": 1791,
+      "name": "Madrid Adolfo Suarez",
+      "fullname": "Adolfo Suárez Madrid–Barajas Airport",
+      "country": "Spain",
+      "continent": "Europe",
+      "iata": "MAD",
+      "icao": "LEMD",
+      "lat": 40.471926,
+      "lng": -3.56264,
+      "rwy": 13711,
+      "market": 89,
+      "hub_cost": 213300,
+      "rwy_codes": "14L/32R|18L/36R"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 893,
+          "j": 587,
+          "f": 94
+        },
+        "cargo_demand": {
+          "l": 447000,
+          "h": 587000
+        },
+        "direct_distance": 1064.5128905341448
+      },
+      "warnings": [],
+      "valid": true,
+      "max_tpd": 0,
+      "needs_stopover": false,
+      "stopover": {
+        "exists": false
+      },
+      "flight_time": 1.0148367881774902,
+      "trips_per_day_per_ac": 2,
+      "num_ac": 1,
+      "config": {
+        "y": 1,
+        "j": 229,
+        "f": 47,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 514,
+        "j": 1227,
+        "f": 2073
+      },
+      "max_income": 378928.0,
+      "income": 375138.723613739,
+      "fuel": 23696.215443649293,
+      "co2": 101448.97853863002,
+      "acheck_cost": 28750.6,
+      "repair_cost": 1617.2212725,
+      "profit": 316009.67410604894,
+      "ci": 200,
+      "contribution": 10.219324111938477
+    }
+  },
+  {
+    "airport": {
+      "id": 1956,
+      "name": "Alghero",
+      "fullname": "Alghero-Fertilia Airport",
+      "country": "Italy",
+      "continent": "Europe",
+      "iata": "AHO",
+      "icao": "LIEA",
+      "lat": 40.632099,
+      "lng": 8.29077,
+      "rwy": 9843,
+      "market": 38,
+      "hub_cost": 42000,
+      "rwy_codes": "02/20"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 447,
+          "j": 147,
+          "f": 162
+        },
+        "cargo_demand": {
+          "l": 224000,
+          "h": 147000
+        },
+        "direct_distance": 1035.3212454794543
+      },
+      "warnings": [],
+      "valid": true,
+      "max_tpd": 0,
+      "needs_stopover": false,
+      "stopover": {
+        "exists": false
+      },
+      "flight_time": 0.9870073199272156,
+      "trips_per_day_per_ac": 2,
+      "num_ac": 1,
+      "config": {
+        "y": 209,
+        "j": 74,
+        "f": 81,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 504,
+        "j": 1208,
+        "f": 2045
+      },
+      "max_income": 360373.0,
+      "income": 356769.27343678474,
+      "fuel": 23046.44603696823,
+      "co2": 98761.7610006386,
+      "acheck_cost": 14375.3,
+      "repair_cost": 1617.2212725,
+      "profit": 312792.82861833036,
+      "ci": 200,
+      "contribution": 9.93908405303955
+    }
+  },
+  {
+    "airport": {
+      "id": 1996,
+      "name": "Prague",
+      "fullname": "Václav Havel Airport Prague",
+      "country": "Czechia",
+      "continent": "Europe",
+      "iata": "PRG",
+      "icao": "LKPR",
+      "lat": 50.1008,
+      "lng": 14.26,
+      "rwy": 12189,
+      "market": 59,
+      "hub_cost": 237000,
+      "rwy_codes": "04/22|12/30"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 484,
+          "j": 884,
+          "f": 232
+        },
+        "cargo_demand": {
+          "l": 242000,
+          "h": 884000
+        },
+        "direct_distance": 852.3710112360449
+      },
+      "warnings": [
+        "Reduced contribution (<1000km)"
+      ],
+      "valid": true,
+      "max_tpd": 0,
+      "needs_stopover": false,
+      "stopover": {
+        "exists": false
+      },
+      "flight_time": 0.8125945925712585,
+      "trips_per_day_per_ac": 2,
+      "num_ac": 1,
+      "config": {
+        "y": 1,
+        "j": 124,
+        "f": 117,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 444,
+        "j": 1090,
+        "f": 1871
+      },
+      "max_income": 354511.0,
+      "income": 350965.89338088036,
+      "fuel": 18973.978995094298,
+      "co2": 81252.19338928103,
+      "acheck_cost": 14375.3,
+      "repair_cost": 1617.2212725,
+      "profit": 311941.3236051006,
+      "ci": 200,
+      "contribution": 8.182762145996094
+    }
+  },
+  {
+    "airport": {
+      "id": 1802,
+      "name": "Valladolid",
+      "fullname": "Valladolid Airport",
+      "country": "Spain",
+      "continent": "Europe",
+      "iata": "VLL",
+      "icao": "LEVD",
+      "lat": 41.7061004639,
+      "lng": -4.85194015503,
+      "rwy": 9843,
+      "market": 59,
+      "hub_cost": 48000,
+      "rwy_codes": "05/23"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 573,
+          "j": 508,
+          "f": 45
+        },
+        "cargo_demand": {
+          "l": 287000,
+          "h": 508000
+        },
+        "direct_distance": 996.2335906364362
+      },
+      "warnings": [
+        "Reduced contribution (<1000km)"
+      ],
+      "valid": true,
+      "max_tpd": 0,
+      "needs_stopover": false,
+      "stopover": {
+        "exists": false
+      },
+      "flight_time": 0.9497436881065369,
+      "trips_per_day_per_ac": 2,
+      "num_ac": 1,
+      "config": {
+        "y": 22,
+        "j": 256,
+        "f": 22,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 491,
+        "j": 1183,
+        "f": 2008
+      },
+      "max_income": 357826.0,
+      "income": 354247.74341249466,
+      "fuel": 22176.30262802124,
+      "co2": 94982.64748367787,
+      "acheck_cost": 14375.3,
+      "repair_cost": 1617.2212725,
+      "profit": 311333.89260233846,
+      "ci": 200,
+      "contribution": 9.563841819763184
+    }
+  },
+  {
+    "airport": {
+      "id": 1800,
+      "name": "Madrid Torrejon",
+      "fullname": "Torrejón Airport",
+      "country": "Spain",
+      "continent": "Europe",
+      "iata": "TOJ",
+      "icao": "LETO",
+      "lat": 40.496700286865234,
+      "lng": -3.4458699226379395,
+      "rwy": 12001,
+      "market": 89,
+      "hub_cost": 48000,
+      "rwy_codes": "04/22"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 691,
+          "j": 387,
+          "f": 99
+        },
+        "cargo_demand": {
+          "l": 346000,
+          "h": 387000
+        },
+        "direct_distance": 1057.888919950455
+      },
+      "warnings": [],
+      "valid": true,
+      "max_tpd": 0,
+      "needs_stopover": false,
+      "stopover": {
+        "exists": false
+      },
+      "flight_time": 1.0085217952728271,
+      "trips_per_day_per_ac": 2,
+      "num_ac": 1,
+      "config": {
+        "y": 60,
+        "j": 195,
+        "f": 50,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 512,
+        "j": 1223,
+        "f": 2067
+      },
+      "max_income": 372555.0,
+      "income": 368829.45355296135,
+      "fuel": 23548.631642131808,
+      "co2": 100846.86335271418,
+      "acheck_cost": 28750.6,
+      "repair_cost": 1617.2212725,
+      "profit": 309875.96652864345,
+      "ci": 200,
+      "contribution": 10.155733108520508
+    }
+  },
+  {
+    "airport": {
+      "id": 1986,
+      "name": "Pisa",
+      "fullname": "Pisa International Airport",
+      "country": "Italy",
+      "continent": "Europe",
+      "iata": "PSA",
+      "icao": "LIRP",
+      "lat": 43.683899,
+      "lng": 10.3927,
+      "rwy": 9820,
+      "market": 72,
+      "hub_cost": 42000,
+      "rwy_codes": "04L/22R"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 522,
+          "j": 153,
+          "f": 261
+        },
+        "cargo_demand": {
+          "l": 261000,
+          "h": 153000
+        },
+        "direct_distance": 843.8327268313651
+      },
+      "warnings": [
+        "Reduced contribution (<1000km)"
+      ],
+      "valid": true,
+      "max_tpd": 0,
+      "needs_stopover": false,
+      "stopover": {
+        "exists": false
+      },
+      "flight_time": 0.8044546842575073,
+      "trips_per_day_per_ac": 2,
+      "num_ac": 1,
+      "config": {
+        "y": 53,
+        "j": 77,
+        "f": 131,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 441,
+        "j": 1084,
+        "f": 1863
+      },
+      "max_income": 350894.0,
+      "income": 347385.06334638596,
+      "fuel": 18783.87859313965,
+      "co2": 80459.55180742264,
+      "acheck_cost": 14375.3,
+      "repair_cost": 1617.2212725,
+      "profit": 308588.6808417975,
+      "ci": 200,
+      "contribution": 8.100793838500977
+    }
+  },
+  {
+    "airport": {
+      "id": 1798,
+      "name": "Santiago de Compostela",
+      "fullname": "Santiago de Compostela Airport",
+      "country": "Spain",
+      "continent": "Europe",
+      "iata": "SCQ",
+      "icao": "LEST",
+      "lat": 42.89630126953125,
+      "lng": -8.415140151977539,
+      "rwy": 10499,
+      "market": 57,
+      "hub_cost": 48000,
+      "rwy_codes": "17/35"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 1061,
+          "j": 144,
+          "f": 152
+        },
+        "cargo_demand": {
+          "l": 531000,
+          "h": 144000
+        },
+        "direct_distance": 1084.9453632705138
+      },
+      "warnings": [],
+      "valid": true,
+      "max_tpd": 0,
+      "needs_stopover": false,
+      "stopover": {
+        "exists": false
+      },
+      "flight_time": 1.034315586090088,
+      "trips_per_day_per_ac": 2,
+      "num_ac": 1,
+      "config": {
+        "y": 228,
+        "j": 72,
+        "f": 76,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 521,
+        "j": 1241,
+        "f": 2093
+      },
+      "max_income": 367208.0,
+      "income": 363535.9235019684,
+      "fuel": 24150.98724832535,
+      "co2": 103489.64569523037,
+      "acheck_cost": 28750.6,
+      "repair_cost": 1617.2212725,
+      "profit": 303843.653672213,
+      "ci": 200,
+      "contribution": 10.415474891662598
+    }
+  },
+  {
+    "airport": {
+      "id": 452,
+      "name": "Berlin Schönefeld",
+      "fullname": "Berlin-Schönefeld Airport",
+      "country": "Germany",
+      "continent": "Europe",
+      "iata": "SXF",
+      "icao": "EDDB",
+      "lat": 52.380001,
+      "lng": 13.5225,
+      "rwy": 11811,
+      "market": 31,
+      "hub_cost": 54000,
+      "rwy_codes": "07L/25R"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 496,
+          "j": 107,
+          "f": 238
+        },
+        "cargo_demand": {
+          "l": 248000,
+          "h": 107000
+        },
+        "direct_distance": 857.573356701079
+      },
+      "warnings": [
+        "Reduced contribution (<1000km)"
+      ],
+      "valid": true,
+      "max_tpd": 0,
+      "needs_stopover": false,
+      "stopover": {
+        "exists": false
+      },
+      "flight_time": 0.8175541162490845,
+      "trips_per_day_per_ac": 2,
+      "num_ac": 1,
+      "config": {
+        "y": 132,
+        "j": 54,
+        "f": 120,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 445,
+        "j": 1093,
+        "f": 1876
+      },
+      "max_income": 342882.0,
+      "income": 339453.18326997757,
+      "fuel": 19089.730996284485,
+      "co2": 81810.40137823463,
+      "acheck_cost": 14375.3,
+      "repair_cost": 1617.2212725,
+      "profit": 300280.6021346903,
+      "ci": 200,
+      "contribution": 8.232704162597656
+    }
+  },
+  {
+    "airport": {
+      "id": 1794,
+      "name": "Palma De Mallorca",
+      "fullname": "Palma De Mallorca Airport",
+      "country": "Spain",
+      "continent": "Europe",
+      "iata": "PMI",
+      "icao": "LEPA",
+      "lat": 39.551700592,
+      "lng": 2.73881006241,
+      "rwy": 10728,
+      "market": 73,
+      "hub_cost": 48000,
+      "rwy_codes": "06L/24R"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 743,
+          "j": 335,
+          "f": 87
+        },
+        "cargo_demand": {
+          "l": 372000,
+          "h": 335000
+        },
+        "direct_distance": 1052.1324541668782
+      },
+      "warnings": [],
+      "valid": true,
+      "max_tpd": 0,
+      "needs_stopover": false,
+      "stopover": {
+        "exists": false
+      },
+      "flight_time": 1.003033995628357,
+      "trips_per_day_per_ac": 2,
+      "num_ac": 1,
+      "config": {
+        "y": 133,
+        "j": 169,
+        "f": 43,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 510,
+        "j": 1219,
+        "f": 2061
+      },
+      "max_income": 362464.0,
+      "income": 358839.3634567261,
+      "fuel": 23420.636640815737,
+      "co2": 100340.38336492896,
+      "acheck_cost": 28750.6,
+      "repair_cost": 1617.2212725,
+      "profit": 300036.2505318636,
+      "ci": 200,
+      "contribution": 10.100471496582031
+    }
+  },
+  {
+    "airport": {
+      "id": 613,
+      "name": "Shannon",
+      "fullname": "Shannon Airport",
+      "country": "Ireland",
+      "continent": "Europe",
+      "iata": "SNN",
+      "icao": "EINN",
+      "lat": 52.702,
+      "lng": -8.92482,
+      "rwy": 10495,
+      "market": 57,
+      "hub_cost": 54000,
+      "rwy_codes": "06/24"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 511,
+          "j": 371,
+          "f": 109
+        },
+        "cargo_demand": {
+          "l": 256000,
+          "h": 371000
+        },
+        "direct_distance": 902.4817540221483
+      },
+      "warnings": [
+        "Reduced contribution (<1000km)"
+      ],
+      "valid": true,
+      "max_tpd": 0,
+      "needs_stopover": false,
+      "stopover": {
+        "exists": false
+      },
+      "flight_time": 0.8603668212890625,
+      "trips_per_day_per_ac": 2,
+      "num_ac": 1,
+      "config": {
+        "y": 61,
+        "j": 187,
+        "f": 55,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 460,
+        "j": 1122,
+        "f": 1918
+      },
+      "max_income": 343364.0,
+      "income": 339930.3632745743,
+      "fuel": 20089.427606563568,
+      "co2": 86075.64768283188,
+      "acheck_cost": 14375.3,
+      "repair_cost": 1617.2212725,
+      "profit": 299546.16495554,
+      "ci": 200,
+      "contribution": 8.663825035095215
+    }
+  },
+  {
+    "airport": {
+      "id": 1974,
+      "name": "Trieste",
+      "fullname": "Trieste–Friuli Venezia Giulia Airport",
+      "country": "Italy",
+      "continent": "Europe",
+      "iata": "TRS",
+      "icao": "LIPQ",
+      "lat": 45.827499,
+      "lng": 13.4722,
+      "rwy": 9843,
+      "market": 36,
+      "hub_cost": 42000,
+      "rwy_codes": "09/27"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 581,
+          "j": 466,
+          "f": 72
+        },
+        "cargo_demand": {
+          "l": 291000,
+          "h": 466000
+        },
+        "direct_distance": 893.7652678260091
+      },
+      "warnings": [
+        "Reduced contribution (<1000km)"
+      ],
+      "valid": true,
+      "max_tpd": 0,
+      "needs_stopover": false,
+      "stopover": {
+        "exists": false
+      },
+      "flight_time": 0.8520570993423462,
+      "trips_per_day_per_ac": 2,
+      "num_ac": 1,
+      "config": {
+        "y": 22,
+        "j": 235,
+        "f": 36,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 457,
+        "j": 1117,
+        "f": 1910
+      },
+      "max_income": 341309.0,
+      "income": 337895.9132549763,
+      "fuel": 19895.32040456772,
+      "co2": 85236.89890135587,
+      "acheck_cost": 14375.3,
+      "repair_cost": 1617.2212725,
+      "profit": 297748.23983111617,
+      "ci": 200,
+      "contribution": 8.580146789550781
+    }
+  },
+  {
+    "airport": {
+      "id": 465,
+      "name": "Berlin Tegel",
+      "fullname": "Berlin-Tegel Airport",
+      "country": "Germany",
+      "continent": "Europe",
+      "iata": "TXL",
+      "icao": "EDDT",
+      "lat": 52.5597,
+      "lng": 13.2877,
+      "rwy": 9918,
+      "market": 79,
+      "hub_cost": 213300,
+      "rwy_codes": "08L/26R"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 814,
+          "j": 708,
+          "f": 100
+        },
+        "cargo_demand": {
+          "l": 407000,
+          "h": 708000
+        },
+        "direct_distance": 850.4976139039999
+      },
+      "warnings": [
+        "Reduced contribution (<1000km)"
+      ],
+      "valid": true,
+      "max_tpd": 0,
+      "needs_stopover": false,
+      "stopover": {
+        "exists": false
+      },
+      "flight_time": 0.8108085989952087,
+      "trips_per_day_per_ac": 2,
+      "num_ac": 1,
+      "config": {
+        "y": 0,
+        "j": 225,
+        "f": 50,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 443,
+        "j": 1089,
+        "f": 1869
+      },
+      "max_income": 338475.0,
+      "income": 335090.25322794914,
+      "fuel": 18932.130194664,
+      "co2": 81106.51819327474,
+      "acheck_cost": 14375.3,
+      "repair_cost": 1617.2212725,
+      "profit": 296112.4586359914,
+      "ci": 200,
+      "contribution": 8.164777755737305
+    }
+  },
+  {
+    "airport": {
+      "id": 460,
+      "name": "Munich",
+      "fullname": "Munich Airport",
+      "country": "Germany",
+      "continent": "Europe",
+      "iata": "MUC",
+      "icao": "EDDM",
+      "lat": 48.353802,
+      "lng": 11.7861,
+      "rwy": 13123,
+      "market": 74,
+      "hub_cost": 213300,
+      "rwy_codes": "08L/26R"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 713,
+          "j": 409,
+          "f": 315
+        },
+        "cargo_demand": {
+          "l": 357000,
+          "h": 409000
+        },
+        "direct_distance": 681.5692457340275
+      },
+      "warnings": [
+        "Reduced contribution (<1000km)"
+      ],
+      "valid": true,
+      "max_tpd": 0,
+      "needs_stopover": false,
+      "stopover": {
+        "exists": false
+      },
+      "flight_time": 0.6497634053230286,
+      "trips_per_day_per_ac": 2,
+      "num_ac": 1,
+      "config": {
+        "y": 1,
+        "j": 61,
+        "f": 159,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 387,
+        "j": 979,
+        "f": 1708
+      },
+      "max_income": 331678.0,
+      "income": 328361.2231631279,
+      "fuel": 15171.748355998994,
+      "co2": 64997.411352134346,
+      "acheck_cost": 14375.3,
+      "repair_cost": 1617.2212725,
+      "profit": 293948.78867917246,
+      "ci": 200,
+      "contribution": 6.543065071105957
+    }
+  },
+  {
+    "airport": {
+      "id": 484,
+      "name": "Parchim",
+      "fullname": "Schwerin Parchim Airport",
+      "country": "Germany",
+      "continent": "Europe",
+      "iata": "SZW",
+      "icao": "EDOP",
+      "lat": 53.426998,
+      "lng": 11.7834,
+      "rwy": 9843,
+      "market": 64,
+      "hub_cost": 54000,
+      "rwy_codes": "06/24"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 366,
+          "j": 429,
+          "f": 112
+        },
+        "cargo_demand": {
+          "l": 183000,
+          "h": 429000
+        },
+        "direct_distance": 807.9286319734335
+      },
+      "warnings": [
+        "Reduced contribution (<1000km)"
+      ],
+      "valid": true,
+      "max_tpd": 0,
+      "needs_stopover": false,
+      "stopover": {
+        "exists": false
+      },
+      "flight_time": 0.7702261209487915,
+      "trips_per_day_per_ac": 2,
+      "num_ac": 1,
+      "config": {
+        "y": 0,
+        "j": 216,
+        "f": 56,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 429,
+        "j": 1061,
+        "f": 1828
+      },
+      "max_income": 331544.0,
+      "income": 328228.56316185,
+      "fuel": 17984.521984920502,
+      "co2": 77057.66548370659,
+      "acheck_cost": 14375.3,
+      "repair_cost": 1617.2212725,
+      "profit": 290399.9566418609,
+      "ci": 200,
+      "contribution": 7.756114959716797
+    }
+  },
+  {
+    "airport": {
+      "id": 2010,
+      "name": "Linz",
+      "fullname": "Linz Hörsching Airport",
+      "country": "Austria",
+      "continent": "Europe",
+      "iata": "LNZ",
+      "icao": "LOWL",
+      "lat": 48.2332,
+      "lng": 14.1875,
+      "rwy": 9843,
+      "market": 35,
+      "hub_cost": 36000,
+      "rwy_codes": "08/26"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 253,
+          "j": 386,
+          "f": 88
+        },
+        "cargo_demand": {
+          "l": 127000,
+          "h": 386000
+        },
+        "direct_distance": 858.8928990342127
+      },
+      "warnings": [
+        "Reduced contribution (<1000km)"
+      ],
+      "valid": true,
+      "max_tpd": 0,
+      "needs_stopover": false,
+      "stopover": {
+        "exists": false
+      },
+      "flight_time": 0.8188120722770691,
+      "trips_per_day_per_ac": 2,
+      "num_ac": 1,
+      "config": {
+        "y": 80,
+        "j": 194,
+        "f": 44,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 446,
+        "j": 1094,
+        "f": 1877
+      },
+      "max_income": 330504.0,
+      "income": 327198.96315193176,
+      "fuel": 19119.114196586608,
+      "co2": 81947.85417543053,
+      "acheck_cost": 14375.3,
+      "repair_cost": 1617.2212725,
+      "profit": 287989.31944076944,
+      "ci": 200,
+      "contribution": 8.24537181854248
+    }
+  },
+  {
+    "airport": {
+      "id": 1979,
+      "name": "Venice",
+      "fullname": "Venice Marco Polo Airport",
+      "country": "Italy",
+      "continent": "Europe",
+      "iata": "VCE",
+      "icao": "LIPZ",
+      "lat": 45.505299,
+      "lng": 12.3519,
+      "rwy": 10827,
+      "market": 83,
+      "hub_cost": 42000,
+      "rwy_codes": "04L/22R"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 538,
+          "j": 487,
+          "f": 57
+        },
+        "cargo_demand": {
+          "l": 269000,
+          "h": 487000
+        },
+        "direct_distance": 835.3422094211766
+      },
+      "warnings": [
+        "Reduced contribution (<1000km)"
+      ],
+      "valid": true,
+      "max_tpd": 0,
+      "needs_stopover": false,
+      "stopover": {
+        "exists": false
+      },
+      "flight_time": 0.796360433101654,
+      "trips_per_day_per_ac": 2,
+      "num_ac": 1,
+      "config": {
+        "y": 26,
+        "j": 245,
+        "f": 28,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 438,
+        "j": 1079,
+        "f": 1854
+      },
+      "max_income": 327655.0,
+      "income": 324378.4531247616,
+      "fuel": 18594.891191196442,
+      "co2": 79690.66222545803,
+      "acheck_cost": 14375.3,
+      "repair_cost": 1617.2212725,
+      "profit": 285806.6285513691,
+      "ci": 200,
+      "contribution": 8.019285202026367
+    }
+  },
+  {
+    "airport": {
+      "id": 1780,
+      "name": "Barcelona",
+      "fullname": "Barcelona International Airport",
+      "country": "Spain",
+      "continent": "Europe",
+      "iata": "BCN",
+      "icao": "LEBL",
+      "lat": 41.2971,
+      "lng": 2.07846,
+      "rwy": 11654,
+      "market": 69,
+      "hub_cost": 237000,
+      "rwy_codes": "02/20|07R/25L"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 1470,
+          "j": 166,
+          "f": 138
+        },
+        "cargo_demand": {
+          "l": 735000,
+          "h": 166000
+        },
+        "direct_distance": 858.7380115037017
+      },
+      "warnings": [
+        "Reduced contribution (<1000km)"
+      ],
+      "valid": true,
+      "max_tpd": 0,
+      "needs_stopover": false,
+      "stopover": {
+        "exists": false
+      },
+      "flight_time": 0.8186644315719604,
+      "trips_per_day_per_ac": 2,
+      "num_ac": 1,
+      "config": {
+        "y": 227,
+        "j": 83,
+        "f": 69,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 446,
+        "j": 1094,
+        "f": 1877
+      },
+      "max_income": 321557.0,
+      "income": 318341.4330666065,
+      "fuel": 19115.552596549987,
+      "co2": 81993.64777577043,
+      "acheck_cost": 14375.3,
+      "repair_cost": 1617.2212725,
+      "profit": 279128.7872434291,
+      "ci": 200,
+      "contribution": 8.243885040283203
+    }
+  },
+  {
+    "airport": {
+      "id": 1820,
+      "name": "Tarbes/Lourdes/Pyrénées",
+      "fullname": "Tarbes-Lourdes-Pyrénées Airport",
+      "country": "France",
+      "continent": "Europe",
+      "iata": "LDE",
+      "icao": "LFBT",
+      "lat": 43.1786994934082,
+      "lng": -0.006438999902456999,
+      "rwy": 9843,
+      "market": 78,
+      "hub_cost": 48000,
+      "rwy_codes": "02/20"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 516,
+          "j": 404,
+          "f": 186
+        },
+        "cargo_demand": {
+          "l": 258000,
+          "h": 404000
+        },
+        "direct_distance": 677.9029769021388
+      },
+      "warnings": [
+        "Reduced contribution (<1000km)"
+      ],
+      "valid": true,
+      "max_tpd": 0,
+      "needs_stopover": false,
+      "stopover": {
+        "exists": false
+      },
+      "flight_time": 0.6462681889533997,
+      "trips_per_day_per_ac": 2,
+      "num_ac": 1,
+      "config": {
+        "y": 1,
+        "j": 160,
+        "f": 93,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 386,
+        "j": 977,
+        "f": 1704
+      },
+      "max_income": 315178.0,
+      "income": 312026.22300577164,
+      "fuel": 15090.276755161285,
+      "co2": 64682.56495990932,
+      "acheck_cost": 14375.3,
+      "repair_cost": 1617.2212725,
+      "profit": 277708.6002094696,
+      "ci": 200,
+      "contribution": 6.507867813110352
+    }
+  },
+  {
+    "airport": {
+      "id": 457,
+      "name": "Hamburg intl",
+      "fullname": "Hamburg Airport",
+      "country": "Germany",
+      "continent": "Europe",
+      "iata": "HAM",
+      "icao": "EDDH",
+      "lat": 53.630401611328,
+      "lng": 9.9882297515869,
+      "rwy": 12028,
+      "market": 87,
+      "hub_cost": 54000,
+      "rwy_codes": "05/23"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 372,
+          "j": 306,
+          "f": 158
+        },
+        "cargo_demand": {
+          "l": 186000,
+          "h": 306000
+        },
+        "direct_distance": 727.8466214152312
+      },
+      "warnings": [
+        "Reduced contribution (<1000km)"
+      ],
+      "valid": true,
+      "max_tpd": 0,
+      "needs_stopover": false,
+      "stopover": {
+        "exists": false
+      },
+      "flight_time": 0.6938811540603638,
+      "trips_per_day_per_ac": 2,
+      "num_ac": 1,
+      "config": {
+        "y": 55,
+        "j": 154,
+        "f": 79,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 403,
+        "j": 1009,
+        "f": 1752
+      },
+      "max_income": 315959.0,
+      "income": 312799.41301321983,
+      "fuel": 16201.941166591645,
+      "co2": 69462.8624538213,
+      "acheck_cost": 14375.3,
+      "repair_cost": 1617.2212725,
+      "profit": 277129.98942964716,
+      "ci": 200,
+      "contribution": 6.987327575683594
+    }
+  },
+  {
+    "airport": {
+      "id": 539,
+      "name": "Campbeltown",
+      "fullname": "Campbeltown Airport",
+      "country": "United Kingdom",
+      "continent": "Europe",
+      "iata": "CAL",
+      "icao": "EGEC",
+      "lat": 55.437198638916016,
+      "lng": -5.686389923095703,
+      "rwy": 10003,
+      "market": 64,
+      "hub_cost": 54000,
+      "rwy_codes": "11/29"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 1000,
+          "j": 170,
+          "f": 94
+        },
+        "cargo_demand": {
+          "l": 500000,
+          "h": 170000
+        },
+        "direct_distance": 907.0442781038087
+      },
+      "warnings": [
+        "Reduced contribution (<1000km)"
+      ],
+      "valid": true,
+      "max_tpd": 0,
+      "needs_stopover": false,
+      "stopover": {
+        "exists": false
+      },
+      "flight_time": 0.8647164106369019,
+      "trips_per_day_per_ac": 2,
+      "num_ac": 1,
+      "config": {
+        "y": 289,
+        "j": 85,
+        "f": 47,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 462,
+        "j": 1125,
+        "f": 1923
+      },
+      "max_income": 319524.0,
+      "income": 316328.7630472183,
+      "fuel": 20190.933207607268,
+      "co2": 86627.03007314503,
+      "acheck_cost": 14375.3,
+      "repair_cost": 1617.2212725,
+      "profit": 275807.34492061584,
+      "ci": 200,
+      "contribution": 8.707624435424805
+    }
+  },
+  {
+    "airport": {
+      "id": 1975,
+      "name": "Rimini",
+      "fullname": "Federico Fellini International Airport",
+      "country": "Italy",
+      "continent": "Europe",
+      "iata": "RMI",
+      "icao": "LIPR",
+      "lat": 44.020302,
+      "lng": 12.6117,
+      "rwy": 9828,
+      "market": 52,
+      "hub_cost": 42000,
+      "rwy_codes": "13/31"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 1098,
+          "j": 161,
+          "f": 64
+        },
+        "cargo_demand": {
+          "l": 549000,
+          "h": 161000
+        },
+        "direct_distance": 947.8941280831681
+      },
+      "warnings": [
+        "Reduced contribution (<1000km)"
+      ],
+      "valid": true,
+      "max_tpd": 0,
+      "needs_stopover": false,
+      "stopover": {
+        "exists": false
+      },
+      "flight_time": 0.903659999370575,
+      "trips_per_day_per_ac": 2,
+      "num_ac": 1,
+      "config": {
+        "y": 342,
+        "j": 81,
+        "f": 32,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 475,
+        "j": 1152,
+        "f": 1962
+      },
+      "max_income": 318546.0,
+      "income": 315360.5430378914,
+      "fuel": 21100.25421695709,
+      "co2": 90543.41398636698,
+      "acheck_cost": 14375.3,
+      "repair_cost": 1617.2212725,
+      "profit": 273732.6341351574,
+      "ci": 200,
+      "contribution": 9.099782943725586
+    }
+  },
+  {
+    "airport": {
+      "id": 1973,
+      "name": "Montichiari (BS)",
+      "fullname": "Brescia Airport",
+      "country": "Italy",
+      "continent": "Europe",
+      "iata": "VBS",
+      "icao": "LIPO",
+      "lat": 45.428902,
+      "lng": 10.3306,
+      "rwy": 9810,
+      "market": 56,
+      "hub_cost": 42000,
+      "rwy_codes": "14/32"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 602,
+          "j": 363,
+          "f": 134
+        },
+        "cargo_demand": {
+          "l": 301000,
+          "h": 363000
+        },
+        "direct_distance": 709.4278149891812
+      },
+      "warnings": [
+        "Reduced contribution (<1000km)"
+      ],
+      "valid": true,
+      "max_tpd": 0,
+      "needs_stopover": false,
+      "stopover": {
+        "exists": false
+      },
+      "flight_time": 0.6763218641281128,
+      "trips_per_day_per_ac": 2,
+      "num_ac": 1,
+      "config": {
+        "y": 33,
+        "j": 183,
+        "f": 67,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 397,
+        "j": 997,
+        "f": 1734
+      },
+      "max_income": 311730.0,
+      "income": 308612.70297288895,
+      "fuel": 15791.91196237564,
+      "co2": 67707.22569295108,
+      "acheck_cost": 14375.3,
+      "repair_cost": 1617.2212725,
+      "profit": 273440.97624357184,
+      "ci": 200,
+      "contribution": 6.810506343841553
+    }
+  },
+  {
+    "airport": {
+      "id": 466,
+      "name": "Hannover",
+      "fullname": "Hannover Airport",
+      "country": "Germany",
+      "continent": "Europe",
+      "iata": "HAJ",
+      "icao": "EDDV",
+      "lat": 52.461101532,
+      "lng": 9.685079574580001,
+      "rwy": 12467,
+      "market": 58,
+      "hub_cost": 54000,
+      "rwy_codes": "09C/27|09R/27L"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 321,
+          "j": 526,
+          "f": 147
+        },
+        "cargo_demand": {
+          "l": 161000,
+          "h": 526000
+        },
+        "direct_distance": 631.293507615353
+      },
+      "warnings": [
+        "Reduced contribution (<1000km)"
+      ],
+      "valid": true,
+      "max_tpd": 0,
+      "needs_stopover": false,
+      "stopover": {
+        "exists": false
+      },
+      "flight_time": 0.6018337607383728,
+      "trips_per_day_per_ac": 2,
+      "num_ac": 1,
+      "config": {
+        "y": 0,
+        "j": 189,
+        "f": 74,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 371,
+        "j": 947,
+        "f": 1660
+      },
+      "max_income": 301823.0,
+      "income": 298804.77287840843,
+      "fuel": 14052.738144493102,
+      "co2": 60261.75065892338,
+      "acheck_cost": 14375.3,
+      "repair_cost": 1617.2212725,
+      "profit": 265743.92482569243,
+      "ci": 200,
+      "contribution": 6.060417652130127
+    }
+  },
+  {
+    "airport": {
+      "id": 1977,
+      "name": "Verona",
+      "fullname": "Verona Villafranca Airport",
+      "country": "Italy",
+      "continent": "Europe",
+      "iata": "VRN",
+      "icao": "LIPX",
+      "lat": 45.395699,
+      "lng": 10.8885,
+      "rwy": 10064,
+      "market": 57,
+      "hub_cost": 42000,
+      "rwy_codes": "04/22"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 606,
+          "j": 344,
+          "f": 91
+        },
+        "cargo_demand": {
+          "l": 303000,
+          "h": 344000
+        },
+        "direct_distance": 746.7293565848418
+      },
+      "warnings": [
+        "Reduced contribution (<1000km)"
+      ],
+      "valid": true,
+      "max_tpd": 0,
+      "needs_stopover": false,
+      "stopover": {
+        "exists": false
+      },
+      "flight_time": 0.7118827700614929,
+      "trips_per_day_per_ac": 2,
+      "num_ac": 1,
+      "config": {
+        "y": 119,
+        "j": 173,
+        "f": 45,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 409,
+        "j": 1021,
+        "f": 1770
+      },
+      "max_income": 304954.0,
+      "income": 301904.462908268,
+      "fuel": 16622.209970912932,
+      "co2": 71306.21761371434,
+      "acheck_cost": 14375.3,
+      "repair_cost": 1617.2212725,
+      "profit": 265719.6485424832,
+      "ci": 200,
+      "contribution": 7.168601989746094
+    }
+  },
+  {
+    "airport": {
+      "id": 1803,
+      "name": "Alava",
+      "fullname": "Vitoria/Foronda Airport",
+      "country": "Spain",
+      "continent": "Europe",
+      "iata": "VIT",
+      "icao": "LEVT",
+      "lat": 42.8828010559082,
+      "lng": -2.7244699001312256,
+      "rwy": 11483,
+      "market": 33,
+      "hub_cost": 48000,
+      "rwy_codes": "04/22"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 931,
+          "j": 151,
+          "f": 121
+        },
+        "cargo_demand": {
+          "l": 466000,
+          "h": 151000
+        },
+        "direct_distance": 793.8403654980605
+      },
+      "warnings": [
+        "Reduced contribution (<1000km)"
+      ],
+      "valid": true,
+      "max_tpd": 0,
+      "needs_stopover": false,
+      "stopover": {
+        "exists": false
+      },
+      "flight_time": 0.7567952871322632,
+      "trips_per_day_per_ac": 2,
+      "num_ac": 1,
+      "config": {
+        "y": 265,
+        "j": 76,
+        "f": 61,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 424,
+        "j": 1052,
+        "f": 1815
+      },
+      "max_income": 303027.0,
+      "income": 299996.73288989067,
+      "fuel": 17671.101181697846,
+      "co2": 75849.50231361687,
+      "acheck_cost": 14375.3,
+      "repair_cost": 1617.2212725,
+      "profit": 262532.50051256816,
+      "ci": 200,
+      "contribution": 7.620867729187012
+    }
+  },
+  {
+    "airport": {
+      "id": 536,
+      "name": "Manchester",
+      "fullname": "Manchester Airport",
+      "country": "United Kingdom",
+      "continent": "Europe",
+      "iata": "MAN",
+      "icao": "EGCC",
+      "lat": 53.35369873046875,
+      "lng": -2.2749500274658203,
+      "rwy": 10000,
+      "market": 44,
+      "hub_cost": 54000,
+      "rwy_codes": "05L/23R"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 424,
+          "j": 463,
+          "f": 180
+        },
+        "cargo_demand": {
+          "l": 212000,
+          "h": 463000
+        },
+        "direct_distance": 587.9957805138246
+      },
+      "warnings": [
+        "Reduced contribution (<1000km)"
+      ],
+      "valid": true,
+      "max_tpd": 0,
+      "needs_stopover": false,
+      "stopover": {
+        "exists": false
+      },
+      "flight_time": 0.5605565905570984,
+      "trips_per_day_per_ac": 2,
+      "num_ac": 1,
+      "config": {
+        "y": 0,
+        "j": 165,
+        "f": 90,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 357,
+        "j": 919,
+        "f": 1618
+      },
+      "max_income": 297255.0,
+      "income": 294282.4528348446,
+      "fuel": 13088.88013458252,
+      "co2": 56138.51875090599,
+      "acheck_cost": 14375.3,
+      "repair_cost": 1617.2212725,
+      "profit": 262391.0932180281,
+      "ci": 200,
+      "contribution": 5.644759178161621
+    }
+  },
+  {
+    "airport": {
+      "id": 462,
+      "name": "Leipzig",
+      "fullname": "Leipzig/Halle Airport",
+      "country": "Germany",
+      "continent": "Europe",
+      "iata": "LEJ",
+      "icao": "EDDP",
+      "lat": 51.423889,
+      "lng": 12.236389,
+      "rwy": 11811,
+      "market": 43,
+      "hub_cost": 54000,
+      "rwy_codes": "08L/26R"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 864,
+          "j": 315,
+          "f": 86
+        },
+        "cargo_demand": {
+          "l": 432000,
+          "h": 315000
+        },
+        "direct_distance": 738.7890159231144
+      },
+      "warnings": [
+        "Reduced contribution (<1000km)"
+      ],
+      "valid": true,
+      "max_tpd": 0,
+      "needs_stopover": false,
+      "stopover": {
+        "exists": false
+      },
+      "flight_time": 0.7043129205703735,
+      "trips_per_day_per_ac": 2,
+      "num_ac": 1,
+      "config": {
+        "y": 153,
+        "j": 159,
+        "f": 43,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 406,
+        "j": 1016,
+        "f": 1762
+      },
+      "max_income": 299428.0,
+      "income": 296433.72285556793,
+      "fuel": 16445.46556909561,
+      "co2": 70569.60003058135,
+      "acheck_cost": 14375.3,
+      "repair_cost": 1617.2212725,
+      "profit": 260461.02368103125,
+      "ci": 200,
+      "contribution": 7.092374324798584
+    }
+  },
+  {
+    "airport": {
+      "id": 1960,
+      "name": "Milan Malpensa",
+      "fullname": "Malpensa International Airport",
+      "country": "Italy",
+      "continent": "Europe",
+      "iata": "MXP",
+      "icao": "LIMC",
+      "lat": 45.6306,
+      "lng": 8.72811,
+      "rwy": 12861,
+      "market": 56,
+      "hub_cost": 42000,
+      "rwy_codes": "17L/35R"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 579,
+          "j": 336,
+          "f": 158
+        },
+        "cargo_demand": {
+          "l": 290000,
+          "h": 336000
+        },
+        "direct_distance": 598.2510679661004
+      },
+      "warnings": [
+        "Reduced contribution (<1000km)"
+      ],
+      "valid": true,
+      "max_tpd": 0,
+      "needs_stopover": false,
+      "stopover": {
+        "exists": false
+      },
+      "flight_time": 0.5703332424163818,
+      "trips_per_day_per_ac": 2,
+      "num_ac": 1,
+      "config": {
+        "y": 25,
+        "j": 169,
+        "f": 79,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 360,
+        "j": 925,
+        "f": 1628
+      },
+      "max_income": 293937.0,
+      "income": 290997.6328032017,
+      "fuel": 13317.267736930848,
+      "co2": 57131.62912911058,
+      "acheck_cost": 14375.3,
+      "repair_cost": 1617.2212725,
+      "profit": 258827.2286193568,
+      "ci": 200,
+      "contribution": 5.7432098388671875
+    }
+  },
+  {
+    "airport": {
+      "id": 476,
+      "name": "Memmingen",
+      "fullname": "Memmingen Allgau Airport",
+      "country": "Germany",
+      "continent": "Europe",
+      "iata": "FMM",
+      "icao": "EDJA",
+      "lat": 47.988800048799995,
+      "lng": 10.2395000458,
+      "rwy": 9780,
+      "market": 77,
+      "hub_cost": 54000,
+      "rwy_codes": "06/24"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 887,
+          "j": 282,
+          "f": 189
+        },
+        "cargo_demand": {
+          "l": 444000,
+          "h": 282000
+        },
+        "direct_distance": 577.6122356956548
+      },
+      "warnings": [
+        "Reduced contribution (<1000km)"
+      ],
+      "valid": true,
+      "max_tpd": 0,
+      "needs_stopover": false,
+      "stopover": {
+        "exists": false
+      },
+      "flight_time": 0.5506575703620911,
+      "trips_per_day_per_ac": 2,
+      "num_ac": 1,
+      "config": {
+        "y": 31,
+        "j": 142,
+        "f": 95,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 353,
+        "j": 912,
+        "f": 1609
+      },
+      "max_income": 293302.0,
+      "income": 290368.98279714584,
+      "fuel": 12857.821332206726,
+      "co2": 55165.003572956324,
+      "acheck_cost": 14375.3,
+      "repair_cost": 1617.2212725,
+      "profit": 258756.1861633464,
+      "ci": 200,
+      "contribution": 5.545077323913574
+    }
+  },
+  {
+    "airport": {
+      "id": 1962,
+      "name": "Torino",
+      "fullname": "Turin Airport",
+      "country": "Italy",
+      "continent": "Europe",
+      "iata": "TRN",
+      "icao": "LIMF",
+      "lat": 45.200802,
+      "lng": 7.64963,
+      "rwy": 10827,
+      "market": 36,
+      "hub_cost": 42000,
+      "rwy_codes": "18/36"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 385,
+          "j": 370,
+          "f": 150
+        },
+        "cargo_demand": {
+          "l": 193000,
+          "h": 370000
+        },
+        "direct_distance": 573.0031024817332
+      },
+      "warnings": [
+        "Reduced contribution (<1000km)"
+      ],
+      "valid": true,
+      "max_tpd": 0,
+      "needs_stopover": false,
+      "stopover": {
+        "exists": false
+      },
+      "flight_time": 0.5462635159492493,
+      "trips_per_day_per_ac": 2,
+      "num_ac": 1,
+      "config": {
+        "y": 3,
+        "j": 186,
+        "f": 75,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 352,
+        "j": 909,
+        "f": 1604
+      },
+      "max_income": 290430.0,
+      "income": 287525.7027697563,
+      "fuel": 12755.202731151581,
+      "co2": 54722.8691827494,
+      "acheck_cost": 14375.3,
+      "repair_cost": 1617.2212725,
+      "profit": 256037.79528352024,
+      "ci": 200,
+      "contribution": 5.500829696655273
+    }
+  },
+  {
+    "airport": {
+      "id": 1818,
+      "name": "Toulouse/Blagnac",
+      "fullname": "Toulouse-Blagnac Airport",
+      "country": "France",
+      "continent": "Europe",
+      "iata": "TLS",
+      "icao": "LFBO",
+      "lat": 43.629101,
+      "lng": 1.36382,
+      "rwy": 11483,
+      "market": 44,
+      "hub_cost": 48000,
+      "rwy_codes": "14L/32R"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 895,
+          "j": 203,
+          "f": 183
+        },
+        "cargo_demand": {
+          "l": 448000,
+          "h": 203000
+        },
+        "direct_distance": 605.5086585177058
+      },
+      "warnings": [
+        "Reduced contribution (<1000km)"
+      ],
+      "valid": true,
+      "max_tpd": 0,
+      "needs_stopover": false,
+      "stopover": {
+        "exists": false
+      },
+      "flight_time": 0.577252209186554,
+      "trips_per_day_per_ac": 2,
+      "num_ac": 1,
+      "config": {
+        "y": 120,
+        "j": 102,
+        "f": 92,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 362,
+        "j": 930,
+        "f": 1635
+      },
+      "max_income": 288720.0,
+      "income": 285832.8027534485,
+      "fuel": 13478.652738590241,
+      "co2": 57861.66911370934,
+      "acheck_cost": 14375.3,
+      "repair_cost": 1617.2212725,
+      "profit": 253461.8242702902,
+      "ci": 200,
+      "contribution": 5.812882900238037
+    }
+  },
+  {
+    "airport": {
+      "id": 1861,
+      "name": "Nice",
+      "fullname": "Nice-Côte d'Azur Airport",
+      "country": "France",
+      "continent": "Europe",
+      "iata": "NCE",
+      "icao": "LFMN",
+      "lat": 43.6584014893,
+      "lng": 7.215869903560001,
+      "rwy": 9712,
+      "market": 33,
+      "hub_cost": 48000,
+      "rwy_codes": "04L/22R"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 612,
+          "j": 211,
+          "f": 125
+        },
+        "cargo_demand": {
+          "l": 306000,
+          "h": 211000
+        },
+        "direct_distance": 694.5188488423612
+      },
+      "warnings": [
+        "Reduced contribution (<1000km)"
+      ],
+      "valid": true,
+      "max_tpd": 0,
+      "needs_stopover": false,
+      "stopover": {
+        "exists": false
+      },
+      "flight_time": 0.6621086597442627,
+      "trips_per_day_per_ac": 2,
+      "num_ac": 1,
+      "config": {
+        "y": 199,
+        "j": 106,
+        "f": 63,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 392,
+        "j": 988,
+        "f": 1720
+      },
+      "max_income": 291096.0,
+      "income": 288185.0427761078,
+      "fuel": 15460.015358963012,
+      "co2": 66375.17932462454,
+      "acheck_cost": 14375.3,
+      "repair_cost": 1617.2212725,
+      "profit": 253405.48923337873,
+      "ci": 200,
+      "contribution": 6.6673808097839355
+    }
+  },
+  {
+    "airport": {
+      "id": 1860,
+      "name": "Marseille",
+      "fullname": "Marseille Provence Airport",
+      "country": "France",
+      "continent": "Europe",
+      "iata": "MRS",
+      "icao": "LFML",
+      "lat": 43.439271922,
+      "lng": 5.22142410278,
+      "rwy": 11483,
+      "market": 51,
+      "hub_cost": 48000,
+      "rwy_codes": "13L/31R"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 601,
+          "j": 337,
+          "f": 86
+        },
+        "cargo_demand": {
+          "l": 301000,
+          "h": 337000
+        },
+        "direct_distance": 652.8189452394905
+      },
+      "warnings": [
+        "Reduced contribution (<1000km)"
+      ],
+      "valid": true,
+      "max_tpd": 0,
+      "needs_stopover": false,
+      "stopover": {
+        "exists": false
+      },
+      "flight_time": 0.6223547458648682,
+      "trips_per_day_per_ac": 2,
+      "num_ac": 1,
+      "config": {
+        "y": 131,
+        "j": 170,
+        "f": 43,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 378,
+        "j": 961,
+        "f": 1680
+      },
+      "max_income": 285128.0,
+      "income": 282276.7227191925,
+      "fuel": 14531.773349418641,
+      "co2": 62388.011413208245,
+      "acheck_cost": 14375.3,
+      "repair_cost": 1617.2212725,
+      "profit": 248625.39873251447,
+      "ci": 200,
+      "contribution": 6.267062187194824
+    }
+  },
+  {
+    "airport": {
+      "id": 455,
+      "name": "Frankfurt intl",
+      "fullname": "Frankfurt am Main Airport",
+      "country": "Germany",
+      "continent": "Europe",
+      "iata": "FRA",
+      "icao": "EDDF",
+      "lat": 50.033333,
+      "lng": 8.570556,
+      "rwy": 13123,
+      "market": 63,
+      "hub_cost": 237000,
+      "rwy_codes": "07C/25|07R/25L"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 1609,
+          "j": 209,
+          "f": 253
+        },
+        "cargo_demand": {
+          "l": 805000,
+          "h": 209000
+        },
+        "direct_distance": 449.00284704500865
+      },
+      "warnings": [
+        "Reduced contribution (<1000km)"
+      ],
+      "valid": true,
+      "max_tpd": 0,
+      "needs_stopover": false,
+      "stopover": {
+        "exists": false
+      },
+      "flight_time": 0.42804983258247375,
+      "trips_per_day_per_ac": 2,
+      "num_ac": 1,
+      "config": {
+        "y": 9,
+        "j": 105,
+        "f": 127,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 311,
+        "j": 828,
+        "f": 1486
+      },
+      "max_income": 278461.0,
+      "income": 275676.39265561104,
+      "fuel": 9994.962702770234,
+      "co2": 42914.90944616378,
+      "acheck_cost": 14375.3,
+      "repair_cost": 1617.2212725,
+      "profit": 247537.60835763224,
+      "ci": 200,
+      "contribution": 4.310427188873291
+    }
+  },
+  {
+    "airport": {
+      "id": 1811,
+      "name": "Bordeaux/Mérignac",
+      "fullname": "Bordeaux-Mérignac Airport",
+      "country": "France",
+      "continent": "Europe",
+      "iata": "BOD",
+      "icao": "LFBD",
+      "lat": 44.828300476100004,
+      "lng": -0.715556025505,
+      "rwy": 10171,
+      "market": 62,
+      "hub_cost": 48000,
+      "rwy_codes": "05/23"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 278,
+          "j": 427,
+          "f": 123
+        },
+        "cargo_demand": {
+          "l": 139000,
+          "h": 427000
+        },
+        "direct_distance": 527.1418851382803
+      },
+      "warnings": [
+        "Reduced contribution (<1000km)"
+      ],
+      "valid": true,
+      "max_tpd": 0,
+      "needs_stopover": false,
+      "stopover": {
+        "exists": false
+      },
+      "flight_time": 0.5025424957275391,
+      "trips_per_day_per_ac": 2,
+      "num_ac": 1,
+      "config": {
+        "y": 0,
+        "j": 207,
+        "f": 62,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 336,
+        "j": 879,
+        "f": 1560
+      },
+      "max_income": 278673.0,
+      "income": 275886.2726576328,
+      "fuel": 11734.359120655059,
+      "co2": 50369.33488017022,
+      "acheck_cost": 14375.3,
+      "repair_cost": 1617.2212725,
+      "profit": 245635.37981505386,
+      "ci": 200,
+      "contribution": 5.0605621337890625
+    }
+  },
+  {
+    "airport": {
+      "id": 599,
+      "name": "Amsterdam",
+      "fullname": "Amsterdam Airport Schiphol",
+      "country": "Netherlands",
+      "continent": "Europe",
+      "iata": "AMS",
+      "icao": "EHAM",
+      "lat": 52.308601,
+      "lng": 4.76389,
+      "rwy": 12467,
+      "market": 47,
+      "hub_cost": 237000,
+      "rwy_codes": "04/22|09/27|18L/36R"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 971,
+          "j": 284,
+          "f": 276
+        },
+        "cargo_demand": {
+          "l": 486000,
+          "h": 284000
+        },
+        "direct_distance": 398.26978308829587
+      },
+      "warnings": [
+        "Reduced contribution (<1000km)"
+      ],
+      "valid": true,
+      "max_tpd": 0,
+      "needs_stopover": false,
+      "stopover": {
+        "exists": false
+      },
+      "flight_time": 0.3796842396259308,
+      "trips_per_day_per_ac": 2,
+      "num_ac": 1,
+      "config": {
+        "y": 1,
+        "j": 91,
+        "f": 139,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 294,
+        "j": 796,
+        "f": 1437
+      },
+      "max_income": 272473.0,
+      "income": 269748.272598505,
+      "fuel": 8865.490291156768,
+      "co2": 38082.57995395124,
+      "acheck_cost": 14375.3,
+      "repair_cost": 1617.2212725,
+      "profit": 242979.99852772112,
+      "ci": 200,
+      "contribution": 3.823390007019043
+    }
+  },
+  {
+    "airport": {
+      "id": 464,
+      "name": "Stuttgart",
+      "fullname": "Stuttgart Airport",
+      "country": "Germany",
+      "continent": "Europe",
+      "iata": "STR",
+      "icao": "EDDS",
+      "lat": 48.689899444599995,
+      "lng": 9.22196006775,
+      "rwy": 10974,
+      "market": 46,
+      "hub_cost": 54000,
+      "rwy_codes": "07/25"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 340,
+          "j": 402,
+          "f": 144
+        },
+        "cargo_demand": {
+          "l": 170000,
+          "h": 402000
+        },
+        "direct_distance": 489.3327860409584
+      },
+      "warnings": [
+        "Reduced contribution (<1000km)"
+      ],
+      "valid": true,
+      "max_tpd": 0,
+      "needs_stopover": false,
+      "stopover": {
+        "exists": false
+      },
+      "flight_time": 0.4664977490901947,
+      "trips_per_day_per_ac": 2,
+      "num_ac": 1,
+      "config": {
+        "y": 0,
+        "j": 192,
+        "f": 72,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 324,
+        "j": 855,
+        "f": 1524
+      },
+      "max_income": 273888.0,
+      "income": 271149.1226119995,
+      "fuel": 10892.708512001038,
+      "co2": 46770.87256049037,
+      "acheck_cost": 14375.3,
+      "repair_cost": 1617.2212725,
+      "profit": 241919.20067383995,
+      "ci": 200,
+      "contribution": 4.69759464263916
+    }
+  },
+  {
+    "airport": {
+      "id": 1851,
+      "name": "Grenoble/Saint-Geoirs",
+      "fullname": "Grenoble-Isère Airport",
+      "country": "France",
+      "continent": "Europe",
+      "iata": "GNB",
+      "icao": "LFLS",
+      "lat": 45.36289978027344,
+      "lng": 5.329370021820068,
+      "rwy": 10007,
+      "market": 78,
+      "hub_cost": 48000,
+      "rwy_codes": "09/27"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 438,
+          "j": 344,
+          "f": 158
+        },
+        "cargo_demand": {
+          "l": 219000,
+          "h": 344000
+        },
+        "direct_distance": 456.89769654653344
+      },
+      "warnings": [
+        "Reduced contribution (<1000km)"
+      ],
+      "valid": true,
+      "max_tpd": 0,
+      "needs_stopover": false,
+      "stopover": {
+        "exists": false
+      },
+      "flight_time": 0.43557626008987427,
+      "trips_per_day_per_ac": 2,
+      "num_ac": 1,
+      "config": {
+        "y": 17,
+        "j": 173,
+        "f": 79,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 313,
+        "j": 834,
+        "f": 1493
+      },
+      "max_income": 267550.0,
+      "income": 264874.50255155563,
+      "fuel": 10170.59410457611,
+      "co2": 43692.77502940297,
+      "acheck_cost": 14375.3,
+      "repair_cost": 1617.2212725,
+      "profit": 236519.43240232402,
+      "ci": 200,
+      "contribution": 4.386218070983887
+    }
+  },
+  {
+    "airport": {
+      "id": 2059,
+      "name": "Zurich",
+      "fullname": "Zürich Airport",
+      "country": "Switzerland",
+      "continent": "Europe",
+      "iata": "ZRH",
+      "icao": "LSZH",
+      "lat": 47.464699,
+      "lng": 8.54917,
+      "rwy": 12139,
+      "market": 30,
+      "hub_cost": 42000,
+      "rwy_codes": "10/28|16/34"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 432,
+          "j": 466,
+          "f": 100
+        },
+        "cargo_demand": {
+          "l": 216000,
+          "h": 466000
+        },
+        "direct_distance": 476.3092237878406
+      },
+      "warnings": [
+        "Reduced contribution (<1000km)"
+      ],
+      "valid": true,
+      "max_tpd": 0,
+      "needs_stopover": false,
+      "stopover": {
+        "exists": false
+      },
+      "flight_time": 0.4540819525718689,
+      "trips_per_day_per_ac": 2,
+      "num_ac": 1,
+      "config": {
+        "y": 0,
+        "j": 225,
+        "f": 50,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 320,
+        "j": 846,
+        "f": 1512
+      },
+      "max_income": 265950.0,
+      "income": 263290.50253629684,
+      "fuel": 10602.660709018708,
+      "co2": 45543.50138817012,
+      "acheck_cost": 14375.3,
+      "repair_cost": 1617.2212725,
+      "profit": 234410.89860090337,
+      "ci": 200,
+      "contribution": 4.572568416595459
+    }
+  },
+  {
+    "airport": {
+      "id": 595,
+      "name": "London Stansted",
+      "fullname": "London Stansted Airport",
+      "country": "United Kingdom",
+      "continent": "Europe",
+      "iata": "STN",
+      "icao": "EGSS",
+      "lat": 51.8849983215,
+      "lng": 0.234999999404,
+      "rwy": 10003,
+      "market": 62,
+      "hub_cost": 54000,
+      "rwy_codes": "04/22"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 676,
+          "j": 165,
+          "f": 275
+        },
+        "cargo_demand": {
+          "l": 338000,
+          "h": 165000
+        },
+        "direct_distance": 358.9360004135951
+      },
+      "warnings": [
+        "Reduced contribution (<1000km)"
+      ],
+      "valid": true,
+      "max_tpd": 0,
+      "needs_stopover": false,
+      "stopover": {
+        "exists": false
+      },
+      "flight_time": 0.34218600392341614,
+      "trips_per_day_per_ac": 2,
+      "num_ac": 1,
+      "config": {
+        "y": 20,
+        "j": 83,
+        "f": 138,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 281,
+        "j": 770,
+        "f": 1400
+      },
+      "max_income": 262730.0,
+      "income": 260102.70250558853,
+      "fuel": 7990.004482154846,
+      "co2": 34354.65683750033,
+      "acheck_cost": 14375.3,
+      "repair_cost": 1617.2212725,
+      "profit": 234394.6192750801,
+      "ci": 200,
+      "contribution": 3.4457855224609375
+    }
+  },
+  {
+    "airport": {
+      "id": 487,
+      "name": "Baden-Baden",
+      "fullname": "Karlsruhe Baden-Baden Airport",
+      "country": "Germany",
+      "continent": "Europe",
+      "iata": "FKB",
+      "icao": "EDSB",
+      "lat": 48.7793998718,
+      "lng": 8.08049964905,
+      "rwy": 9787,
+      "market": 37,
+      "hub_cost": 54000,
+      "rwy_codes": "03/21"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 614,
+          "j": 386,
+          "f": 137
+        },
+        "cargo_demand": {
+          "l": 307000,
+          "h": 386000
+        },
+        "direct_distance": 405.03512394190784
+      },
+      "warnings": [
+        "Reduced contribution (<1000km)"
+      ],
+      "valid": true,
+      "max_tpd": 0,
+      "needs_stopover": false,
+      "stopover": {
+        "exists": false
+      },
+      "flight_time": 0.3861338794231415,
+      "trips_per_day_per_ac": 2,
+      "num_ac": 1,
+      "config": {
+        "y": 5,
+        "j": 194,
+        "f": 69,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 296,
+        "j": 800,
+        "f": 1444
+      },
+      "max_income": 256316.0,
+      "income": 253752.84244441986,
+      "fuel": 9016.190492706299,
+      "co2": 38763.00073956967,
+      "acheck_cost": 14375.3,
+      "repair_cost": 1617.2212725,
+      "profit": 226797.42773827713,
+      "ci": 200,
+      "contribution": 3.8883371353149414
+    }
+  },
+  {
+    "airport": {
+      "id": 606,
+      "name": "Enschede",
+      "fullname": "Twente Airport",
+      "country": "Netherlands",
+      "continent": "Europe",
+      "iata": "ENS",
+      "icao": "EHTW",
+      "lat": 52.275833,
+      "lng": 6.889167,
+      "rwy": 9801,
+      "market": 83,
+      "hub_cost": 42000,
+      "rwy_codes": "05/23"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 304,
+          "j": 266,
+          "f": 134
+        },
+        "cargo_demand": {
+          "l": 152000,
+          "h": 266000
+        },
+        "direct_distance": 474.4441640141206
+      },
+      "warnings": [
+        "Reduced contribution (<1000km)"
+      ],
+      "valid": true,
+      "max_tpd": 0,
+      "needs_stopover": false,
+      "stopover": {
+        "exists": false
+      },
+      "flight_time": 0.4523038864135742,
+      "trips_per_day_per_ac": 2,
+      "num_ac": 1,
+      "config": {
+        "y": 131,
+        "j": 134,
+        "f": 67,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 319,
+        "j": 845,
+        "f": 1510
+      },
+      "max_income": 256189.0,
+      "income": 253627.1124432087,
+      "fuel": 10561.257108592987,
+      "co2": 45423.72699212134,
+      "acheck_cost": 14375.3,
+      "repair_cost": 1617.2212725,
+      "profit": 224790.86395563904,
+      "ci": 200,
+      "contribution": 4.55466365814209
+    }
+  },
+  {
+    "airport": {
+      "id": 1847,
+      "name": "Lyon",
+      "fullname": "Lyon Saint-Exupéry Airport",
+      "country": "France",
+      "continent": "Europe",
+      "iata": "LYS",
+      "icao": "LFLL",
+      "lat": 45.725556,
+      "lng": 5.081111,
+      "rwy": 13124,
+      "market": 90,
+      "hub_cost": 48000,
+      "rwy_codes": "17L/35R"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 433,
+          "j": 447,
+          "f": 100
+        },
+        "cargo_demand": {
+          "l": 217000,
+          "h": 447000
+        },
+        "direct_distance": 412.182279516298
+      },
+      "warnings": [
+        "Reduced contribution (<1000km)"
+      ],
+      "valid": true,
+      "max_tpd": 0,
+      "needs_stopover": false,
+      "stopover": {
+        "exists": false
+      },
+      "flight_time": 0.3929475247859955,
+      "trips_per_day_per_ac": 2,
+      "num_ac": 1,
+      "config": {
+        "y": 0,
+        "j": 225,
+        "f": 50,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 299,
+        "j": 805,
+        "f": 1451
+      },
+      "max_income": 253675.0,
+      "income": 251138.25241923332,
+      "fuel": 9175.349494342803,
+      "co2": 39449.53672438085,
+      "acheck_cost": 14375.3,
+      "repair_cost": 1617.2212725,
+      "profit": 223989.04209376767,
+      "ci": 200,
+      "contribution": 3.9569499492645264
+    }
+  },
+  {
+    "airport": {
+      "id": 1886,
+      "name": "Brest/Guipavas",
+      "fullname": "Brest Bretagne Airport",
+      "country": "France",
+      "continent": "Europe",
+      "iata": "BES",
+      "icao": "LFRB",
+      "lat": 48.447898864746094,
+      "lng": -4.418540000915527,
+      "rwy": 10171,
+      "market": 81,
+      "hub_cost": 48000,
+      "rwy_codes": "07L/25R"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 766,
+          "j": 342,
+          "f": 60
+        },
+        "cargo_demand": {
+          "l": 383000,
+          "h": 342000
+        },
+        "direct_distance": 514.7632436190567
+      },
+      "warnings": [
+        "Reduced contribution (<1000km)"
+      ],
+      "valid": true,
+      "max_tpd": 0,
+      "needs_stopover": false,
+      "stopover": {
+        "exists": false
+      },
+      "flight_time": 0.49074146151542664,
+      "trips_per_day_per_ac": 2,
+      "num_ac": 1,
+      "config": {
+        "y": 166,
+        "j": 172,
+        "f": 30,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 332,
+        "j": 871,
+        "f": 1549
+      },
+      "max_income": 251394.0,
+      "income": 248880.06239748,
+      "fuel": 11458.780317821502,
+      "co2": 49291.739706469176,
+      "acheck_cost": 14375.3,
+      "repair_cost": 1617.2212725,
+      "profit": 218951.38613772867,
+      "ci": 200,
+      "contribution": 4.9417266845703125
+    }
+  },
+  {
+    "airport": {
+      "id": 489,
+      "name": "Lahr",
+      "fullname": "Lahr Airport",
+      "country": "Germany",
+      "continent": "Europe",
+      "iata": "LHA",
+      "icao": "EDTL",
+      "lat": 48.3693008423,
+      "lng": 7.82772016525,
+      "rwy": 9842,
+      "market": 53,
+      "hub_cost": 54000,
+      "rwy_codes": "03/21"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 510,
+          "j": 431,
+          "f": 96
+        },
+        "cargo_demand": {
+          "l": 255000,
+          "h": 431000
+        },
+        "direct_distance": 393.8615444721619
+      },
+      "warnings": [
+        "Reduced contribution (<1000km)"
+      ],
+      "valid": true,
+      "max_tpd": 0,
+      "needs_stopover": false,
+      "stopover": {
+        "exists": false
+      },
+      "flight_time": 0.3754817247390747,
+      "trips_per_day_per_ac": 2,
+      "num_ac": 1,
+      "config": {
+        "y": 22,
+        "j": 217,
+        "f": 48,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 292,
+        "j": 793,
+        "f": 1433
+      },
+      "max_income": 247289.0,
+      "income": 244816.11235833168,
+      "fuel": 8767.546290149689,
+      "co2": 37720.4039632982,
+      "acheck_cost": 14375.3,
+      "repair_cost": 1617.2212725,
+      "profit": 218159.8602071311,
+      "ci": 200,
+      "contribution": 3.7810707092285156
+    }
+  },
+  {
+    "airport": {
+      "id": 1904,
+      "name": "Bâle/Mulhouse",
+      "fullname": "EuroAirport Basel-Mulhouse-Freiburg Airport",
+      "country": "France",
+      "continent": "Europe",
+      "iata": "BSL",
+      "icao": "LFSB",
+      "lat": 47.59,
+      "lng": 7.5291667,
+      "rwy": 12795,
+      "market": 74,
+      "hub_cost": 48000,
+      "rwy_codes": "08/26"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 566,
+          "j": 319,
+          "f": 131
+        },
+        "cargo_demand": {
+          "l": 283000,
+          "h": 319000
+        },
+        "direct_distance": 400.7415241436979
+      },
+      "warnings": [
+        "Reduced contribution (<1000km)"
+      ],
+      "valid": true,
+      "max_tpd": 0,
+      "needs_stopover": false,
+      "stopover": {
+        "exists": false
+      },
+      "flight_time": 0.3820406496524811,
+      "trips_per_day_per_ac": 2,
+      "num_ac": 1,
+      "config": {
+        "y": 80,
+        "j": 161,
+        "f": 66,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 295,
+        "j": 797,
+        "f": 1440
+      },
+      "max_income": 246957.0,
+      "income": 244487.43235516548,
+      "fuel": 8920.695091724396,
+      "co2": 38394.27914868295,
+      "acheck_cost": 14375.3,
+      "repair_cost": 1617.2212725,
+      "profit": 217643.1110206165,
+      "ci": 200,
+      "contribution": 3.847118377685547
+    }
+  },
+  {
+    "airport": {
+      "id": 532,
+      "name": "Birmingham",
+      "fullname": "Birmingham International Airport",
+      "country": "United Kingdom",
+      "continent": "Europe",
+      "iata": "BHX",
+      "icao": "EGBB",
+      "lat": 52.453899383499994,
+      "lng": -1.74802994728,
+      "rwy": 10013,
+      "market": 86,
+      "hub_cost": 54000,
+      "rwy_codes": "15/33"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 653,
+          "j": 409,
+          "f": 44
+        },
+        "cargo_demand": {
+          "l": 327000,
+          "h": 409000
+        },
+        "direct_distance": 487.5768998000356
+      },
+      "warnings": [
+        "Reduced contribution (<1000km)"
+      ],
+      "valid": true,
+      "max_tpd": 0,
+      "needs_stopover": false,
+      "stopover": {
+        "exists": false
+      },
+      "flight_time": 0.46482381224632263,
+      "trips_per_day_per_ac": 2,
+      "num_ac": 1,
+      "config": {
+        "y": 122,
+        "j": 206,
+        "f": 22,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 323,
+        "j": 853,
+        "f": 1523
+      },
+      "max_income": 248630.0,
+      "income": 246143.70237112045,
+      "fuel": 10853.530911598205,
+      "co2": 46689.60216422915,
+      "acheck_cost": 14375.3,
+      "repair_cost": 1617.2212725,
+      "profit": 216950.95720079425,
+      "ci": 200,
+      "contribution": 4.68073844909668
+    }
+  },
+  {
+    "airport": {
+      "id": 559,
+      "name": "London Gatwick",
+      "fullname": "London Gatwick Airport",
+      "country": "United Kingdom",
+      "continent": "Europe",
+      "iata": "LGW",
+      "icao": "EGKK",
+      "lat": 51.148102,
+      "lng": -0.190278,
+      "rwy": 10364,
+      "market": 35,
+      "hub_cost": 237000,
+      "rwy_codes": "08L/26R"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 697,
+          "j": 650,
+          "f": 168
+        },
+        "cargo_demand": {
+          "l": 349000,
+          "h": 650000
+        },
+        "direct_distance": 307.53977538291554
+      },
+      "warnings": [
+        "Reduced contribution (<1000km)"
+      ],
+      "valid": true,
+      "max_tpd": 0,
+      "needs_stopover": false,
+      "stopover": {
+        "exists": false
+      },
+      "flight_time": 0.293188214302063,
+      "trips_per_day_per_ac": 2,
+      "num_ac": 1,
+      "config": {
+        "y": 0,
+        "j": 174,
+        "f": 84,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 264,
+        "j": 737,
+        "f": 1351
+      },
+      "max_income": 241722.0,
+      "income": 239304.78230524063,
+      "fuel": 6845.840470390321,
+      "co2": 29486.600946689847,
+      "acheck_cost": 14375.3,
+      "repair_cost": 1617.2212725,
+      "profit": 214981.78058986465,
+      "ci": 200,
+      "contribution": 2.9523816108703613
+    }
+  },
+  {
+    "airport": {
+      "id": 563,
+      "name": "London Heathrow intl",
+      "fullname": "London Heathrow Airport",
+      "country": "United Kingdom",
+      "continent": "Europe",
+      "iata": "LHR",
+      "icao": "EGLL",
+      "lat": 51.4706,
+      "lng": -0.461941,
+      "rwy": 12799,
+      "market": 49,
+      "hub_cost": 237000,
+      "rwy_codes": "09L/27R"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 906,
+          "j": 528,
+          "f": 95
+        },
+        "cargo_demand": {
+          "l": 453000,
+          "h": 528000
+        },
+        "direct_distance": 347.1675081044459
+      },
+      "warnings": [
+        "Reduced contribution (<1000km)"
+      ],
+      "valid": true,
+      "max_tpd": 0,
+      "needs_stopover": false,
+      "stopover": {
+        "exists": false
+      },
+      "flight_time": 0.3309667110443115,
+      "trips_per_day_per_ac": 2,
+      "num_ac": 1,
+      "config": {
+        "y": 1,
+        "j": 229,
+        "f": 47,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 277,
+        "j": 762,
+        "f": 1389
+      },
+      "max_income": 240058.0,
+      "income": 237657.4222893715,
+      "fuel": 7728.004279460907,
+      "co2": 33272.03606250346,
+      "acheck_cost": 14375.3,
+      "repair_cost": 1617.2212725,
+      "profit": 212262.65369374843,
+      "ci": 200,
+      "contribution": 3.332808017730713
+    }
+  },
+  {
+    "airport": {
+      "id": 469,
+      "name": "Frankfurt hahn",
+      "fullname": "Frankfurt-Hahn Airport",
+      "country": "Germany",
+      "continent": "Europe",
+      "iata": "HHN",
+      "icao": "EDFH",
+      "lat": 49.9487,
+      "lng": 7.26389,
+      "rwy": 12467,
+      "market": 86,
+      "hub_cost": 54000,
+      "rwy_codes": "03/21"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 269,
+          "j": 412,
+          "f": 101
+        },
+        "cargo_demand": {
+          "l": 135000,
+          "h": 412000
+        },
+        "direct_distance": 356.02346566992026
+      },
+      "warnings": [
+        "Reduced contribution (<1000km)"
+      ],
+      "valid": true,
+      "max_tpd": 0,
+      "needs_stopover": false,
+      "stopover": {
+        "exists": false
+      },
+      "flight_time": 0.33940938115119934,
+      "trips_per_day_per_ac": 2,
+      "num_ac": 1,
+      "config": {
+        "y": 31,
+        "j": 208,
+        "f": 51,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 280,
+        "j": 768,
+        "f": 1397
+      },
+      "max_income": 239671.0,
+      "income": 237274.29228568077,
+      "fuel": 7925.2278814887995,
+      "co2": 34127.09044368207,
+      "acheck_cost": 14375.3,
+      "repair_cost": 1617.2212725,
+      "profit": 211638.86064289676,
+      "ci": 200,
+      "contribution": 3.417825222015381
+    }
+  },
+  {
+    "airport": {
+      "id": 459,
+      "name": "Düsseldorf",
+      "fullname": "Düsseldorf Airport",
+      "country": "Germany",
+      "continent": "Europe",
+      "iata": "DUS",
+      "icao": "EDDL",
+      "lat": 51.289501,
+      "lng": 6.76678,
+      "rwy": 9842,
+      "market": 56,
+      "hub_cost": 54000,
+      "rwy_codes": "05L/23R"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 582,
+          "j": 338,
+          "f": 105
+        },
+        "cargo_demand": {
+          "l": 291000,
+          "h": 338000
+        },
+        "direct_distance": 392.770641580216
+      },
+      "warnings": [
+        "Reduced contribution (<1000km)"
+      ],
+      "valid": true,
+      "max_tpd": 0,
+      "needs_stopover": false,
+      "stopover": {
+        "exists": false
+      },
+      "flight_time": 0.3744417130947113,
+      "trips_per_day_per_ac": 2,
+      "num_ac": 1,
+      "config": {
+        "y": 101,
+        "j": 170,
+        "f": 53,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 292,
+        "j": 792,
+        "f": 1432
+      },
+      "max_income": 240028.0,
+      "income": 237627.7222890854,
+      "fuel": 8743.282889900207,
+      "co2": 37653.810365613695,
+      "acheck_cost": 14375.3,
+      "repair_cost": 1617.2212725,
+      "profit": 210996.44574978162,
+      "ci": 200,
+      "contribution": 3.7705979347229004
+    }
+  },
+  {
+    "airport": {
+      "id": 458,
+      "name": "Cologne",
+      "fullname": "Cologne Bonn Airport",
+      "country": "Germany",
+      "continent": "Europe",
+      "iata": "CGN",
+      "icao": "EDDK",
+      "lat": 50.8658981323,
+      "lng": 7.1427397728,
+      "rwy": 12516,
+      "market": 55,
+      "hub_cost": 54000,
+      "rwy_codes": "06/24|14R/32L"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 828,
+          "j": 162,
+          "f": 155
+        },
+        "cargo_demand": {
+          "l": 414000,
+          "h": 162000
+        },
+        "direct_distance": 387.8211658391136
+      },
+      "warnings": [
+        "Reduced contribution (<1000km)"
+      ],
+      "valid": true,
+      "max_tpd": 0,
+      "needs_stopover": false,
+      "stopover": {
+        "exists": false
+      },
+      "flight_time": 0.36972323060035706,
+      "trips_per_day_per_ac": 2,
+      "num_ac": 1,
+      "config": {
+        "y": 204,
+        "j": 81,
+        "f": 78,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 290,
+        "j": 789,
+        "f": 1427
+      },
+      "max_income": 234375.0,
+      "income": 232031.25223517418,
+      "fuel": 8633.095888767242,
+      "co2": 37222.36237612903,
+      "acheck_cost": 14375.3,
+      "repair_cost": 1617.2212725,
+      "profit": 205528.88035540163,
+      "ci": 200,
+      "contribution": 3.723083019256592
+    }
+  },
+  {
+    "airport": {
+      "id": 442,
+      "name": "Brussels intl",
+      "fullname": "Brussels Airport",
+      "country": "Belgium",
+      "continent": "Europe",
+      "iata": "BRU",
+      "icao": "EBBR",
+      "lat": 50.901401519800004,
+      "lng": 4.48443984985,
+      "rwy": 11936,
+      "market": 52,
+      "hub_cost": 213300,
+      "rwy_codes": "01/19|07R/25L"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 1218,
+          "j": 700,
+          "f": 143
+        },
+        "cargo_demand": {
+          "l": 609000,
+          "h": 700000
+        },
+        "direct_distance": 251.47977718283022
+      },
+      "warnings": [
+        "Reduced contribution (<1000km)"
+      ],
+      "valid": true,
+      "max_tpd": 0,
+      "needs_stopover": false,
+      "stopover": {
+        "exists": false
+      },
+      "flight_time": 0.23974430561065674,
+      "trips_per_day_per_ac": 2,
+      "num_ac": 1,
+      "config": {
+        "y": 0,
+        "j": 192,
+        "f": 72,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 245,
+        "j": 700,
+        "f": 1297
+      },
+      "max_income": 227784.0,
+      "income": 225506.1621723175,
+      "fuel": 5597.944857559204,
+      "co2": 24164.658665778636,
+      "acheck_cost": 14375.3,
+      "repair_cost": 1617.2212725,
+      "profit": 202695.32045963264,
+      "ci": 200,
+      "contribution": 2.414206027984619
+    }
+  },
+  {
+    "airport": {
+      "id": 1855,
+      "name": "Châteauroux/Déols",
+      "fullname": "Châteauroux-Déols Marcel Dassault Airport",
+      "country": "France",
+      "continent": "Europe",
+      "iata": "CHR",
+      "icao": "LFLX",
+      "lat": 46.860278,
+      "lng": 1.721111,
+      "rwy": 11483,
+      "market": 66,
+      "hub_cost": 48000,
+      "rwy_codes": "04/22"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 405,
+          "j": 536,
+          "f": 146
+        },
+        "cargo_demand": {
+          "l": 203000,
+          "h": 536000
+        },
+        "direct_distance": 247.18175460482254
+      },
+      "warnings": [
+        "Reduced contribution (<1000km)"
+      ],
+      "valid": true,
+      "max_tpd": 0,
+      "needs_stopover": false,
+      "stopover": {
+        "exists": false
+      },
+      "flight_time": 0.23564684391021729,
+      "trips_per_day_per_ac": 2,
+      "num_ac": 1,
+      "config": {
+        "y": 1,
+        "j": 190,
+        "f": 73,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 244,
+        "j": 698,
+        "f": 1293
+      },
+      "max_income": 227253.0,
+      "income": 224980.4721672535,
+      "fuel": 5502.449456577301,
+      "co2": 23756.937074891925,
+      "acheck_cost": 14375.3,
+      "repair_cost": 1617.2212725,
+      "profit": 202285.40382616236,
+      "ci": 200,
+      "contribution": 2.3729448318481445
+    }
+  },
+  {
+    "airport": {
+      "id": 632,
+      "name": "Luxembourg",
+      "fullname": "Luxembourg-Findel International Airport",
+      "country": "Luxembourg",
+      "continent": "Europe",
+      "iata": "LUX",
+      "icao": "ELLX",
+      "lat": 49.6233333,
+      "lng": 6.2044444,
+      "rwy": 13123,
+      "market": 55,
+      "hub_cost": 237000,
+      "rwy_codes": "06/24"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 902,
+          "j": 609,
+          "f": 106
+        },
+        "cargo_demand": {
+          "l": 451000,
+          "h": 609000
+        },
+        "direct_distance": 273.41686657503567
+      },
+      "warnings": [
+        "Reduced contribution (<1000km)"
+      ],
+      "valid": true,
+      "max_tpd": 0,
+      "needs_stopover": false,
+      "stopover": {
+        "exists": false
+      },
+      "flight_time": 0.2606576979160309,
+      "trips_per_day_per_ac": 2,
+      "num_ac": 1,
+      "config": {
+        "y": 1,
+        "j": 220,
+        "f": 53,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 253,
+        "j": 715,
+        "f": 1318
+      },
+      "max_income": 227407.0,
+      "income": 225132.93216872215,
+      "fuel": 6086.329262580872,
+      "co2": 26259.836219171284,
+      "acheck_cost": 14375.3,
+      "repair_cost": 1617.2212725,
+      "profit": 201728.80006611499,
+      "ci": 200,
+      "contribution": 2.6248018741607666
+    }
+  },
+  {
+    "airport": {
+      "id": 601,
+      "name": "Eindhoven",
+      "fullname": "Eindhoven Airport",
+      "country": "Netherlands",
+      "continent": "Europe",
+      "iata": "EIN",
+      "icao": "EHEH",
+      "lat": 51.4500999451,
+      "lng": 5.37452983856,
+      "rwy": 9843,
+      "market": 67,
+      "hub_cost": 42000,
+      "rwy_codes": "03/21"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 368,
+          "j": 340,
+          "f": 63
+        },
+        "cargo_demand": {
+          "l": 184000,
+          "h": 340000
+        },
+        "direct_distance": 337.3078457324054
+      },
+      "warnings": [
+        "Reduced contribution (<1000km)"
+      ],
+      "valid": true,
+      "max_tpd": 0,
+      "needs_stopover": false,
+      "stopover": {
+        "exists": false
+      },
+      "flight_time": 0.3215671479701996,
+      "trips_per_day_per_ac": 2,
+      "num_ac": 1,
+      "config": {
+        "y": 165,
+        "j": 171,
+        "f": 31,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 274,
+        "j": 756,
+        "f": 1379
+      },
+      "max_income": 217235.0,
+      "income": 215062.6520717144,
+      "fuel": 7508.520677204132,
+      "co2": 32424.94168344915,
+      "acheck_cost": 14375.3,
+      "repair_cost": 1617.2212725,
+      "profit": 189923.17332315765,
+      "ci": 200,
+      "contribution": 3.2381551265716553
+    }
+  },
+  {
+    "airport": {
+      "id": 2054,
+      "name": "Geneva",
+      "fullname": "Geneva Cointrin International Airport",
+      "country": "Switzerland",
+      "continent": "Europe",
+      "iata": "GVA",
+      "icao": "LSGG",
+      "lat": 46.23809814453125,
+      "lng": 6.108950138092041,
+      "rwy": 12795,
+      "market": 86,
+      "hub_cost": 42000,
+      "rwy_codes": "04/22"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 1067,
+          "j": 200,
+          "f": 68
+        },
+        "cargo_demand": {
+          "l": 534000,
+          "h": 200000
+        },
+        "direct_distance": 407.7421156726049
+      },
+      "warnings": [
+        "Reduced contribution (<1000km)"
+      ],
+      "valid": true,
+      "max_tpd": 0,
+      "needs_stopover": false,
+      "stopover": {
+        "exists": false
+      },
+      "flight_time": 0.38871458172798157,
+      "trips_per_day_per_ac": 2,
+      "num_ac": 1,
+      "config": {
+        "y": 296,
+        "j": 101,
+        "f": 34,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 297,
+        "j": 802,
+        "f": 1446
+      },
+      "max_income": 218078.0,
+      "income": 215897.22207975388,
+      "fuel": 9076.515093326569,
+      "co2": 39183.559133812785,
+      "acheck_cost": 14375.3,
+      "repair_cost": 1617.2212725,
+      "profit": 188849.11314586774,
+      "ci": 200,
+      "contribution": 3.9143242835998535
+    }
+  },
+  {
+    "airport": {
+      "id": 1844,
+      "name": "Clermont-Ferrand/Auvergne",
+      "fullname": "Clermont-Ferrand Auvergne Airport",
+      "country": "France",
+      "continent": "Europe",
+      "iata": "CFE",
+      "icao": "LFLC",
+      "lat": 45.7867012024,
+      "lng": 3.1691699028,
+      "rwy": 9885,
+      "market": 90,
+      "hub_cost": 48000,
+      "rwy_codes": "01/19|08L/26R"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 675,
+          "j": 219,
+          "f": 71
+        },
+        "cargo_demand": {
+          "l": 338000,
+          "h": 219000
+        },
+        "direct_distance": 361.73635823867835
+      },
+      "warnings": [
+        "Reduced contribution (<1000km)"
+      ],
+      "valid": true,
+      "max_tpd": 0,
+      "needs_stopover": false,
+      "stopover": {
+        "exists": false
+      },
+      "flight_time": 0.3448556959629059,
+      "trips_per_day_per_ac": 2,
+      "num_ac": 1,
+      "config": {
+        "y": 275,
+        "j": 110,
+        "f": 35,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 282,
+        "j": 772,
+        "f": 1403
+      },
+      "max_income": 211575.0,
+      "income": 209459.25201773643,
+      "fuel": 8052.332482795716,
+      "co2": 34799.76883155227,
+      "acheck_cost": 14375.3,
+      "repair_cost": 1617.2212725,
+      "profit": 183654.12574749318,
+      "ci": 200,
+      "contribution": 3.4726688861846924
+    }
+  },
+  {
+    "airport": {
+      "id": 445,
+      "name": "Liège",
+      "fullname": "Liège Airport",
+      "country": "Belgium",
+      "continent": "Europe",
+      "iata": "LGG",
+      "icao": "EBLG",
+      "lat": 50.63740158081055,
+      "lng": 5.443220138549805,
+      "rwy": 12106,
+      "market": 52,
+      "hub_cost": 30000,
+      "rwy_codes": "04L/22R"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 516,
+          "j": 273,
+          "f": 60
+        },
+        "cargo_demand": {
+          "l": 258000,
+          "h": 273000
+        },
+        "direct_distance": 275.1135845173247
+      },
+      "warnings": [
+        "Reduced contribution (<1000km)"
+      ],
+      "valid": true,
+      "max_tpd": 0,
+      "needs_stopover": false,
+      "stopover": {
+        "exists": false
+      },
+      "flight_time": 0.26227521896362305,
+      "trips_per_day_per_ac": 2,
+      "num_ac": 1,
+      "config": {
+        "y": 236,
+        "j": 137,
+        "f": 30,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 253,
+        "j": 716,
+        "f": 1320
+      },
+      "max_income": 197400.0,
+      "income": 195426.0018825531,
+      "fuel": 6124.1712629699705,
+      "co2": 26550.404215559956,
+      "acheck_cost": 14375.3,
+      "repair_cost": 1617.2212725,
+      "profit": 171960.51222010693,
+      "ci": 200,
+      "contribution": 2.6410903930664062
+    }
+  },
+  {
+    "airport": {
+      "id": 1871,
+      "name": "Vatry",
+      "fullname": "Châlons-Vatry Airport",
+      "country": "France",
+      "continent": "Europe",
+      "iata": "XCR",
+      "icao": "LFOK",
+      "lat": 48.7733333333,
+      "lng": 4.206111111,
+      "rwy": 12664,
+      "market": 48,
+      "hub_cost": 48000,
+      "rwy_codes": "10/28"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 748,
+          "j": 223,
+          "f": 153
+        },
+        "cargo_demand": {
+          "l": 374000,
+          "h": 223000
+        },
+        "direct_distance": 123.96389226960676
+      },
+      "warnings": [
+        "Reduced contribution (<1000km)"
+      ],
+      "valid": true,
+      "max_tpd": 0,
+      "needs_stopover": false,
+      "stopover": {
+        "exists": false
+      },
+      "flight_time": 0.11817903071641922,
+      "trips_per_day_per_ac": 2,
+      "num_ac": 1,
+      "config": {
+        "y": 145,
+        "j": 112,
+        "f": 77,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 203,
+        "j": 618,
+        "f": 1176
+      },
+      "max_income": 189203.0,
+      "income": 187310.97180438042,
+      "fuel": 2759.5722283744813,
+      "co2": 12116.108536649346,
+      "acheck_cost": 14375.3,
+      "repair_cost": 1617.2212725,
+      "profit": 167932.81694762036,
+      "ci": 200,
+      "contribution": 1.1900533437728882
+    }
+  }
+]

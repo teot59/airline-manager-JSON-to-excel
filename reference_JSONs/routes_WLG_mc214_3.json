@@ -1,0 +1,8018 @@
+[
+  {
+    "airport": {
+      "id": 3723,
+      "name": "Malacca",
+      "fullname": "Malacca Airport",
+      "country": "Malaysia",
+      "continent": "Asia",
+      "iata": "MKZ",
+      "icao": "WMKM",
+      "lat": 2.2633600235,
+      "lng": 102.251998901,
+      "rwy": 7005,
+      "market": 64,
+      "hub_cost": 48000,
+      "rwy_codes": "03/21"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 1195,
+          "j": 212,
+          "f": 76
+        },
+        "cargo_demand": {
+          "l": 598000,
+          "h": 212000
+        },
+        "direct_distance": 8731.859091301108
+      },
+      "warnings": [],
+      "valid": true,
+      "max_tpd": null,
+      "needs_stopover": true,
+      "stopover": {
+        "airport": {
+          "id": 3738,
+          "name": "Alice Springs",
+          "fullname": "Alice Springs Airport",
+          "country": "Australia",
+          "continent": "Oceania",
+          "iata": "ASP",
+          "icao": "YBAS",
+          "lat": -23.806699752807617,
+          "lng": 133.90199279785156,
+          "rwy": 7999,
+          "market": 33,
+          "hub_cost": 48000,
+          "rwy_codes": "12/30"
+        },
+        "full_distance": 8732.680956838545,
+        "exists": true
+      },
+      "flight_time": 7.970901966094971,
+      "trips_per_day_per_ac": 3,
+      "num_ac": 2,
+      "config": {
+        "y": 124,
+        "j": 35,
+        "f": 12,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 3044,
+        "j": 6196,
+        "f": 9388
+      },
+      "max_income": 706972.0,
+      "income": 699902.2867422104,
+      "fuel": 170898.74063499452,
+      "co2": 318320.3549688076,
+      "acheck_cost": 4944.28,
+      "repair_cost": 39.0337725,
+      "profit": 537091.4119289572,
+      "ci": 200,
+      "contribution": 41.916866302490234
+    }
+  },
+  {
+    "airport": {
+      "id": 3710,
+      "name": "Ketaping/Padang - Sumatra Island",
+      "fullname": "Minangkabau International Airport",
+      "country": "Indonesia",
+      "continent": "Asia",
+      "iata": "PDG",
+      "icao": "WIPT",
+      "lat": -0.786917,
+      "lng": 100.280998,
+      "rwy": 9020,
+      "market": 83,
+      "hub_cost": 54000,
+      "rwy_codes": "15/33"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 771,
+          "j": 186,
+          "f": 158
+        },
+        "cargo_demand": {
+          "l": 386000,
+          "h": 186000
+        },
+        "direct_distance": 8663.312417468724
+      },
+      "warnings": [],
+      "valid": true,
+      "max_tpd": null,
+      "needs_stopover": true,
+      "stopover": {
+        "airport": {
+          "id": 3736,
+          "name": "Ayers Rock",
+          "fullname": "Ayers Rock Connellan Airport",
+          "country": "Australia",
+          "continent": "Oceania",
+          "iata": "AYQ",
+          "icao": "YAYE",
+          "lat": -25.1861,
+          "lng": 130.975998,
+          "rwy": 8527,
+          "market": 86,
+          "hub_cost": 48000,
+          "rwy_codes": "13/31"
+        },
+        "full_distance": 8663.414590590932,
+        "exists": true
+      },
+      "flight_time": 7.907678604125977,
+      "trips_per_day_per_ac": 3,
+      "num_ac": 2,
+      "config": {
+        "y": 90,
+        "j": 31,
+        "f": 26,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 3021,
+        "j": 6151,
+        "f": 9322
+      },
+      "max_income": 704943.0,
+      "income": 697893.5767228603,
+      "fuel": 169543.12675613404,
+      "co2": 315772.7103852154,
+      "acheck_cost": 4944.28,
+      "repair_cost": 39.0337725,
+      "profit": 536337.3489748406,
+      "ci": 200,
+      "contribution": 41.584388732910156
+    }
+  },
+  {
+    "airport": {
+      "id": 3690,
+      "name": "Pekanbaru-Sumatra Island",
+      "fullname": "Sultan Syarif Kasim Ii (Simpang Tiga) Airport",
+      "country": "Indonesia",
+      "continent": "Asia",
+      "iata": "PKU",
+      "icao": "WIBB",
+      "lat": 0.46078601479530334,
+      "lng": 101.44499969482422,
+      "rwy": 7360,
+      "market": 35,
+      "hub_cost": 54000,
+      "rwy_codes": "18/36"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 682,
+          "j": 210,
+          "f": 133
+        },
+        "cargo_demand": {
+          "l": 341000,
+          "h": 210000
+        },
+        "direct_distance": 8661.406392560557
+      },
+      "warnings": [],
+      "valid": true,
+      "max_tpd": null,
+      "needs_stopover": true,
+      "stopover": {
+        "airport": {
+          "id": 3736,
+          "name": "Ayers Rock",
+          "fullname": "Ayers Rock Connellan Airport",
+          "country": "Australia",
+          "continent": "Oceania",
+          "iata": "AYQ",
+          "icao": "YAYE",
+          "lat": -25.1861,
+          "lng": 130.975998,
+          "rwy": 8527,
+          "market": 86,
+          "hub_cost": 48000,
+          "rwy_codes": "13/31"
+        },
+        "full_distance": 8663.370590949628,
+        "exists": true
+      },
+      "flight_time": 7.907637596130371,
+      "trips_per_day_per_ac": 3,
+      "num_ac": 2,
+      "config": {
+        "y": 94,
+        "j": 35,
+        "f": 22,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 3021,
+        "j": 6150,
+        "f": 9320
+      },
+      "max_income": 704264.0,
+      "income": 697221.3667163849,
+      "fuel": 169542.34395614621,
+      "co2": 315775.25310524803,
+      "acheck_cost": 4944.28,
+      "repair_cost": 39.0337725,
+      "profit": 535665.3818019527,
+      "ci": 200,
+      "contribution": 41.58417510986328
+    }
+  },
+  {
+    "airport": {
+      "id": 2792,
+      "name": "Laoag City",
+      "fullname": "Laoag International Airport",
+      "country": "Philippines",
+      "continent": "Asia",
+      "iata": "LAO",
+      "icao": "RPLI",
+      "lat": 18.1781005859375,
+      "lng": 120.53199768066406,
+      "rwy": 9120,
+      "market": 35,
+      "hub_cost": 42000,
+      "rwy_codes": "01/19"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 1008,
+          "j": 305,
+          "f": 59
+        },
+        "cargo_demand": {
+          "l": 504000,
+          "h": 305000
+        },
+        "direct_distance": 8655.688842345211
+      },
+      "warnings": [],
+      "valid": true,
+      "max_tpd": null,
+      "needs_stopover": true,
+      "stopover": {
+        "airport": {
+          "id": 3742,
+          "name": "Cairns",
+          "fullname": "Cairns International Airport",
+          "country": "Australia",
+          "continent": "Oceania",
+          "iata": "CNS",
+          "icao": "YBCS",
+          "lat": -16.885799408,
+          "lng": 145.755004883,
+          "rwy": 10489,
+          "market": 87,
+          "hub_cost": 48000,
+          "rwy_codes": "12/30"
+        },
+        "full_distance": 8659.465866188677,
+        "exists": true
+      },
+      "flight_time": 7.904073715209961,
+      "trips_per_day_per_ac": 3,
+      "num_ac": 2,
+      "config": {
+        "y": 101,
+        "j": 51,
+        "f": 9,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 3019,
+        "j": 6146,
+        "f": 9315
+      },
+      "max_income": 702200.0,
+      "income": 695178.006696701,
+      "fuel": 169465.82525733946,
+      "co2": 315642.803988432,
+      "acheck_cost": 4944.28,
+      "repair_cost": 39.0337725,
+      "profit": 533691.4787654516,
+      "ci": 200,
+      "contribution": 41.565433502197266
+    }
+  },
+  {
+    "airport": {
+      "id": 3720,
+      "name": "Johor Bahru",
+      "fullname": "Senai International Airport",
+      "country": "Malaysia",
+      "continent": "Asia",
+      "iata": "JHB",
+      "icao": "WMKJ",
+      "lat": 1.64131,
+      "lng": 103.669998,
+      "rwy": 12467,
+      "market": 58,
+      "hub_cost": 48000,
+      "rwy_codes": "16/34"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 627,
+          "j": 147,
+          "f": 209
+        },
+        "cargo_demand": {
+          "l": 314000,
+          "h": 147000
+        },
+        "direct_distance": 8569.546311922346
+      },
+      "warnings": [],
+      "valid": true,
+      "max_tpd": null,
+      "needs_stopover": true,
+      "stopover": {
+        "airport": {
+          "id": 3738,
+          "name": "Alice Springs",
+          "fullname": "Alice Springs Airport",
+          "country": "Australia",
+          "continent": "Oceania",
+          "iata": "ASP",
+          "icao": "YBAS",
+          "lat": -23.806699752807617,
+          "lng": 133.90199279785156,
+          "rwy": 7999,
+          "market": 33,
+          "hub_cost": 48000,
+          "rwy_codes": "12/30"
+        },
+        "full_distance": 8569.714486414705,
+        "exists": true
+      },
+      "flight_time": 7.822152137756348,
+      "trips_per_day_per_ac": 3,
+      "num_ac": 2,
+      "config": {
+        "y": 77,
+        "j": 24,
+        "f": 35,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 2990,
+        "j": 6091,
+        "f": 9233
+      },
+      "max_income": 699569.0,
+      "income": 692573.3166716099,
+      "fuel": 167709.41778472898,
+      "co2": 312348.03206151706,
+      "acheck_cost": 4944.28,
+      "repair_cost": 39.0337725,
+      "profit": 532711.6466024176,
+      "ci": 200,
+      "contribution": 41.13462829589844
+    }
+  },
+  {
+    "airport": {
+      "id": 3731,
+      "name": "Singapore",
+      "fullname": "Singapore Changi Airport",
+      "country": "Singapore",
+      "continent": "Asia",
+      "iata": "SIN",
+      "icao": "WSSS",
+      "lat": 1.35019,
+      "lng": 103.994003,
+      "rwy": 13123,
+      "market": 70,
+      "hub_cost": 237000,
+      "rwy_codes": "02C/20|02R/20L"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 1456,
+          "j": 246,
+          "f": 262
+        },
+        "cargo_demand": {
+          "l": 728000,
+          "h": 246000
+        },
+        "direct_distance": 8521.132586895463
+      },
+      "warnings": [],
+      "valid": true,
+      "max_tpd": null,
+      "needs_stopover": true,
+      "stopover": {
+        "airport": {
+          "id": 3738,
+          "name": "Alice Springs",
+          "fullname": "Alice Springs Airport",
+          "country": "Australia",
+          "continent": "Oceania",
+          "iata": "ASP",
+          "icao": "YBAS",
+          "lat": -23.806699752807617,
+          "lng": 133.90199279785156,
+          "rwy": 7999,
+          "market": 33,
+          "hub_cost": 48000,
+          "rwy_codes": "12/30"
+        },
+        "full_distance": 8521.294404192937,
+        "exists": true
+      },
+      "flight_time": 7.777955055236816,
+      "trips_per_day_per_ac": 3,
+      "num_ac": 3,
+      "config": {
+        "y": 89,
+        "j": 27,
+        "f": 29,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 2974,
+        "j": 6059,
+        "f": 9187
+      },
+      "max_income": 694702.0,
+      "income": 687754.9866251945,
+      "fuel": 166761.8383995056,
+      "co2": 310592.99466094637,
+      "acheck_cost": 4944.28,
+      "repair_cost": 39.0337725,
+      "profit": 528767.226613727,
+      "ci": 200,
+      "contribution": 40.9022102355957
+    }
+  },
+  {
+    "airport": {
+      "id": 2822,
+      "name": "Cauayan City",
+      "fullname": "Cauayan Airport",
+      "country": "Philippines",
+      "continent": "Asia",
+      "iata": "CYZ",
+      "icao": "RPUY",
+      "lat": 16.9298992157,
+      "lng": 121.752998352,
+      "rwy": 6890,
+      "market": 49,
+      "hub_cost": 42000,
+      "rwy_codes": "12/30"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 486,
+          "j": 254,
+          "f": 183
+        },
+        "cargo_demand": {
+          "l": 243000,
+          "h": 254000
+        },
+        "direct_distance": 8466.519555326671
+      },
+      "warnings": [],
+      "valid": true,
+      "max_tpd": null,
+      "needs_stopover": true,
+      "stopover": {
+        "airport": {
+          "id": 3742,
+          "name": "Cairns",
+          "fullname": "Cairns International Airport",
+          "country": "Australia",
+          "continent": "Oceania",
+          "iata": "CNS",
+          "icao": "YBCS",
+          "lat": -16.885799408,
+          "lng": 145.755004883,
+          "rwy": 10489,
+          "market": 87,
+          "hub_cost": 48000,
+          "rwy_codes": "12/30"
+        },
+        "full_distance": 8470.915194729818,
+        "exists": true
+      },
+      "flight_time": 7.73197078704834,
+      "trips_per_day_per_ac": 3,
+      "num_ac": 2,
+      "config": {
+        "y": 56,
+        "j": 42,
+        "f": 30,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 2956,
+        "j": 6024,
+        "f": 9135
+      },
+      "max_income": 692594.0,
+      "income": 685668.0666050911,
+      "fuel": 165775.90181488037,
+      "co2": 308740.55054197175,
+      "acheck_cost": 4944.28,
+      "repair_cost": 39.0337725,
+      "profit": 527592.7554971381,
+      "ci": 200,
+      "contribution": 40.66039276123047
+    }
+  },
+  {
+    "airport": {
+      "id": 3693,
+      "name": "Batam Island",
+      "fullname": "Hang Nadim International Airport",
+      "country": "Indonesia",
+      "continent": "Asia",
+      "iata": "BTH",
+      "icao": "WIDD",
+      "lat": 1.12102997303,
+      "lng": 104.119003296,
+      "rwy": 13270,
+      "market": 77,
+      "hub_cost": 54000,
+      "rwy_codes": "04/22"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 1181,
+          "j": 198,
+          "f": 75
+        },
+        "cargo_demand": {
+          "l": 591000,
+          "h": 198000
+        },
+        "direct_distance": 8493.560928213026
+      },
+      "warnings": [],
+      "valid": true,
+      "max_tpd": null,
+      "needs_stopover": true,
+      "stopover": {
+        "airport": {
+          "id": 3738,
+          "name": "Alice Springs",
+          "fullname": "Alice Springs Airport",
+          "country": "Australia",
+          "continent": "Oceania",
+          "iata": "ASP",
+          "icao": "YBAS",
+          "lat": -23.806699752807617,
+          "lng": 133.90199279785156,
+          "rwy": 7999,
+          "market": 33,
+          "hub_cost": 48000,
+          "rwy_codes": "12/30"
+        },
+        "full_distance": 8493.795771950743,
+        "exists": true
+      },
+      "flight_time": 7.7528557777404785,
+      "trips_per_day_per_ac": 3,
+      "num_ac": 2,
+      "config": {
+        "y": 128,
+        "j": 33,
+        "f": 12,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 2965,
+        "j": 6041,
+        "f": 9160
+      },
+      "max_income": 688793.0,
+      "income": 681905.0765688419,
+      "fuel": 166223.66340789793,
+      "co2": 309619.1146833401,
+      "acheck_cost": 4944.28,
+      "repair_cost": 39.0337725,
+      "profit": 523410.9046488125,
+      "ci": 200,
+      "contribution": 40.77021789550781
+    }
+  },
+  {
+    "airport": {
+      "id": 2790,
+      "name": "Olongapo City",
+      "fullname": "Subic Bay International Airport",
+      "country": "Philippines",
+      "continent": "Asia",
+      "iata": "SFS",
+      "icao": "RPLB",
+      "lat": 14.794400215148926,
+      "lng": 120.27100372314453,
+      "rwy": 9003,
+      "market": 48,
+      "hub_cost": 42000,
+      "rwy_codes": "07/25"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 414,
+          "j": 476,
+          "f": 92
+        },
+        "cargo_demand": {
+          "l": 207000,
+          "h": 476000
+        },
+        "direct_distance": 8380.284299610483
+      },
+      "warnings": [],
+      "valid": true,
+      "max_tpd": null,
+      "needs_stopover": true,
+      "stopover": {
+        "airport": {
+          "id": 3742,
+          "name": "Cairns",
+          "fullname": "Cairns International Airport",
+          "country": "Australia",
+          "continent": "Oceania",
+          "iata": "CNS",
+          "icao": "YBCS",
+          "lat": -16.885799408,
+          "lng": 145.755004883,
+          "rwy": 10489,
+          "market": 87,
+          "hub_cost": 48000,
+          "rwy_codes": "12/30"
+        },
+        "full_distance": 8380.31978270403,
+        "exists": true
+      },
+      "flight_time": 7.649278163909912,
+      "trips_per_day_per_ac": 3,
+      "num_ac": 2,
+      "config": {
+        "y": 25,
+        "j": 80,
+        "f": 15,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 2928,
+        "j": 5968,
+        "f": 9052
+      },
+      "max_income": 686420.0,
+      "income": 679555.8065462112,
+      "fuel": 164002.8598425293,
+      "co2": 305431.811415749,
+      "acheck_cost": 4944.28,
+      "repair_cost": 39.0337725,
+      "profit": 523118.6735140508,
+      "ci": 200,
+      "contribution": 40.22553253173828
+    }
+  },
+  {
+    "airport": {
+      "id": 2791,
+      "name": "Angeles/Mabalacat",
+      "fullname": "Diosdado Macapagal International Airport",
+      "country": "Philippines",
+      "continent": "Asia",
+      "iata": "CRK",
+      "icao": "RPLC",
+      "lat": 15.186,
+      "lng": 120.559998,
+      "rwy": 10499,
+      "market": 49,
+      "hub_cost": 42000,
+      "rwy_codes": "02L/20R"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 772,
+          "j": 301,
+          "f": 133
+        },
+        "cargo_demand": {
+          "l": 386000,
+          "h": 301000
+        },
+        "direct_distance": 8394.490859945481
+      },
+      "warnings": [],
+      "valid": true,
+      "max_tpd": null,
+      "needs_stopover": true,
+      "stopover": {
+        "airport": {
+          "id": 3742,
+          "name": "Cairns",
+          "fullname": "Cairns International Airport",
+          "country": "Australia",
+          "continent": "Oceania",
+          "iata": "CNS",
+          "icao": "YBCS",
+          "lat": -16.885799408,
+          "lng": 145.755004883,
+          "rwy": 10489,
+          "market": 87,
+          "hub_cost": 48000,
+          "rwy_codes": "12/30"
+        },
+        "full_distance": 8394.552050112725,
+        "exists": true
+      },
+      "flight_time": 7.662269115447998,
+      "trips_per_day_per_ac": 3,
+      "num_ac": 2,
+      "config": {
+        "y": 64,
+        "j": 50,
+        "f": 22,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 2933,
+        "j": 5977,
+        "f": 9066
+      },
+      "max_income": 686014.0,
+      "income": 679153.8665423393,
+      "fuel": 164281.53663818358,
+      "co2": 305966.60308415315,
+      "acheck_cost": 4944.28,
+      "repair_cost": 39.0337725,
+      "profit": 522457.4847530124,
+      "ci": 200,
+      "contribution": 40.293846130371094
+    }
+  },
+  {
+    "airport": {
+      "id": 3702,
+      "name": "Ranai-Natuna Besar Island",
+      "fullname": "Ranai Airport",
+      "country": "Indonesia",
+      "continent": "Asia",
+      "iata": "NTX",
+      "icao": "WION",
+      "lat": 3.90871,
+      "lng": 108.388,
+      "rwy": 8410,
+      "market": 30,
+      "hub_cost": 54000,
+      "rwy_codes": "18/36"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 357,
+          "j": 349,
+          "f": 134
+        },
+        "cargo_demand": {
+          "l": 179000,
+          "h": 349000
+        },
+        "direct_distance": 8366.608639003422
+      },
+      "warnings": [],
+      "valid": true,
+      "max_tpd": null,
+      "needs_stopover": true,
+      "stopover": {
+        "airport": {
+          "id": 3738,
+          "name": "Alice Springs",
+          "fullname": "Alice Springs Airport",
+          "country": "Australia",
+          "continent": "Oceania",
+          "iata": "ASP",
+          "icao": "YBAS",
+          "lat": -23.806699752807617,
+          "lng": 133.90199279785156,
+          "rwy": 7999,
+          "market": 33,
+          "hub_cost": 48000,
+          "rwy_codes": "12/30"
+        },
+        "full_distance": 8387.139016375442,
+        "exists": true
+      },
+      "flight_time": 7.655502796173096,
+      "trips_per_day_per_ac": 3,
+      "num_ac": 2,
+      "config": {
+        "y": 48,
+        "j": 58,
+        "f": 22,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 2923,
+        "j": 5959,
+        "f": 9039
+      },
+      "max_income": 684784.0,
+      "income": 677936.1665306091,
+      "fuel": 164136.32724044798,
+      "co2": 305688.27765019535,
+      "acheck_cost": 4944.28,
+      "repair_cost": 39.0337725,
+      "profit": 521374.83037177206,
+      "ci": 200,
+      "contribution": 40.258262634277344
+    }
+  },
+  {
+    "airport": {
+      "id": 3706,
+      "name": "Bengkulu-Sumatra Island",
+      "fullname": "Fatmawati Soekarno Airport",
+      "country": "Indonesia",
+      "continent": "Asia",
+      "iata": "BKS",
+      "icao": "WIPL",
+      "lat": -3.8637,
+      "lng": 102.338997,
+      "rwy": 7345,
+      "market": 54,
+      "hub_cost": 54000,
+      "rwy_codes": "13/31"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 527,
+          "j": 288,
+          "f": 138
+        },
+        "cargo_demand": {
+          "l": 264000,
+          "h": 288000
+        },
+        "direct_distance": 8264.280247529312
+      },
+      "warnings": [],
+      "valid": true,
+      "max_tpd": null,
+      "needs_stopover": true,
+      "stopover": {
+        "airport": {
+          "id": 3745,
+          "name": "Broken Hill",
+          "fullname": "Broken Hill Airport",
+          "country": "Australia",
+          "continent": "Oceania",
+          "iata": "BHQ",
+          "icao": "YBHI",
+          "lat": -32.0013999939,
+          "lng": 141.472000122,
+          "rwy": 8251,
+          "market": 42,
+          "hub_cost": 48000,
+          "rwy_codes": "05/23"
+        },
+        "full_distance": 8264.336106721363,
+        "exists": true
+      },
+      "flight_time": 7.543412208557129,
+      "trips_per_day_per_ac": 3,
+      "num_ac": 2,
+      "config": {
+        "y": 65,
+        "j": 48,
+        "f": 23,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 2890,
+        "j": 5893,
+        "f": 8942
+      },
+      "max_income": 676380.0,
+      "income": 669616.2064504623,
+      "fuel": 161733.1312779236,
+      "co2": 301222.4281501937,
+      "acheck_cost": 4944.28,
+      "repair_cost": 39.0337725,
+      "profit": 515273.0094053926,
+      "ci": 200,
+      "contribution": 39.6688117980957
+    }
+  },
+  {
+    "airport": {
+      "id": 2793,
+      "name": "Manila",
+      "fullname": "Ninoy Aquino International Airport",
+      "country": "Philippines",
+      "continent": "Asia",
+      "iata": "MNL",
+      "icao": "RPLL",
+      "lat": 14.5086,
+      "lng": 121.019997,
+      "rwy": 12261,
+      "market": 63,
+      "hub_cost": 213300,
+      "rwy_codes": "06/24"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 1789,
+          "j": 308,
+          "f": 131
+        },
+        "cargo_demand": {
+          "l": 895000,
+          "h": 308000
+        },
+        "direct_distance": 8304.833286368992
+      },
+      "warnings": [],
+      "valid": true,
+      "max_tpd": null,
+      "needs_stopover": true,
+      "stopover": {
+        "airport": {
+          "id": 3742,
+          "name": "Cairns",
+          "fullname": "Cairns International Airport",
+          "country": "Australia",
+          "continent": "Oceania",
+          "iata": "CNS",
+          "icao": "YBCS",
+          "lat": -16.885799408,
+          "lng": 145.755004883,
+          "rwy": 10489,
+          "market": 87,
+          "hub_cost": 48000,
+          "rwy_codes": "12/30"
+        },
+        "full_distance": 8304.863211810209,
+        "exists": true
+      },
+      "flight_time": 7.580404281616211,
+      "trips_per_day_per_ac": 3,
+      "num_ac": 4,
+      "config": {
+        "y": 147,
+        "j": 25,
+        "f": 11,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 2903,
+        "j": 5919,
+        "f": 8980
+      },
+      "max_income": 673496.0,
+      "income": 666761.0464229584,
+      "fuel": 162526.30336555484,
+      "co2": 302746.0170771894,
+      "acheck_cost": 4944.28,
+      "repair_cost": 39.0337725,
+      "profit": 511679.79824530723,
+      "ci": 200,
+      "contribution": 39.86334228515625
+    }
+  },
+  {
+    "airport": {
+      "id": 3707,
+      "name": "Palembang-Sumatra Island",
+      "fullname": "Sultan Mahmud Badaruddin II Airport",
+      "country": "Indonesia",
+      "continent": "Asia",
+      "iata": "PLM",
+      "icao": "WIPP",
+      "lat": -2.8982501029968,
+      "lng": 104.69999694824,
+      "rwy": 8202,
+      "market": 54,
+      "hub_cost": 54000,
+      "rwy_codes": "11/29"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 874,
+          "j": 205,
+          "f": 292
+        },
+        "cargo_demand": {
+          "l": 437000,
+          "h": 205000
+        },
+        "direct_distance": 8142.281178180555
+      },
+      "warnings": [],
+      "valid": true,
+      "max_tpd": null,
+      "needs_stopover": true,
+      "stopover": {
+        "airport": {
+          "id": 3736,
+          "name": "Ayers Rock",
+          "fullname": "Ayers Rock Connellan Airport",
+          "country": "Australia",
+          "continent": "Oceania",
+          "iata": "AYQ",
+          "icao": "YAYE",
+          "lat": -25.1861,
+          "lng": 130.975998,
+          "rwy": 8527,
+          "market": 86,
+          "hub_cost": 48000,
+          "rwy_codes": "13/31"
+        },
+        "full_distance": 8143.66418658693,
+        "exists": true
+      },
+      "flight_time": 7.433267116546631,
+      "trips_per_day_per_ac": 3,
+      "num_ac": 3,
+      "config": {
+        "y": 88,
+        "j": 23,
+        "f": 32,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 2849,
+        "j": 5814,
+        "f": 8825
+      },
+      "max_income": 666834.0,
+      "income": 660165.6663594246,
+      "fuel": 159371.61941474915,
+      "co2": 296833.17880845757,
+      "acheck_cost": 4944.28,
+      "repair_cost": 39.0337725,
+      "profit": 508002.2375395852,
+      "ci": 200,
+      "contribution": 39.0895881652832
+    }
+  },
+  {
+    "airport": {
+      "id": 2834,
+      "name": "Puerto Princesa City",
+      "fullname": "Puerto Princesa Airport",
+      "country": "Philippines",
+      "continent": "Asia",
+      "iata": "PPS",
+      "icao": "RPVP",
+      "lat": 9.742119789123535,
+      "lng": 118.75900268554688,
+      "rwy": 8530,
+      "market": 32,
+      "hub_cost": 42000,
+      "rwy_codes": "09/27"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 389,
+          "j": 362,
+          "f": 76
+        },
+        "cargo_demand": {
+          "l": 195000,
+          "h": 362000
+        },
+        "direct_distance": 8055.41590056649
+      },
+      "warnings": [],
+      "valid": true,
+      "max_tpd": null,
+      "needs_stopover": true,
+      "stopover": {
+        "airport": {
+          "id": 3843,
+          "name": "Nhulunbuy",
+          "fullname": "Gove Airport",
+          "country": "Australia",
+          "continent": "Oceania",
+          "iata": "GOV",
+          "icao": "YPGV",
+          "lat": -12.269399642899998,
+          "lng": 136.817993164,
+          "rwy": 7244,
+          "market": 58,
+          "hub_cost": 48000,
+          "rwy_codes": "13/31"
+        },
+        "full_distance": 8056.374359170553,
+        "exists": true
+      },
+      "flight_time": 7.3535919189453125,
+      "trips_per_day_per_ac": 3,
+      "num_ac": 1,
+      "config": {
+        "y": 1,
+        "j": 77,
+        "f": 25,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 2821,
+        "j": 5757,
+        "f": 8742
+      },
+      "max_income": 664660.0,
+      "income": 658013.4063386917,
+      "fuel": 157663.35414138794,
+      "co2": 293613.0295995394,
+      "acheck_cost": 4944.28,
+      "repair_cost": 39.0337725,
+      "profit": 507432.1811152754,
+      "ci": 200,
+      "contribution": 38.670597076416016
+    }
+  },
+  {
+    "airport": {
+      "id": 2692,
+      "name": "Iwojima",
+      "fullname": "Iwo Jima Airport",
+      "country": "Japan",
+      "continent": "Asia",
+      "iata": "IWO",
+      "icao": "RJAW",
+      "lat": 24.784000396728516,
+      "lng": 141.322998046875,
+      "rwy": 8700,
+      "market": 45,
+      "hub_cost": 54000,
+      "rwy_codes": "07/25"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 699,
+          "j": 358,
+          "f": 48
+        },
+        "cargo_demand": {
+          "l": 350000,
+          "h": 358000
+        },
+        "direct_distance": 8120.857852516011
+      },
+      "warnings": [],
+      "valid": true,
+      "max_tpd": null,
+      "needs_stopover": true,
+      "stopover": {
+        "airport": {
+          "id": 1,
+          "name": "Honiara",
+          "fullname": "Honiara International Airport",
+          "country": "Solomon Islands",
+          "continent": "Oceania",
+          "iata": "HIR",
+          "icao": "AGGH",
+          "lat": -9.4280004501343,
+          "lng": 160.05499267578,
+          "rwy": 7218,
+          "market": 55,
+          "hub_cost": 213300,
+          "rwy_codes": "06/24"
+        },
+        "full_distance": 8143.759255731936,
+        "exists": true
+      },
+      "flight_time": 7.433353900909424,
+      "trips_per_day_per_ac": 3,
+      "num_ac": 2,
+      "config": {
+        "y": 86,
+        "j": 60,
+        "f": 8,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 2842,
+        "j": 5800,
+        "f": 8805
+      },
+      "max_income": 662852.0,
+      "income": 656223.4863214493,
+      "fuel": 159373.3807147217,
+      "co2": 296847.4576883843,
+      "acheck_cost": 4944.28,
+      "repair_cost": 39.0337725,
+      "profit": 504057.111126038,
+      "ci": 200,
+      "contribution": 39.09004211425781
+    }
+  },
+  {
+    "airport": {
+      "id": 2831,
+      "name": "Kalibo",
+      "fullname": "Kalibo International Airport",
+      "country": "Philippines",
+      "continent": "Asia",
+      "iata": "KLO",
+      "icao": "RPVK",
+      "lat": 11.679400444,
+      "lng": 122.375999451,
+      "rwy": 7175,
+      "market": 56,
+      "hub_cost": 42000,
+      "rwy_codes": "05/23"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 649,
+          "j": 201,
+          "f": 287
+        },
+        "cargo_demand": {
+          "l": 325000,
+          "h": 201000
+        },
+        "direct_distance": 7967.741361298287
+      },
+      "warnings": [],
+      "valid": true,
+      "max_tpd": null,
+      "needs_stopover": true,
+      "stopover": {
+        "airport": {
+          "id": 3756,
+          "name": "Proserpine",
+          "fullname": "Proserpine Whitsunday Coast Airport",
+          "country": "Australia",
+          "continent": "Oceania",
+          "iata": "PPP",
+          "icao": "YBPN",
+          "lat": -20.4950008392,
+          "lng": 148.552001953,
+          "rwy": 6801,
+          "market": 32,
+          "hub_cost": 48000,
+          "rwy_codes": "06/24"
+        },
+        "full_distance": 7967.741580634153,
+        "exists": true
+      },
+      "flight_time": 7.272690773010254,
+      "trips_per_day_per_ac": 3,
+      "num_ac": 2,
+      "config": {
+        "y": 20,
+        "j": 33,
+        "f": 48,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 2792,
+        "j": 5701,
+        "f": 8659
+      },
+      "max_income": 659605.0,
+      "income": 653008.9562904835,
+      "fuel": 155928.86506843567,
+      "co2": 290382.0615117125,
+      "acheck_cost": 4944.28,
+      "repair_cost": 39.0337725,
+      "profit": 504029.58958867297,
+      "ci": 200,
+      "contribution": 38.24515914916992
+    }
+  },
+  {
+    "airport": {
+      "id": 3841,
+      "name": "Cocos (Keeling) Islands",
+      "fullname": "Cocos (Keeling) Islands Airport",
+      "country": "Cocos (Keeling) Islands",
+      "continent": "Asia",
+      "iata": "CCK",
+      "icao": "YPCC",
+      "lat": -12.1883001328,
+      "lng": 96.8339004517,
+      "rwy": 7999,
+      "market": 66,
+      "hub_cost": 237000,
+      "rwy_codes": "15/33"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 1332,
+          "j": 520,
+          "f": 173
+        },
+        "cargo_demand": {
+          "l": 666000,
+          "h": 520000
+        },
+        "direct_distance": 8117.090585848671
+      },
+      "warnings": [],
+      "valid": true,
+      "max_tpd": null,
+      "needs_stopover": true,
+      "stopover": {
+        "airport": {
+          "id": 3818,
+          "name": "Meekatharra",
+          "fullname": "Meekatharra Airport",
+          "country": "Australia",
+          "continent": "Oceania",
+          "iata": "MKR",
+          "icao": "YMEK",
+          "lat": -26.6117000579834,
+          "lng": 118.5479965209961,
+          "rwy": 7156,
+          "market": 33,
+          "hub_cost": 48000,
+          "rwy_codes": "09/27"
+        },
+        "full_distance": 8118.10973429507,
+        "exists": true
+      },
+      "flight_time": 7.409942150115967,
+      "trips_per_day_per_ac": 3,
+      "num_ac": 4,
+      "config": {
+        "y": 102,
+        "j": 43,
+        "f": 14,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 2841,
+        "j": 5797,
+        "f": 8801
+      },
+      "max_income": 662267.0,
+      "income": 655644.3363158703,
+      "fuel": 158871.41022254943,
+      "co2": 295917.97690927156,
+      "acheck_cost": 4944.28,
+      "repair_cost": 39.0337725,
+      "profit": 503940.87815847306,
+      "ci": 200,
+      "contribution": 38.96692657470703
+    }
+  },
+  {
+    "airport": {
+      "id": 3676,
+      "name": "Kuching",
+      "fullname": "Kuching International Airport",
+      "country": "Malaysia",
+      "continent": "Asia",
+      "iata": "KCH",
+      "icao": "WBGG",
+      "lat": 1.4846999645233154,
+      "lng": 110.34700012207031,
+      "rwy": 8051,
+      "market": 90,
+      "hub_cost": 48000,
+      "rwy_codes": "07/25"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 244,
+          "j": 439,
+          "f": 122
+        },
+        "cargo_demand": {
+          "l": 122000,
+          "h": 439000
+        },
+        "direct_distance": 8022.414108484519
+      },
+      "warnings": [],
+      "valid": true,
+      "max_tpd": null,
+      "needs_stopover": true,
+      "stopover": {
+        "airport": {
+          "id": 3738,
+          "name": "Alice Springs",
+          "fullname": "Alice Springs Airport",
+          "country": "Australia",
+          "continent": "Oceania",
+          "iata": "ASP",
+          "icao": "YBAS",
+          "lat": -23.806699752807617,
+          "lng": 133.90199279785156,
+          "rwy": 7999,
+          "market": 33,
+          "hub_cost": 48000,
+          "rwy_codes": "12/30"
+        },
+        "full_distance": 8040.906631974234,
+        "exists": true
+      },
+      "flight_time": 7.339473724365234,
+      "trips_per_day_per_ac": 3,
+      "num_ac": 2,
+      "config": {
+        "y": 24,
+        "j": 73,
+        "f": 20,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 2810,
+        "j": 5736,
+        "f": 8711
+      },
+      "max_income": 660388.0,
+      "income": 653784.1262979507,
+      "fuel": 157360.606246109,
+      "co2": 293063.426572137,
+      "acheck_cost": 4944.28,
+      "repair_cost": 39.0337725,
+      "profit": 503480.776964518,
+      "ci": 200,
+      "contribution": 38.596351623535156
+    }
+  },
+  {
+    "airport": {
+      "id": 2794,
+      "name": "Legazpi City",
+      "fullname": "Legazpi City International Airport",
+      "country": "Philippines",
+      "continent": "Asia",
+      "iata": "LGP",
+      "icao": "RPLP",
+      "lat": 13.1575,
+      "lng": 123.735,
+      "rwy": 7480,
+      "market": 60,
+      "hub_cost": 42000,
+      "rwy_codes": "06/24"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 562,
+          "j": 568,
+          "f": 77
+        },
+        "cargo_demand": {
+          "l": 281000,
+          "h": 568000
+        },
+        "direct_distance": 8005.001706967083
+      },
+      "warnings": [],
+      "valid": true,
+      "max_tpd": null,
+      "needs_stopover": true,
+      "stopover": {
+        "airport": {
+          "id": 3742,
+          "name": "Cairns",
+          "fullname": "Cairns International Airport",
+          "country": "Australia",
+          "continent": "Oceania",
+          "iata": "CNS",
+          "icao": "YBCS",
+          "lat": -16.885799408,
+          "lng": 145.755004883,
+          "rwy": 10489,
+          "market": 87,
+          "hub_cost": 48000,
+          "rwy_codes": "12/30"
+        },
+        "full_distance": 8006.8928422417575,
+        "exists": true
+      },
+      "flight_time": 7.308426856994629,
+      "trips_per_day_per_ac": 3,
+      "num_ac": 2,
+      "config": {
+        "y": 4,
+        "j": 95,
+        "f": 12,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 2804,
+        "j": 5725,
+        "f": 8694
+      },
+      "max_income": 659419.0,
+      "income": 652824.8162887096,
+      "fuel": 156695.03055648803,
+      "co2": 291818.37427983194,
+      "acheck_cost": 4944.28,
+      "repair_cost": 39.0337725,
+      "profit": 503136.7762130882,
+      "ci": 200,
+      "contribution": 38.43308639526367
+    }
+  },
+  {
+    "airport": {
+      "id": 3703,
+      "name": "Pontianak-Borneo Island",
+      "fullname": "Supadio Airport",
+      "country": "Indonesia",
+      "continent": "Asia",
+      "iata": "PNK",
+      "icao": "WIOO",
+      "lat": -0.15071099996566772,
+      "lng": 109.40399932861328,
+      "rwy": 7380,
+      "market": 77,
+      "hub_cost": 54000,
+      "rwy_codes": "15/33"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 587,
+          "j": 222,
+          "f": 249
+        },
+        "cargo_demand": {
+          "l": 294000,
+          "h": 222000
+        },
+        "direct_distance": 7970.40809500462
+      },
+      "warnings": [],
+      "valid": true,
+      "max_tpd": null,
+      "needs_stopover": true,
+      "stopover": {
+        "airport": {
+          "id": 3738,
+          "name": "Alice Springs",
+          "fullname": "Alice Springs Airport",
+          "country": "Australia",
+          "continent": "Oceania",
+          "iata": "ASP",
+          "icao": "YBAS",
+          "lat": -23.806699752807617,
+          "lng": 133.90199279785156,
+          "rwy": 7999,
+          "market": 33,
+          "hub_cost": 48000,
+          "rwy_codes": "12/30"
+        },
+        "full_distance": 7976.026842978075,
+        "exists": true
+      },
+      "flight_time": 7.2802534103393555,
+      "trips_per_day_per_ac": 3,
+      "num_ac": 2,
+      "config": {
+        "y": 33,
+        "j": 37,
+        "f": 41,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 2793,
+        "j": 5702,
+        "f": 8661
+      },
+      "max_income": 658244.0,
+      "income": 651661.566277504,
+      "fuel": 156090.9046659088,
+      "co2": 290693.71846496995,
+      "acheck_cost": 4944.28,
+      "repair_cost": 39.0337725,
+      "profit": 502531.3730230714,
+      "ci": 200,
+      "contribution": 38.28492736816406
+    }
+  },
+  {
+    "airport": {
+      "id": 3683,
+      "name": "Kota Kinabalu",
+      "fullname": "Kota Kinabalu International Airport",
+      "country": "Malaysia",
+      "continent": "Asia",
+      "iata": "BKI",
+      "icao": "WBKK",
+      "lat": 5.9372100830078125,
+      "lng": 116.0510025024414,
+      "rwy": 9800,
+      "market": 30,
+      "hub_cost": 48000,
+      "rwy_codes": "02/20"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 470,
+          "j": 467,
+          "f": 109
+        },
+        "cargo_demand": {
+          "l": 235000,
+          "h": 467000
+        },
+        "direct_distance": 7938.153740297953
+      },
+      "warnings": [],
+      "valid": true,
+      "max_tpd": null,
+      "needs_stopover": true,
+      "stopover": {
+        "airport": {
+          "id": 3765,
+          "name": "Toowoomba",
+          "fullname": "Toowoomba Wellcamp Airport",
+          "country": "Australia",
+          "continent": "Oceania",
+          "iata": "WTB",
+          "icao": "YBWW",
+          "lat": -27.558332,
+          "lng": 151.793335,
+          "rwy": 9416,
+          "market": 85,
+          "hub_cost": 48000,
+          "rwy_codes": "12/30"
+        },
+        "full_distance": 7941.763269068557,
+        "exists": true
+      },
+      "flight_time": 7.248978614807129,
+      "trips_per_day_per_ac": 3,
+      "num_ac": 2,
+      "config": {
+        "y": 20,
+        "j": 78,
+        "f": 18,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 2782,
+        "j": 5681,
+        "f": 8630
+      },
+      "max_income": 654098.0,
+      "income": 647557.0262379646,
+      "fuel": 155420.43647636415,
+      "co2": 289450.5581728685,
+      "acheck_cost": 4944.28,
+      "repair_cost": 39.0337725,
+      "profit": 499045.3399512655,
+      "ci": 200,
+      "contribution": 38.120460510253906
+    }
+  },
+  {
+    "airport": {
+      "id": 3688,
+      "name": "Bandar Seri Begawan",
+      "fullname": "Brunei International Airport",
+      "country": "Brunei",
+      "continent": "Asia",
+      "iata": "BWN",
+      "icao": "WBSB",
+      "lat": 4.944200038909912,
+      "lng": 114.9280014038086,
+      "rwy": 12000,
+      "market": 83,
+      "hub_cost": 213300,
+      "rwy_codes": "03/21"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 1147,
+          "j": 337,
+          "f": 414
+        },
+        "cargo_demand": {
+          "l": 574000,
+          "h": 337000
+        },
+        "direct_distance": 7942.034716732439
+      },
+      "warnings": [],
+      "valid": true,
+      "max_tpd": null,
+      "needs_stopover": true,
+      "stopover": {
+        "airport": {
+          "id": 3842,
+          "name": "Darwin",
+          "fullname": "Darwin International Airport",
+          "country": "Australia",
+          "continent": "Oceania",
+          "iata": "DRW",
+          "icao": "YPDN",
+          "lat": -12.41469955444336,
+          "lng": 130.8769989013672,
+          "rwy": 11004,
+          "market": 58,
+          "hub_cost": 48000,
+          "rwy_codes": "11/29"
+        },
+        "full_distance": 7942.5025936115235,
+        "exists": true
+      },
+      "flight_time": 7.249653339385986,
+      "trips_per_day_per_ac": 3,
+      "num_ac": 4,
+      "config": {
+        "y": 72,
+        "j": 28,
+        "f": 34,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 2783,
+        "j": 5684,
+        "f": 8634
+      },
+      "max_income": 653084.0,
+      "income": 646553.1662282944,
+      "fuel": 155434.9182761383,
+      "co2": 289495.5178522659,
+      "acheck_cost": 4944.28,
+      "repair_cost": 39.0337725,
+      "profit": 498025.94752022566,
+      "ci": 200,
+      "contribution": 38.1240119934082
+    }
+  },
+  {
+    "airport": {
+      "id": 3684,
+      "name": "Labuan",
+      "fullname": "Labuan Airport",
+      "country": "Malaysia",
+      "continent": "Asia",
+      "iata": "LBU",
+      "icao": "WBKL",
+      "lat": 5.300680160522461,
+      "lng": 115.25,
+      "rwy": 7546,
+      "market": 80,
+      "hub_cost": 48000,
+      "rwy_codes": "14/32"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 802,
+          "j": 437,
+          "f": 75
+        },
+        "cargo_demand": {
+          "l": 401000,
+          "h": 437000
+        },
+        "direct_distance": 7946.555724438532
+      },
+      "warnings": [],
+      "valid": true,
+      "max_tpd": null,
+      "needs_stopover": true,
+      "stopover": {
+        "airport": {
+          "id": 3803,
+          "name": "Inverell",
+          "fullname": "Inverell Airport",
+          "country": "Australia",
+          "continent": "Oceania",
+          "iata": "IVR",
+          "icao": "YIVL",
+          "lat": -29.888299942,
+          "lng": 151.143997192,
+          "rwy": 6936,
+          "market": 57,
+          "hub_cost": 48000,
+          "rwy_codes": "04/22"
+        },
+        "full_distance": 7948.008676898124,
+        "exists": true
+      },
+      "flight_time": 7.2546796798706055,
+      "trips_per_day_per_ac": 3,
+      "num_ac": 2,
+      "config": {
+        "y": 48,
+        "j": 73,
+        "f": 12,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 2785,
+        "j": 5687,
+        "f": 8639
+      },
+      "max_income": 652499.0,
+      "income": 645974.0162227154,
+      "fuel": 155542.55327445985,
+      "co2": 289694.89384778717,
+      "acheck_cost": 4944.28,
+      "repair_cost": 39.0337725,
+      "profit": 497347.527896359,
+      "ci": 200,
+      "contribution": 38.15044403076172
+    }
+  },
+  {
+    "airport": {
+      "id": 3689,
+      "name": "Bandar Lampung-Sumatra Island",
+      "fullname": "Radin Inten II (Branti) Airport",
+      "country": "Indonesia",
+      "continent": "Asia",
+      "iata": "TKG",
+      "icao": "WIAT",
+      "lat": -5.240556,
+      "lng": 105.175556,
+      "rwy": 8202,
+      "market": 42,
+      "hub_cost": 54000,
+      "rwy_codes": "14/32"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 864,
+          "j": 294,
+          "f": 148
+        },
+        "cargo_demand": {
+          "l": 432000,
+          "h": 294000
+        },
+        "direct_distance": 7928.14045609776
+      },
+      "warnings": [],
+      "valid": true,
+      "max_tpd": null,
+      "needs_stopover": true,
+      "stopover": {
+        "airport": {
+          "id": 3736,
+          "name": "Ayers Rock",
+          "fullname": "Ayers Rock Connellan Airport",
+          "country": "Australia",
+          "continent": "Oceania",
+          "iata": "AYQ",
+          "icao": "YAYE",
+          "lat": -25.1861,
+          "lng": 130.975998,
+          "rwy": 8527,
+          "market": 86,
+          "hub_cost": 48000,
+          "rwy_codes": "13/31"
+        },
+        "full_distance": 7928.274065152442,
+        "exists": true
+      },
+      "flight_time": 7.236666202545166,
+      "trips_per_day_per_ac": 3,
+      "num_ac": 2,
+      "config": {
+        "y": 60,
+        "j": 49,
+        "f": 24,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 2779,
+        "j": 5675,
+        "f": 8621
+      },
+      "max_income": 651719.0,
+      "income": 645201.8162152767,
+      "fuel": 155156.43718048095,
+      "co2": 288976.09050385363,
+      "acheck_cost": 4944.28,
+      "repair_cost": 39.0337725,
+      "profit": 496931.86555597757,
+      "ci": 200,
+      "contribution": 38.05571365356445
+    }
+  },
+  {
+    "airport": {
+      "id": 3680,
+      "name": "Sibu",
+      "fullname": "Sibu Airport",
+      "country": "Malaysia",
+      "continent": "Asia",
+      "iata": "SBW",
+      "icao": "WBGS",
+      "lat": 2.2616000175476074,
+      "lng": 111.98500061035156,
+      "rwy": 9036,
+      "market": 57,
+      "hub_cost": 48000,
+      "rwy_codes": "13/31"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 602,
+          "j": 133,
+          "f": 178
+        },
+        "cargo_demand": {
+          "l": 301000,
+          "h": 133000
+        },
+        "direct_distance": 7954.5083445977425
+      },
+      "warnings": [],
+      "valid": true,
+      "max_tpd": null,
+      "needs_stopover": true,
+      "stopover": {
+        "airport": {
+          "id": 3803,
+          "name": "Inverell",
+          "fullname": "Inverell Airport",
+          "country": "Australia",
+          "continent": "Oceania",
+          "iata": "IVR",
+          "icao": "YIVL",
+          "lat": -29.888299942,
+          "lng": 151.143997192,
+          "rwy": 6936,
+          "market": 57,
+          "hub_cost": 48000,
+          "rwy_codes": "04/22"
+        },
+        "full_distance": 7958.4344844142815,
+        "exists": true
+      },
+      "flight_time": 7.264195919036865,
+      "trips_per_day_per_ac": 3,
+      "num_ac": 2,
+      "config": {
+        "y": 99,
+        "j": 22,
+        "f": 29,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 2787,
+        "j": 5692,
+        "f": 8646
+      },
+      "max_income": 651871.0,
+      "income": 645352.2962167263,
+      "fuel": 155746.66837127684,
+      "co2": 290091.8795992938,
+      "acheck_cost": 4944.28,
+      "repair_cost": 39.0337725,
+      "profit": 496535.28903241723,
+      "ci": 200,
+      "contribution": 38.20048522949219
+    }
+  },
+  {
+    "airport": {
+      "id": 3679,
+      "name": "Miri",
+      "fullname": "Miri Airport",
+      "country": "Malaysia",
+      "continent": "Asia",
+      "iata": "MYY",
+      "icao": "WBGR",
+      "lat": 4.322010040283203,
+      "lng": 113.98699951171875,
+      "rwy": 9006,
+      "market": 57,
+      "hub_cost": 48000,
+      "rwy_codes": "02/20"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 664,
+          "j": 252,
+          "f": 78
+        },
+        "cargo_demand": {
+          "l": 332000,
+          "h": 252000
+        },
+        "direct_distance": 7963.593633333684
+      },
+      "warnings": [],
+      "valid": true,
+      "max_tpd": null,
+      "needs_stopover": true,
+      "stopover": {
+        "airport": {
+          "id": 3856,
+          "name": "Katherine",
+          "fullname": "Tindal Airport",
+          "country": "Australia",
+          "continent": "Oceania",
+          "iata": "KTR",
+          "icao": "YPTN",
+          "lat": -14.521100044250488,
+          "lng": 132.3780059814453,
+          "rwy": 9003,
+          "market": 33,
+          "hub_cost": 48000,
+          "rwy_codes": "14/32"
+        },
+        "full_distance": 7963.5941918272965,
+        "exists": true
+      },
+      "flight_time": 7.268905162811279,
+      "trips_per_day_per_ac": 3,
+      "num_ac": 2,
+      "config": {
+        "y": 107,
+        "j": 42,
+        "f": 13,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 2790,
+        "j": 5698,
+        "f": 8655
+      },
+      "max_income": 650361.0,
+      "income": 643857.3962023258,
+      "fuel": 155847.64956970216,
+      "co2": 290291.86871509196,
+      "acheck_cost": 4944.28,
+      "repair_cost": 39.0337725,
+      "profit": 494945.70348522323,
+      "ci": 200,
+      "contribution": 38.225250244140625
+    }
+  },
+  {
+    "airport": {
+      "id": 3675,
+      "name": "Bintulu",
+      "fullname": "Bintulu Airport",
+      "country": "Malaysia",
+      "continent": "Asia",
+      "iata": "BTU",
+      "icao": "WBGB",
+      "lat": 3.12385010719,
+      "lng": 113.019996643,
+      "rwy": 9006,
+      "market": 86,
+      "hub_cost": 48000,
+      "rwy_codes": "17/35"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 604,
+          "j": 394,
+          "f": 41
+        },
+        "cargo_demand": {
+          "l": 302000,
+          "h": 394000
+        },
+        "direct_distance": 7942.255821621987
+      },
+      "warnings": [],
+      "valid": true,
+      "max_tpd": null,
+      "needs_stopover": true,
+      "stopover": {
+        "airport": {
+          "id": 3803,
+          "name": "Inverell",
+          "fullname": "Inverell Airport",
+          "country": "Australia",
+          "continent": "Oceania",
+          "iata": "IVR",
+          "icao": "YIVL",
+          "lat": -29.888299942,
+          "lng": 151.143997192,
+          "rwy": 6936,
+          "market": 57,
+          "hub_cost": 48000,
+          "rwy_codes": "04/22"
+        },
+        "full_distance": 7943.301023392457,
+        "exists": true
+      },
+      "flight_time": 7.250381946563721,
+      "trips_per_day_per_ac": 3,
+      "num_ac": 2,
+      "config": {
+        "y": 80,
+        "j": 66,
+        "f": 6,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 2783,
+        "j": 5684,
+        "f": 8634
+      },
+      "max_income": 649588.0,
+      "income": 643092.1261949539,
+      "fuel": 155450.57427589418,
+      "co2": 289542.66345161444,
+      "acheck_cost": 4944.28,
+      "repair_cost": 39.0337725,
+      "profit": 494548.29081513424,
+      "ci": 200,
+      "contribution": 38.12784194946289
+    }
+  },
+  {
+    "airport": {
+      "id": 3696,
+      "name": "Jakarta Soekarno",
+      "fullname": "Soekarno-Hatta International Airport",
+      "country": "Indonesia",
+      "continent": "Asia",
+      "iata": "CGK",
+      "icao": "WIII",
+      "lat": -6.1255698204,
+      "lng": 106.65599823,
+      "rwy": 12008,
+      "market": 52,
+      "hub_cost": 213300,
+      "rwy_codes": "07L/25R"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 867,
+          "j": 364,
+          "f": 368
+        },
+        "cargo_demand": {
+          "l": 434000,
+          "h": 364000
+        },
+        "direct_distance": 7740.546417147595
+      },
+      "warnings": [],
+      "valid": true,
+      "max_tpd": null,
+      "needs_stopover": true,
+      "stopover": {
+        "airport": {
+          "id": 3736,
+          "name": "Ayers Rock",
+          "fullname": "Ayers Rock Connellan Airport",
+          "country": "Australia",
+          "continent": "Oceania",
+          "iata": "AYQ",
+          "icao": "YAYE",
+          "lat": -25.1861,
+          "lng": 130.975998,
+          "rwy": 8527,
+          "market": 86,
+          "hub_cost": 48000,
+          "rwy_codes": "13/31"
+        },
+        "full_distance": 7740.5464177257345,
+        "exists": true
+      },
+      "flight_time": 7.065314769744873,
+      "trips_per_day_per_ac": 3,
+      "num_ac": 3,
+      "config": {
+        "y": 27,
+        "j": 40,
+        "f": 41,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 2717,
+        "j": 5553,
+        "f": 8442
+      },
+      "max_income": 641601.0,
+      "income": 635184.996118784,
+      "fuel": 151482.5611377716,
+      "co2": 282111.7112967257,
+      "acheck_cost": 4944.28,
+      "repair_cost": 39.0337725,
+      "profit": 490310.48419423663,
+      "ci": 200,
+      "contribution": 37.154624938964844
+    }
+  },
+  {
+    "airport": {
+      "id": 2829,
+      "name": "Iloilo City",
+      "fullname": "Iloilo International Airport",
+      "country": "Philippines",
+      "continent": "Asia",
+      "iata": "ILO",
+      "icao": "RPVI",
+      "lat": 10.833017,
+      "lng": 122.493358,
+      "rwy": 8202,
+      "market": 56,
+      "hub_cost": 42000,
+      "rwy_codes": "02/20"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 909,
+          "j": 128,
+          "f": 86
+        },
+        "cargo_demand": {
+          "l": 455000,
+          "h": 128000
+        },
+        "direct_distance": 7886.458443320849
+      },
+      "warnings": [],
+      "valid": true,
+      "max_tpd": null,
+      "needs_stopover": true,
+      "stopover": {
+        "airport": {
+          "id": 3761,
+          "name": "Townsville",
+          "fullname": "Townsville Airport",
+          "country": "Australia",
+          "continent": "Oceania",
+          "iata": "TSV",
+          "icao": "YBTL",
+          "lat": -19.252500534057617,
+          "lng": 146.76499938964844,
+          "rwy": 7999,
+          "market": 40,
+          "hub_cost": 48000,
+          "rwy_codes": "01/19"
+        },
+        "full_distance": 7886.574559352316,
+        "exists": true
+      },
+      "flight_time": 7.198604583740234,
+      "trips_per_day_per_ac": 3,
+      "num_ac": 2,
+      "config": {
+        "y": 146,
+        "j": 21,
+        "f": 14,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 2765,
+        "j": 5648,
+        "f": 8581
+      },
+      "max_income": 642432.0,
+      "income": 636007.686126709,
+      "fuel": 154340.36819320678,
+      "co2": 287504.87613781076,
+      "acheck_cost": 4944.28,
+      "repair_cost": 39.0337725,
+      "profit": 488485.52948242694,
+      "ci": 200,
+      "contribution": 37.85555648803711
+    }
+  },
+  {
+    "airport": {
+      "id": 2823,
+      "name": "Tacloban City",
+      "fullname": "Daniel Z. Romualdez Airport",
+      "country": "Philippines",
+      "continent": "Asia",
+      "iata": "TAC",
+      "icao": "RPVA",
+      "lat": 11.228035,
+      "lng": 125.027761,
+      "rwy": 7014,
+      "market": 30,
+      "hub_cost": 42000,
+      "rwy_codes": "18/36"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 567,
+          "j": 268,
+          "f": 175
+        },
+        "cargo_demand": {
+          "l": 284000,
+          "h": 268000
+        },
+        "direct_distance": 7749.360585728052
+      },
+      "warnings": [],
+      "valid": true,
+      "max_tpd": null,
+      "needs_stopover": true,
+      "stopover": {
+        "airport": {
+          "id": 3742,
+          "name": "Cairns",
+          "fullname": "Cairns International Airport",
+          "country": "Australia",
+          "continent": "Oceania",
+          "iata": "CNS",
+          "icao": "YBCS",
+          "lat": -16.885799408,
+          "lng": 145.755004883,
+          "rwy": 10489,
+          "market": 87,
+          "hub_cost": 48000,
+          "rwy_codes": "12/30"
+        },
+        "full_distance": 7750.844318090967,
+        "exists": true
+      },
+      "flight_time": 7.074714183807373,
+      "trips_per_day_per_ac": 3,
+      "num_ac": 2,
+      "config": {
+        "y": 53,
+        "j": 45,
+        "f": 29,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 2720,
+        "j": 5559,
+        "f": 8450
+      },
+      "max_income": 639365.0,
+      "income": 632971.3560974598,
+      "fuel": 151684.1321346283,
+      "co2": 282505.9608883382,
+      "acheck_cost": 4944.28,
+      "repair_cost": 39.0337725,
+      "profit": 487908.43452411937,
+      "ci": 200,
+      "contribution": 37.20404815673828
+    }
+  },
+  {
+    "airport": {
+      "id": 3685,
+      "name": "Sandakan",
+      "fullname": "Sandakan Airport",
+      "country": "Malaysia",
+      "continent": "Asia",
+      "iata": "SDK",
+      "icao": "WBKS",
+      "lat": 5.900899887084961,
+      "lng": 118.05899810791016,
+      "rwy": 7000,
+      "market": 83,
+      "hub_cost": 48000,
+      "rwy_codes": "08/26"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 571,
+          "j": 306,
+          "f": 117
+        },
+        "cargo_demand": {
+          "l": 286000,
+          "h": 306000
+        },
+        "direct_distance": 7785.72777484936
+      },
+      "warnings": [],
+      "valid": true,
+      "max_tpd": null,
+      "needs_stopover": true,
+      "stopover": {
+        "airport": {
+          "id": 3765,
+          "name": "Toowoomba",
+          "fullname": "Toowoomba Wellcamp Airport",
+          "country": "Australia",
+          "continent": "Oceania",
+          "iata": "WTB",
+          "icao": "YBWW",
+          "lat": -27.558332,
+          "lng": 151.793335,
+          "rwy": 9416,
+          "market": 85,
+          "hub_cost": 48000,
+          "rwy_codes": "12/30"
+        },
+        "full_distance": 7786.4146971126265,
+        "exists": true
+      },
+      "flight_time": 7.107181549072266,
+      "trips_per_day_per_ac": 3,
+      "num_ac": 2,
+      "config": {
+        "y": 71,
+        "j": 51,
+        "f": 19,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 2732,
+        "j": 5583,
+        "f": 8485
+      },
+      "max_income": 639920.0,
+      "income": 633520.8061027527,
+      "fuel": 152380.2370237732,
+      "co2": 283815.8470993729,
+      "acheck_cost": 4944.28,
+      "repair_cost": 39.0337725,
+      "profit": 487813.42476168665,
+      "ci": 200,
+      "contribution": 37.37479019165039
+    }
+  },
+  {
+    "airport": {
+      "id": 3694,
+      "name": "Jakarta Halim P.",
+      "fullname": "Halim Perdanakusuma International Airport",
+      "country": "Indonesia",
+      "continent": "Asia",
+      "iata": "HLP",
+      "icao": "WIHH",
+      "lat": -6.266610145568848,
+      "lng": 106.89099884033203,
+      "rwy": 9843,
+      "market": 86,
+      "hub_cost": 54000,
+      "rwy_codes": "06/24"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 1031,
+          "j": 354,
+          "f": 115
+        },
+        "cargo_demand": {
+          "l": 516000,
+          "h": 354000
+        },
+        "direct_distance": 7710.7428736903385
+      },
+      "warnings": [],
+      "valid": true,
+      "max_tpd": null,
+      "needs_stopover": true,
+      "stopover": {
+        "airport": {
+          "id": 3736,
+          "name": "Ayers Rock",
+          "fullname": "Ayers Rock Connellan Airport",
+          "country": "Australia",
+          "continent": "Oceania",
+          "iata": "AYQ",
+          "icao": "YAYE",
+          "lat": -25.1861,
+          "lng": 130.975998,
+          "rwy": 8527,
+          "market": 86,
+          "hub_cost": 48000,
+          "rwy_codes": "13/31"
+        },
+        "full_distance": 7710.746456023821,
+        "exists": true
+      },
+      "flight_time": 7.038114547729492,
+      "trips_per_day_per_ac": 3,
+      "num_ac": 2,
+      "config": {
+        "y": 55,
+        "j": 59,
+        "f": 19,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 2707,
+        "j": 5534,
+        "f": 8414
+      },
+      "max_income": 635257.0,
+      "income": 628904.4360582829,
+      "fuel": 150899.37514686584,
+      "co2": 281051.0377209924,
+      "acheck_cost": 4944.28,
+      "repair_cost": 39.0337725,
+      "profit": 484565.43515645765,
+      "ci": 200,
+      "contribution": 37.01158142089844
+    }
+  },
+  {
+    "airport": {
+      "id": 2832,
+      "name": "Lapu-Lapu City",
+      "fullname": "Mactan Cebu International Airport",
+      "country": "Philippines",
+      "continent": "Asia",
+      "iata": "CEB",
+      "icao": "RPVM",
+      "lat": 10.307499885559,
+      "lng": 123.97899627686,
+      "rwy": 10827,
+      "market": 66,
+      "hub_cost": 42000,
+      "rwy_codes": "04/22"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 922,
+          "j": 191,
+          "f": 145
+        },
+        "cargo_demand": {
+          "l": 461000,
+          "h": 191000
+        },
+        "direct_distance": 7739.352004290386
+      },
+      "warnings": [],
+      "valid": true,
+      "max_tpd": null,
+      "needs_stopover": true,
+      "stopover": {
+        "airport": {
+          "id": 3742,
+          "name": "Cairns",
+          "fullname": "Cairns International Airport",
+          "country": "Australia",
+          "continent": "Oceania",
+          "iata": "CNS",
+          "icao": "YBCS",
+          "lat": -16.885799408,
+          "lng": 145.755004883,
+          "rwy": 10489,
+          "market": 87,
+          "hub_cost": 48000,
+          "rwy_codes": "12/30"
+        },
+        "full_distance": 7739.387060871393,
+        "exists": true
+      },
+      "flight_time": 7.06425666809082,
+      "trips_per_day_per_ac": 3,
+      "num_ac": 2,
+      "config": {
+        "y": 94,
+        "j": 32,
+        "f": 24,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 2716,
+        "j": 5553,
+        "f": 8441
+      },
+      "max_income": 635584.0,
+      "income": 629228.1660614014,
+      "fuel": 151459.85993812562,
+      "co2": 282111.45017767034,
+      "acheck_cost": 4944.28,
+      "repair_cost": 39.0337725,
+      "profit": 484369.576310893,
+      "ci": 200,
+      "contribution": 37.1490592956543
+    }
+  },
+  {
+    "airport": {
+      "id": 3658,
+      "name": "Tarakan Island",
+      "fullname": "Juwata Airport",
+      "country": "Indonesia",
+      "continent": "Asia",
+      "iata": "TRK",
+      "icao": "WALR",
+      "lat": 3.326667,
+      "lng": 117.569444,
+      "rwy": 7382,
+      "market": 88,
+      "hub_cost": 54000,
+      "rwy_codes": "06/24"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 473,
+          "j": 303,
+          "f": 218
+        },
+        "cargo_demand": {
+          "l": 237000,
+          "h": 303000
+        },
+        "direct_distance": 7610.6976324498155
+      },
+      "warnings": [],
+      "valid": true,
+      "max_tpd": null,
+      "needs_stopover": true,
+      "stopover": {
+        "airport": {
+          "id": 3863,
+          "name": "Coffs Harbour",
+          "fullname": "Coffs Harbour Airport",
+          "country": "Australia",
+          "continent": "Oceania",
+          "iata": "CFS",
+          "icao": "YSCH",
+          "lat": -30.3206005096,
+          "lng": 153.115997314,
+          "rwy": 6824,
+          "market": 56,
+          "hub_cost": 48000,
+          "rwy_codes": "03/21"
+        },
+        "full_distance": 7610.720501033189,
+        "exists": true
+      },
+      "flight_time": 6.946814060211182,
+      "trips_per_day_per_ac": 3,
+      "num_ac": 2,
+      "config": {
+        "y": 20,
+        "j": 51,
+        "f": 36,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 2674,
+        "j": 5469,
+        "f": 8318
+      },
+      "max_income": 631847.0,
+      "income": 625528.5360257626,
+      "fuel": 148941.9837773895,
+      "co2": 277381.1091624405,
+      "acheck_cost": 4326.245,
+      "repair_cost": 39.0337725,
+      "profit": 483618.1355095971,
+      "ci": 200,
+      "contribution": 36.531455993652344
+    }
+  },
+  {
+    "airport": {
+      "id": 2659,
+      "name": "Kahului",
+      "fullname": "Kahului Airport",
+      "country": "United States",
+      "continent": "North America",
+      "iata": "OGG",
+      "icao": "PHOG",
+      "lat": 20.8986,
+      "lng": -156.429993,
+      "rwy": 6995,
+      "market": 46,
+      "hub_cost": 60000,
+      "rwy_codes": "02/20"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 525,
+          "j": 562,
+          "f": 132
+        },
+        "cargo_demand": {
+          "l": 263000,
+          "h": 562000
+        },
+        "direct_distance": 7528.161423750455
+      },
+      "warnings": [],
+      "valid": true,
+      "max_tpd": null,
+      "needs_stopover": true,
+      "stopover": {
+        "airport": {
+          "id": 2320,
+          "name": "Pago Pago",
+          "fullname": "Pago Pago International Airport",
+          "country": "American Samoa",
+          "continent": "Oceania",
+          "iata": "PPG",
+          "icao": "NSTU",
+          "lat": -14.3310003281,
+          "lng": -170.710006714,
+          "rwy": 10000,
+          "market": 44,
+          "hub_cost": 237000,
+          "rwy_codes": "05/23"
+        },
+        "full_distance": 7528.17379614815,
+        "exists": true
+      },
+      "flight_time": 6.8714680671691895,
+      "trips_per_day_per_ac": 3,
+      "num_ac": 2,
+      "config": {
+        "y": 0,
+        "j": 82,
+        "f": 22,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 2647,
+        "j": 5416,
+        "f": 8239
+      },
+      "max_income": 625370.0,
+      "income": 619116.3059639931,
+      "fuel": 147326.4803025818,
+      "co2": 274370.6476296626,
+      "acheck_cost": 4326.245,
+      "repair_cost": 39.0337725,
+      "profit": 478698.01326412626,
+      "ci": 200,
+      "contribution": 36.13523483276367
+    }
+  },
+  {
+    "airport": {
+      "id": 3686,
+      "name": "Tawau",
+      "fullname": "Tawau Airport",
+      "country": "Malaysia",
+      "continent": "Asia",
+      "iata": "TWU",
+      "icao": "WBKW",
+      "lat": 4.320159912109375,
+      "lng": 118.12799835205078,
+      "rwy": 8800,
+      "market": 47,
+      "hub_cost": 48000,
+      "rwy_codes": "06/24"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 961,
+          "j": 243,
+          "f": 96
+        },
+        "cargo_demand": {
+          "l": 481000,
+          "h": 243000
+        },
+        "direct_distance": 7650.212232868124
+      },
+      "warnings": [],
+      "valid": true,
+      "max_tpd": null,
+      "needs_stopover": true,
+      "stopover": {
+        "airport": {
+          "id": 3863,
+          "name": "Coffs Harbour",
+          "fullname": "Coffs Harbour Airport",
+          "country": "Australia",
+          "continent": "Oceania",
+          "iata": "CFS",
+          "icao": "YSCH",
+          "lat": -30.3206005096,
+          "lng": 153.115997314,
+          "rwy": 6824,
+          "market": 56,
+          "hub_cost": 48000,
+          "rwy_codes": "03/21"
+        },
+        "full_distance": 7651.043479419863,
+        "exists": true
+      },
+      "flight_time": 6.983619213104248,
+      "trips_per_day_per_ac": 3,
+      "num_ac": 2,
+      "config": {
+        "y": 102,
+        "j": 40,
+        "f": 16,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 2687,
+        "j": 5495,
+        "f": 8356
+      },
+      "max_income": 627570.0,
+      "income": 621294.3059849739,
+      "fuel": 149731.04616508484,
+      "co2": 278901.04736960726,
+      "acheck_cost": 4326.245,
+      "repair_cost": 39.0337725,
+      "profit": 478649.1692125616,
+      "ci": 200,
+      "contribution": 36.72500991821289
+    }
+  },
+  {
+    "airport": {
+      "id": 3692,
+      "name": "Bandung-Java Island",
+      "fullname": "Husein Sastranegara International Airport",
+      "country": "Indonesia",
+      "continent": "Asia",
+      "iata": "BDO",
+      "icao": "WICC",
+      "lat": -6.900629997253418,
+      "lng": 107.57599639892578,
+      "rwy": 7361,
+      "market": 56,
+      "hub_cost": 54000,
+      "rwy_codes": "11/29"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 764,
+          "j": 260,
+          "f": 131
+        },
+        "cargo_demand": {
+          "l": 382000,
+          "h": 260000
+        },
+        "direct_distance": 7607.341569554126
+      },
+      "warnings": [],
+      "valid": true,
+      "max_tpd": null,
+      "needs_stopover": true,
+      "stopover": {
+        "airport": {
+          "id": 3736,
+          "name": "Ayers Rock",
+          "fullname": "Ayers Rock Connellan Airport",
+          "country": "Australia",
+          "continent": "Oceania",
+          "iata": "AYQ",
+          "icao": "YAYE",
+          "lat": -25.1861,
+          "lng": 130.975998,
+          "rwy": 8527,
+          "market": 86,
+          "hub_cost": 48000,
+          "rwy_codes": "13/31"
+        },
+        "full_distance": 7607.343201585862,
+        "exists": true
+      },
+      "flight_time": 6.943731307983398,
+      "trips_per_day_per_ac": 3,
+      "num_ac": 2,
+      "config": {
+        "y": 78,
+        "j": 43,
+        "f": 22,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 2673,
+        "j": 5467,
+        "f": 8315
+      },
+      "max_income": 626505.0,
+      "income": 620239.9559748173,
+      "fuel": 148875.83717842103,
+      "co2": 277293.969005193,
+      "acheck_cost": 4326.245,
+      "repair_cost": 39.0337725,
+      "profit": 478386.3148967994,
+      "ci": 200,
+      "contribution": 36.5152473449707
+    }
+  },
+  {
+    "airport": {
+      "id": 3857,
+      "name": "Christmas Island",
+      "fullname": "Christmas Island Airport",
+      "country": "Christmas Island",
+      "continent": "Asia",
+      "iata": "XCH",
+      "icao": "YPXM",
+      "lat": -10.450599670410156,
+      "lng": 105.69000244140625,
+      "rwy": 6900,
+      "market": 65,
+      "hub_cost": 237000,
+      "rwy_codes": "18/36"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 1022,
+          "j": 858,
+          "f": 209
+        },
+        "cargo_demand": {
+          "l": 511000,
+          "h": 858000
+        },
+        "direct_distance": 7503.135614735208
+      },
+      "warnings": [],
+      "valid": true,
+      "max_tpd": null,
+      "needs_stopover": true,
+      "stopover": {
+        "airport": {
+          "id": 3778,
+          "name": "Cooma",
+          "fullname": "Cooma Snowy Mountains Airport",
+          "country": "Australia",
+          "continent": "Oceania",
+          "iata": "OOM",
+          "icao": "YCOM",
+          "lat": -36.3005981445,
+          "lng": 148.973999023,
+          "rwy": 6955,
+          "market": 38,
+          "hub_cost": 48000,
+          "rwy_codes": "14/32"
+        },
+        "full_distance": 7503.179881955604,
+        "exists": true
+      },
+      "flight_time": 6.848654270172119,
+      "trips_per_day_per_ac": 3,
+      "num_ac": 4,
+      "config": {
+        "y": 35,
+        "j": 72,
+        "f": 17,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 2639,
+        "j": 5400,
+        "f": 8215
+      },
+      "max_income": 620820.0,
+      "income": 614611.8059206009,
+      "fuel": 146837.2303102112,
+      "co2": 273479.84765002056,
+      "acheck_cost": 4326.245,
+      "repair_cost": 39.0337725,
+      "profit": 474642.8842129506,
+      "ci": 200,
+      "contribution": 36.0152587890625
+    }
+  },
+  {
+    "airport": {
+      "id": 2657,
+      "name": "Honolulu",
+      "fullname": "Daniel K Inouye International Airport",
+      "country": "United States",
+      "continent": "North America",
+      "iata": "HNL",
+      "icao": "PHNL",
+      "lat": 21.32062,
+      "lng": -157.924228,
+      "rwy": 12300,
+      "market": 51,
+      "hub_cost": 60000,
+      "rwy_codes": "04L/22R|04W/22|08R/26L"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 664,
+          "j": 491,
+          "f": 196
+        },
+        "cargo_demand": {
+          "l": 332000,
+          "h": 491000
+        },
+        "direct_distance": 7512.412338485827
+      },
+      "warnings": [],
+      "valid": true,
+      "max_tpd": null,
+      "needs_stopover": true,
+      "stopover": {
+        "airport": {
+          "id": 2318,
+          "name": "Apia",
+          "fullname": "Faleolo International Airport",
+          "country": "Samoa",
+          "continent": "Oceania",
+          "iata": "APW",
+          "icao": "NSFA",
+          "lat": -13.829999923706055,
+          "lng": -172.00799560546875,
+          "rwy": 9843,
+          "market": 33,
+          "hub_cost": 237000,
+          "rwy_codes": "08/26"
+        },
+        "full_distance": 7513.183416873148,
+        "exists": true
+      },
+      "flight_time": 6.857785224914551,
+      "trips_per_day_per_ac": 3,
+      "num_ac": 3,
+      "config": {
+        "y": 57,
+        "j": 55,
+        "f": 21,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 2642,
+        "j": 5406,
+        "f": 8224
+      },
+      "max_income": 620628.0,
+      "income": 614421.7259187698,
+      "fuel": 147033.12600715636,
+      "co2": 273853.5319618692,
+      "acheck_cost": 4326.245,
+      "repair_cost": 39.0337725,
+      "profit": 474270.8351058361,
+      "ci": 200,
+      "contribution": 36.06327819824219
+    }
+  },
+  {
+    "airport": {
+      "id": 2652,
+      "name": "Kailua/Kona",
+      "fullname": "Ellison Onizuka Kona International At Keahole Airport",
+      "country": "United States",
+      "continent": "North America",
+      "iata": "KOA",
+      "icao": "PHKO",
+      "lat": 19.738783,
+      "lng": -156.045603,
+      "rwy": 11000,
+      "market": 38,
+      "hub_cost": 60000,
+      "rwy_codes": "17/35"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 333,
+          "j": 598,
+          "f": 167
+        },
+        "cargo_demand": {
+          "l": 167000,
+          "h": 598000
+        },
+        "direct_distance": 7425.4478345530215
+      },
+      "warnings": [],
+      "valid": true,
+      "max_tpd": null,
+      "needs_stopover": true,
+      "stopover": {
+        "airport": {
+          "id": 2320,
+          "name": "Pago Pago",
+          "fullname": "Pago Pago International Airport",
+          "country": "American Samoa",
+          "continent": "Oceania",
+          "iata": "PPG",
+          "icao": "NSTU",
+          "lat": -14.3310003281,
+          "lng": -170.710006714,
+          "rwy": 10000,
+          "market": 44,
+          "hub_cost": 237000,
+          "rwy_codes": "05/23"
+        },
+        "full_distance": 7425.834298094603,
+        "exists": true
+      },
+      "flight_time": 6.7780561447143555,
+      "trips_per_day_per_ac": 3,
+      "num_ac": 2,
+      "config": {
+        "y": 0,
+        "j": 73,
+        "f": 28,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 2613,
+        "j": 5349,
+        "f": 8141
+      },
+      "max_income": 618425.0,
+      "income": 612240.7558977604,
+      "fuel": 145323.68653381348,
+      "co2": 270639.19683299994,
+      "acheck_cost": 4326.245,
+      "repair_cost": 39.0337725,
+      "profit": 473672.192931631,
+      "ci": 200,
+      "contribution": 35.644004821777344
+    }
+  },
+  {
+    "airport": {
+      "id": 2661,
+      "name": "Hilo",
+      "fullname": "Hilo International Airport",
+      "country": "United States",
+      "continent": "North America",
+      "iata": "ITO",
+      "icao": "PHTO",
+      "lat": 19.721399307250977,
+      "lng": -155.04800415039062,
+      "rwy": 9800,
+      "market": 70,
+      "hub_cost": 60000,
+      "rwy_codes": "03/21"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 556,
+          "j": 534,
+          "f": 171
+        },
+        "cargo_demand": {
+          "l": 278000,
+          "h": 534000
+        },
+        "direct_distance": 7465.828934661992
+      },
+      "warnings": [],
+      "valid": true,
+      "max_tpd": null,
+      "needs_stopover": true,
+      "stopover": {
+        "airport": {
+          "id": 2320,
+          "name": "Pago Pago",
+          "fullname": "Pago Pago International Airport",
+          "country": "American Samoa",
+          "continent": "Oceania",
+          "iata": "PPG",
+          "icao": "NSTU",
+          "lat": -14.3310003281,
+          "lng": -170.710006714,
+          "rwy": 10000,
+          "market": 44,
+          "hub_cost": 237000,
+          "rwy_codes": "05/23"
+        },
+        "full_distance": 7467.859498281638,
+        "exists": true
+      },
+      "flight_time": 6.816414833068848,
+      "trips_per_day_per_ac": 3,
+      "num_ac": 3,
+      "config": {
+        "y": 55,
+        "j": 59,
+        "f": 19,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 2626,
+        "j": 5375,
+        "f": 8180
+      },
+      "max_income": 616975.0,
+      "income": 610805.2558839321,
+      "fuel": 146146.01792098998,
+      "co2": 272202.06943878223,
+      "acheck_cost": 4326.245,
+      "repair_cost": 39.0337725,
+      "profit": 471473.5162340852,
+      "ci": 200,
+      "contribution": 35.845726013183594
+    }
+  },
+  {
+    "airport": {
+      "id": 2810,
+      "name": "Zamboanga City",
+      "fullname": "Zamboanga International Airport",
+      "country": "Philippines",
+      "continent": "Asia",
+      "iata": "ZAM",
+      "icao": "RPMZ",
+      "lat": 6.922420024871826,
+      "lng": 122.05999755859375,
+      "rwy": 8560,
+      "market": 76,
+      "hub_cost": 42000,
+      "rwy_codes": "09/27"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 938,
+          "j": 156,
+          "f": 55
+        },
+        "cargo_demand": {
+          "l": 469000,
+          "h": 156000
+        },
+        "direct_distance": 7581.25319135799
+      },
+      "warnings": [],
+      "valid": true,
+      "max_tpd": null,
+      "needs_stopover": true,
+      "stopover": {
+        "airport": {
+          "id": 3739,
+          "name": "Brisbane",
+          "fullname": "Brisbane International Airport",
+          "country": "Australia",
+          "continent": "Oceania",
+          "iata": "BNE",
+          "icao": "YBBN",
+          "lat": -27.384199142456055,
+          "lng": 153.11700439453125,
+          "rwy": 11680,
+          "market": 81,
+          "hub_cost": 48000,
+          "rwy_codes": "01/19"
+        },
+        "full_distance": 7581.320888165472,
+        "exists": true
+      },
+      "flight_time": 6.919978618621826,
+      "trips_per_day_per_ac": 3,
+      "num_ac": 2,
+      "config": {
+        "y": 151,
+        "j": 26,
+        "f": 9,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 2664,
+        "j": 5450,
+        "f": 8290
+      },
+      "max_income": 618574.0,
+      "income": 612388.2658991814,
+      "fuel": 148366.6257863617,
+      "co2": 276389.00838638155,
+      "acheck_cost": 4326.245,
+      "repair_cost": 39.0337725,
+      "profit": 470999.6680698624,
+      "ci": 200,
+      "contribution": 36.39033889770508
+    }
+  },
+  {
+    "airport": {
+      "id": 2651,
+      "name": "Kapolei",
+      "fullname": "Kalaeloa Airport",
+      "country": "United States",
+      "continent": "North America",
+      "iata": "JRF",
+      "icao": "PHJR",
+      "lat": 21.3074,
+      "lng": -158.070009,
+      "rwy": 8000,
+      "market": 78,
+      "hub_cost": 60000,
+      "rwy_codes": "04L/22R|11/29"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 1364,
+          "j": 292,
+          "f": 100
+        },
+        "cargo_demand": {
+          "l": 682000,
+          "h": 292000
+        },
+        "direct_distance": 7505.438339647838
+      },
+      "warnings": [],
+      "valid": true,
+      "max_tpd": null,
+      "needs_stopover": true,
+      "stopover": {
+        "airport": {
+          "id": 2318,
+          "name": "Apia",
+          "fullname": "Faleolo International Airport",
+          "country": "Samoa",
+          "continent": "Oceania",
+          "iata": "APW",
+          "icao": "NSFA",
+          "lat": -13.829999923706055,
+          "lng": -172.00799560546875,
+          "rwy": 9843,
+          "market": 33,
+          "hub_cost": 237000,
+          "rwy_codes": "08/26"
+        },
+        "full_distance": 7506.0260529167335,
+        "exists": true
+      },
+      "flight_time": 6.85125207901001,
+      "trips_per_day_per_ac": 3,
+      "num_ac": 3,
+      "config": {
+        "y": 133,
+        "j": 32,
+        "f": 11,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 2639,
+        "j": 5401,
+        "f": 8218
+      },
+      "max_income": 614217.0,
+      "income": 608074.8358576298,
+      "fuel": 146893.00480934142,
+      "co2": 273635.6788476997,
+      "acheck_cost": 4326.245,
+      "repair_cost": 39.0337725,
+      "profit": 468048.1722568668,
+      "ci": 200,
+      "contribution": 36.02892303466797
+    }
+  },
+  {
+    "airport": {
+      "id": 2807,
+      "name": "General Santos",
+      "fullname": "General Santos International Airport",
+      "country": "Philippines",
+      "continent": "Asia",
+      "iata": "GES",
+      "icao": "RPMR",
+      "lat": 6.05800008774,
+      "lng": 125.096000671,
+      "rwy": 10587,
+      "market": 62,
+      "hub_cost": 42000,
+      "rwy_codes": "17/35"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 272,
+          "j": 399,
+          "f": 102
+        },
+        "cargo_demand": {
+          "l": 136000,
+          "h": 399000
+        },
+        "direct_distance": 7293.617527772263
+      },
+      "warnings": [],
+      "valid": true,
+      "max_tpd": null,
+      "needs_stopover": true,
+      "stopover": {
+        "airport": {
+          "id": 3757,
+          "name": "Rockhampton",
+          "fullname": "Rockhampton Airport",
+          "country": "Australia",
+          "continent": "Oceania",
+          "iata": "ROK",
+          "icao": "YBRK",
+          "lat": -23.3819007874,
+          "lng": 150.475006104,
+          "rwy": 8622,
+          "market": 83,
+          "hub_cost": 48000,
+          "rwy_codes": "04/22"
+        },
+        "full_distance": 7293.683774410572,
+        "exists": true
+      },
+      "flight_time": 6.657433032989502,
+      "trips_per_day_per_ac": 3,
+      "num_ac": 1,
+      "config": {
+        "y": 0,
+        "j": 64,
+        "f": 34,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 2569,
+        "j": 5264,
+        "f": 8016
+      },
+      "max_income": 609440.0,
+      "income": 603345.6058120728,
+      "fuel": 142737.51107414244,
+      "co2": 265821.7081406121,
+      "acheck_cost": 4326.245,
+      "repair_cost": 39.0337725,
+      "profit": 467165.4643107996,
+      "ci": 200,
+      "contribution": 35.009681701660156
+    }
+  },
+  {
+    "airport": {
+      "id": 2798,
+      "name": "Davao City",
+      "fullname": "Francisco Bangoy International Airport",
+      "country": "Philippines",
+      "continent": "Asia",
+      "iata": "DVO",
+      "icao": "RPMD",
+      "lat": 7.1255202293396,
+      "lng": 125.64600372314453,
+      "rwy": 9842,
+      "market": 59,
+      "hub_cost": 42000,
+      "rwy_codes": "05/23"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 574,
+          "j": 291,
+          "f": 112
+        },
+        "cargo_demand": {
+          "l": 287000,
+          "h": 291000
+        },
+        "direct_distance": 7348.270976778822
+      },
+      "warnings": [],
+      "valid": true,
+      "max_tpd": null,
+      "needs_stopover": true,
+      "stopover": {
+        "airport": {
+          "id": 3756,
+          "name": "Proserpine",
+          "fullname": "Proserpine Whitsunday Coast Airport",
+          "country": "Australia",
+          "continent": "Oceania",
+          "iata": "PPP",
+          "icao": "YBPN",
+          "lat": -20.4950008392,
+          "lng": 148.552001953,
+          "rwy": 6801,
+          "market": 32,
+          "hub_cost": 48000,
+          "rwy_codes": "06/24"
+        },
+        "full_distance": 7348.371988900436,
+        "exists": true
+      },
+      "flight_time": 6.707350730895996,
+      "trips_per_day_per_ac": 3,
+      "num_ac": 2,
+      "config": {
+        "y": 80,
+        "j": 48,
+        "f": 18,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 2587,
+        "j": 5299,
+        "f": 8068
+      },
+      "max_income": 606536.0,
+      "income": 600470.645784378,
+      "fuel": 143807.7943574524,
+      "co2": 267862.17417607707,
+      "acheck_cost": 4326.245,
+      "repair_cost": 39.0337725,
+      "profit": 463296.45006053214,
+      "ci": 200,
+      "contribution": 35.272186279296875
+    }
+  },
+  {
+    "airport": {
+      "id": 3669,
+      "name": "Surabaya",
+      "fullname": "Juanda International Airport",
+      "country": "Indonesia",
+      "continent": "Asia",
+      "iata": "SUB",
+      "icao": "WARR",
+      "lat": -7.3798298835754395,
+      "lng": 112.78700256347656,
+      "rwy": 9843,
+      "market": 40,
+      "hub_cost": 54000,
+      "rwy_codes": "10/28"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 343,
+          "j": 429,
+          "f": 140
+        },
+        "cargo_demand": {
+          "l": 172000,
+          "h": 429000
+        },
+        "direct_distance": 7145.698599150015
+      },
+      "warnings": [],
+      "valid": true,
+      "max_tpd": null,
+      "needs_stopover": true,
+      "stopover": {
+        "airport": {
+          "id": 3870,
+          "name": "Sydney intl",
+          "fullname": "Sydney Kingsford Smith International Airport",
+          "country": "Australia",
+          "continent": "Oceania",
+          "iata": "SYD",
+          "icao": "YSSY",
+          "lat": -33.94609832763672,
+          "lng": 151.177001953125,
+          "rwy": 12999,
+          "market": 84,
+          "hub_cost": 237000,
+          "rwy_codes": "07/25|16R/34L"
+        },
+        "full_distance": 7145.770102359718,
+        "exists": true
+      },
+      "flight_time": 6.5224223136901855,
+      "trips_per_day_per_ac": 3,
+      "num_ac": 2,
+      "config": {
+        "y": 17,
+        "j": 72,
+        "f": 23,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 2521,
+        "j": 5168,
+        "f": 7874
+      },
+      "max_income": 596055.0,
+      "income": 590094.4556844234,
+      "fuel": 139842.912419281,
+      "co2": 260447.05114105798,
+      "acheck_cost": 4326.245,
+      "repair_cost": 39.0337725,
+      "profit": 456585.4920814998,
+      "ci": 200,
+      "contribution": 34.2996940612793
+    }
+  },
+  {
+    "airport": {
+      "id": 2645,
+      "name": "Tinian Island",
+      "fullname": "Tinian International Airport",
+      "country": "Northern Mariana Islands",
+      "continent": "Oceania",
+      "iata": "TIQ",
+      "icao": "PGWT",
+      "lat": 14.999199867248535,
+      "lng": 145.61900329589844,
+      "rwy": 8600,
+      "market": 47,
+      "hub_cost": 6000,
+      "rwy_codes": "08/26"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 335,
+          "j": 147,
+          "f": 88
+        },
+        "cargo_demand": {
+          "l": 168000,
+          "h": 147000
+        },
+        "direct_distance": 6945.2218747897705
+      },
+      "warnings": [],
+      "valid": true,
+      "max_tpd": null,
+      "needs_stopover": true,
+      "stopover": {
+        "airport": {
+          "id": 1,
+          "name": "Honiara",
+          "fullname": "Honiara International Airport",
+          "country": "Solomon Islands",
+          "continent": "Oceania",
+          "iata": "HIR",
+          "icao": "AGGH",
+          "lat": -9.4280004501343,
+          "lng": 160.05499267578,
+          "rwy": 7218,
+          "market": 55,
+          "hub_cost": 213300,
+          "rwy_codes": "06/24"
+        },
+        "full_distance": 6979.100620331561,
+        "exists": true
+      },
+      "flight_time": 6.3702921867370605,
+      "trips_per_day_per_ac": 3,
+      "num_ac": 1,
+      "config": {
+        "y": 45,
+        "j": 49,
+        "f": 29,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 2454,
+        "j": 5038,
+        "f": 7683
+      },
+      "max_income": 580099.0,
+      "income": 574298.0155322552,
+      "fuel": 136581.18057014464,
+      "co2": 254385.9298367805,
+      "acheck_cost": 4326.245,
+      "repair_cost": 39.0337725,
+      "profit": 443799.5987802402,
+      "ci": 200,
+      "contribution": 33.49968338012695
+    }
+  },
+  {
+    "airport": {
+      "id": 3662,
+      "name": "Manado-Celebes Island",
+      "fullname": "Sam Ratulangi Airport",
+      "country": "Indonesia",
+      "continent": "Asia",
+      "iata": "MDC",
+      "icao": "WAMM",
+      "lat": 1.5492600202560425,
+      "lng": 124.9260025024414,
+      "rwy": 8693,
+      "market": 88,
+      "hub_cost": 54000,
+      "rwy_codes": "18/36"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 851,
+          "j": 412,
+          "f": 80
+        },
+        "cargo_demand": {
+          "l": 426000,
+          "h": 412000
+        },
+        "direct_distance": 6919.936174573522
+      },
+      "warnings": [],
+      "valid": true,
+      "max_tpd": null,
+      "needs_stopover": true,
+      "stopover": {
+        "airport": {
+          "id": 3843,
+          "name": "Nhulunbuy",
+          "fullname": "Gove Airport",
+          "country": "Australia",
+          "continent": "Oceania",
+          "iata": "GOV",
+          "icao": "YPGV",
+          "lat": -12.269399642899998,
+          "lng": 136.817993164,
+          "rwy": 7244,
+          "market": 58,
+          "hub_cost": 48000,
+          "rwy_codes": "13/31"
+        },
+        "full_distance": 6919.963180062873,
+        "exists": true
+      },
+      "flight_time": 6.316313743591309,
+      "trips_per_day_per_ac": 3,
+      "num_ac": 2,
+      "config": {
+        "y": 53,
+        "j": 69,
+        "f": 13,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 2446,
+        "j": 5022,
+        "f": 7659
+      },
+      "max_income": 575723.0,
+      "income": 569965.7754905224,
+      "fuel": 135423.81078819276,
+      "co2": 252243.34140493933,
+      "acheck_cost": 4326.245,
+      "repair_cost": 39.0337725,
+      "profit": 440534.6281976947,
+      "ci": 200,
+      "contribution": 33.215824127197266
+    }
+  },
+  {
+    "airport": {
+      "id": 2643,
+      "name": "Saipan Island",
+      "fullname": "Saipan International Airport",
+      "country": "Northern Mariana Islands",
+      "continent": "Oceania",
+      "iata": "SPN",
+      "icao": "PGSN",
+      "lat": 15.119,
+      "lng": 145.729004,
+      "rwy": 8700,
+      "market": 35,
+      "hub_cost": 237000,
+      "rwy_codes": "07/25"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 1607,
+          "j": 390,
+          "f": 102
+        },
+        "cargo_demand": {
+          "l": 804000,
+          "h": 390000
+        },
+        "direct_distance": 6952.490661997653
+      },
+      "warnings": [],
+      "valid": true,
+      "max_tpd": null,
+      "needs_stopover": true,
+      "stopover": {
+        "airport": {
+          "id": 1,
+          "name": "Honiara",
+          "fullname": "Honiara International Airport",
+          "country": "Solomon Islands",
+          "continent": "Oceania",
+          "iata": "HIR",
+          "icao": "AGGH",
+          "lat": -9.4280004501343,
+          "lng": 160.05499267578,
+          "rwy": 7218,
+          "market": 55,
+          "hub_cost": 213300,
+          "rwy_codes": "06/24"
+        },
+        "full_distance": 6984.41148875796,
+        "exists": true
+      },
+      "flight_time": 6.3751397132873535,
+      "trips_per_day_per_ac": 3,
+      "num_ac": 3,
+      "config": {
+        "y": 111,
+        "j": 43,
+        "f": 11,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 2457,
+        "j": 5043,
+        "f": 7690
+      },
+      "max_income": 574166.0,
+      "income": 568424.3454756737,
+      "fuel": 136685.09726852417,
+      "co2": 254621.38375245646,
+      "acheck_cost": 4326.245,
+      "repair_cost": 39.0337725,
+      "profit": 437824.93256491196,
+      "ci": 200,
+      "contribution": 33.525177001953125
+    }
+  },
+  {
+    "airport": {
+      "id": 3652,
+      "name": "Denpasar-Bali Island",
+      "fullname": "Ngurah Rai (Bali) International Airport",
+      "country": "Indonesia",
+      "continent": "Asia",
+      "iata": "DPS",
+      "icao": "WADD",
+      "lat": -8.7481698989868,
+      "lng": 115.16699981689,
+      "rwy": 9790,
+      "market": 44,
+      "hub_cost": 54000,
+      "rwy_codes": "09/27"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 763,
+          "j": 170,
+          "f": 200
+        },
+        "cargo_demand": {
+          "l": 382000,
+          "h": 170000
+        },
+        "direct_distance": 6849.811309078439
+      },
+      "warnings": [],
+      "valid": true,
+      "max_tpd": null,
+      "needs_stopover": true,
+      "stopover": {
+        "airport": {
+          "id": 3870,
+          "name": "Sydney intl",
+          "fullname": "Sydney Kingsford Smith International Airport",
+          "country": "Australia",
+          "continent": "Oceania",
+          "iata": "SYD",
+          "icao": "YSSY",
+          "lat": -33.94609832763672,
+          "lng": 151.177001953125,
+          "rwy": 12999,
+          "market": 84,
+          "hub_cost": 237000,
+          "rwy_codes": "07/25|16R/34L"
+        },
+        "full_distance": 6849.839034045604,
+        "exists": true
+      },
+      "flight_time": 6.2523064613342285,
+      "trips_per_day_per_ac": 3,
+      "num_ac": 2,
+      "config": {
+        "y": 75,
+        "j": 28,
+        "f": 33,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 2423,
+        "j": 4976,
+        "f": 7592
+      },
+      "max_income": 571589.0,
+      "income": 565873.1154510975,
+      "fuel": 134051.36670959473,
+      "co2": 249689.36530204746,
+      "acheck_cost": 4326.245,
+      "repair_cost": 39.0337725,
+      "profit": 437709.15614563547,
+      "ci": 200,
+      "contribution": 32.87922668457031
+    }
+  },
+  {
+    "airport": {
+      "id": 3648,
+      "name": "Ujung Pandang-Celebes Island",
+      "fullname": "Hasanuddin International Airport",
+      "country": "Indonesia",
+      "continent": "Asia",
+      "iata": "UPG",
+      "icao": "WAAA",
+      "lat": -5.061629772186279,
+      "lng": 119.55400085449219,
+      "rwy": 8202,
+      "market": 45,
+      "hub_cost": 54000,
+      "rwy_codes": "13/31"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 412,
+          "j": 336,
+          "f": 127
+        },
+        "cargo_demand": {
+          "l": 206000,
+          "h": 336000
+        },
+        "direct_distance": 6784.262768510481
+      },
+      "warnings": [],
+      "valid": true,
+      "max_tpd": null,
+      "needs_stopover": true,
+      "stopover": {
+        "airport": {
+          "id": 3871,
+          "name": "Tamworth",
+          "fullname": "Tamworth Airport",
+          "country": "Australia",
+          "continent": "Oceania",
+          "iata": "TMW",
+          "icao": "YSTW",
+          "lat": -31.0839004517,
+          "lng": 150.847000122,
+          "rwy": 7218,
+          "market": 42,
+          "hub_cost": 48000,
+          "rwy_codes": "06/24|12R/30L"
+        },
+        "full_distance": 6784.30648207125,
+        "exists": true
+      },
+      "flight_time": 6.192490577697754,
+      "trips_per_day_per_ac": 3,
+      "num_ac": 2,
+      "config": {
+        "y": 55,
+        "j": 56,
+        "f": 21,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 2401,
+        "j": 4934,
+        "f": 7530
+      },
+      "max_income": 566489.0,
+      "income": 560824.1154024601,
+      "fuel": 132768.9446295929,
+      "co2": 247297.9763954098,
+      "acheck_cost": 4326.245,
+      "repair_cost": 39.0337725,
+      "profit": 433844.8182217959,
+      "ci": 200,
+      "contribution": 32.564674377441406
+    }
+  },
+  {
+    "airport": {
+      "id": 2644,
+      "name": "Hagåtña",
+      "fullname": "Antonio B. Won Pat International Airport",
+      "country": "Guam",
+      "continent": "Oceania",
+      "iata": "GUM",
+      "icao": "PGUM",
+      "lat": 13.4834003448,
+      "lng": 144.796005249,
+      "rwy": 12015,
+      "market": 46,
+      "hub_cost": 237000,
+      "rwy_codes": "06L/24R"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 1449,
+          "j": 749,
+          "f": 153
+        },
+        "cargo_demand": {
+          "l": 725000,
+          "h": 749000
+        },
+        "direct_distance": 6829.569463341667
+      },
+      "warnings": [],
+      "valid": true,
+      "max_tpd": null,
+      "needs_stopover": true,
+      "stopover": {
+        "airport": {
+          "id": 2361,
+          "name": "Nouméa Int",
+          "fullname": "La Tontouta International Airport",
+          "country": "New Caledonia",
+          "continent": "Oceania",
+          "iata": "NOU",
+          "icao": "NWWW",
+          "lat": -22.01460075378418,
+          "lng": 166.21299743652344,
+          "rwy": 10663,
+          "market": 79,
+          "hub_cost": 213300,
+          "rwy_codes": "11/29"
+        },
+        "full_distance": 6879.609003212214,
+        "exists": true
+      },
+      "flight_time": 6.279479503631592,
+      "trips_per_day_per_ac": 3,
+      "num_ac": 4,
+      "config": {
+        "y": 68,
+        "j": 63,
+        "f": 12,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 2416,
+        "j": 4963,
+        "f": 7573
+      },
+      "max_income": 567833.0,
+      "income": 562154.6754152775,
+      "fuel": 134633.96560050963,
+      "co2": 250780.9459178052,
+      "acheck_cost": 4326.245,
+      "repair_cost": 39.0337725,
+      "profit": 433451.9072122841,
+      "ci": 200,
+      "contribution": 33.02212142944336
+    }
+  },
+  {
+    "airport": {
+      "id": 2670,
+      "name": "Babelthuap Island",
+      "fullname": "Babelthuap Airport",
+      "country": "Palau",
+      "continent": "Oceania",
+      "iata": "ROR",
+      "icao": "PTRO",
+      "lat": 7.36731,
+      "lng": 134.544236,
+      "rwy": 7200,
+      "market": 72,
+      "hub_cost": 6000,
+      "rwy_codes": "09/27"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 529,
+          "j": 153,
+          "f": 62
+        },
+        "cargo_demand": {
+          "l": 265000,
+          "h": 153000
+        },
+        "direct_distance": 6791.331778012171
+      },
+      "warnings": [],
+      "valid": true,
+      "max_tpd": null,
+      "needs_stopover": true,
+      "stopover": {
+        "airport": {
+          "id": 14,
+          "name": "Mount Hagen",
+          "fullname": "Mount Hagen Kagamuga Airport",
+          "country": "Papua New Guinea",
+          "continent": "Oceania",
+          "iata": "HGU",
+          "icao": "AYMH",
+          "lat": -5.826789855957031,
+          "lng": 144.29600524902344,
+          "rwy": 7185,
+          "market": 33,
+          "hub_cost": 12000,
+          "rwy_codes": "08/26"
+        },
+        "full_distance": 6794.36518050556,
+        "exists": true
+      },
+      "flight_time": 6.201671600341797,
+      "trips_per_day_per_ac": 3,
+      "num_ac": 1,
+      "config": {
+        "y": 68,
+        "j": 51,
+        "f": 20,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 2404,
+        "j": 4938,
+        "f": 7536
+      },
+      "max_income": 566030.0,
+      "income": 560369.7053980827,
+      "fuel": 132965.81882652282,
+      "co2": 247671.48230721775,
+      "acheck_cost": 4326.245,
+      "repair_cost": 39.0337725,
+      "profit": 433207.77557015064,
+      "ci": 200,
+      "contribution": 32.612953186035156
+    }
+  },
+  {
+    "airport": {
+      "id": 3664,
+      "name": "Gotalalamo-Morotai Island",
+      "fullname": "Pitu Airport",
+      "country": "Indonesia",
+      "continent": "Asia",
+      "iata": "OTI",
+      "icao": "WAMR",
+      "lat": 2.0459899902300003,
+      "lng": 128.324996948,
+      "rwy": 7880,
+      "market": 42,
+      "hub_cost": 54000,
+      "rwy_codes": "09/27"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 420,
+          "j": 504,
+          "f": 94
+        },
+        "cargo_demand": {
+          "l": 210000,
+          "h": 504000
+        },
+        "direct_distance": 6721.5718406367405
+      },
+      "warnings": [],
+      "valid": true,
+      "max_tpd": null,
+      "needs_stopover": true,
+      "stopover": {
+        "airport": {
+          "id": 3757,
+          "name": "Rockhampton",
+          "fullname": "Rockhampton Airport",
+          "country": "Australia",
+          "continent": "Oceania",
+          "iata": "ROK",
+          "icao": "YBRK",
+          "lat": -23.3819007874,
+          "lng": 150.475006104,
+          "rwy": 8622,
+          "market": 83,
+          "hub_cost": 48000,
+          "rwy_codes": "04/22"
+        },
+        "full_distance": 6721.64780563734,
+        "exists": true
+      },
+      "flight_time": 6.135297775268555,
+      "trips_per_day_per_ac": 3,
+      "num_ac": 2,
+      "config": {
+        "y": 17,
+        "j": 84,
+        "f": 15,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 2381,
+        "j": 4893,
+        "f": 7470
+      },
+      "max_income": 563539.0,
+      "income": 557903.6153743267,
+      "fuel": 131542.6884487152,
+      "co2": 244999.147326435,
+      "acheck_cost": 4326.245,
+      "repair_cost": 39.0337725,
+      "profit": 432058.5570085539,
+      "ci": 200,
+      "contribution": 32.26390838623047
+    }
+  },
+  {
+    "airport": {
+      "id": 3653,
+      "name": "Mataram",
+      "fullname": "Lombok International Airport",
+      "country": "Indonesia",
+      "continent": "Asia",
+      "iata": "LOP",
+      "icao": "WADL",
+      "lat": -8.757322,
+      "lng": 116.276675,
+      "rwy": 9022,
+      "market": 45,
+      "hub_cost": 54000,
+      "rwy_codes": "13/31"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 914,
+          "j": 348,
+          "f": 91
+        },
+        "cargo_demand": {
+          "l": 457000,
+          "h": 348000
+        },
+        "direct_distance": 6759.459622391111
+      },
+      "warnings": [],
+      "valid": true,
+      "max_tpd": null,
+      "needs_stopover": true,
+      "stopover": {
+        "airport": {
+          "id": 3870,
+          "name": "Sydney intl",
+          "fullname": "Sydney Kingsford Smith International Airport",
+          "country": "Australia",
+          "continent": "Oceania",
+          "iata": "SYD",
+          "icao": "YSSY",
+          "lat": -33.94609832763672,
+          "lng": 151.177001953125,
+          "rwy": 12999,
+          "market": 84,
+          "hub_cost": 237000,
+          "rwy_codes": "07/25|16R/34L"
+        },
+        "full_distance": 6759.989125151679,
+        "exists": true
+      },
+      "flight_time": 6.170294761657715,
+      "trips_per_day_per_ac": 3,
+      "num_ac": 2,
+      "config": {
+        "y": 69,
+        "j": 58,
+        "f": 15,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 2393,
+        "j": 4918,
+        "f": 7506
+      },
+      "max_income": 562951.0,
+      "income": 557321.4953687191,
+      "fuel": 132293.00223701476,
+      "co2": 246421.95017521398,
+      "acheck_cost": 4326.245,
+      "repair_cost": 39.0337725,
+      "profit": 430780.4810092831,
+      "ci": 200,
+      "contribution": 32.44794845581055
+    }
+  },
+  {
+    "airport": {
+      "id": 3038,
+      "name": "Isla De Pascua",
+      "fullname": "Mataveri Airport",
+      "country": "Chile",
+      "continent": "South America",
+      "iata": "IPC",
+      "icao": "SCIP",
+      "lat": -27.1648006439,
+      "lng": -109.42199707,
+      "rwy": 10827,
+      "market": 55,
+      "hub_cost": 36000,
+      "rwy_codes": "10/28"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 822,
+          "j": 236,
+          "f": 60
+        },
+        "cargo_demand": {
+          "l": 411000,
+          "h": 236000
+        },
+        "direct_distance": 6921.362177666598
+      },
+      "warnings": [],
+      "valid": true,
+      "max_tpd": null,
+      "needs_stopover": true,
+      "stopover": {
+        "airport": {
+          "id": 2345,
+          "name": "Hao Island",
+          "fullname": "Hao Airport",
+          "country": "French Polynesia",
+          "continent": "Oceania",
+          "iata": "HOI",
+          "icao": "NTTO",
+          "lat": -18.074800491333008,
+          "lng": -140.9459991455078,
+          "rwy": 11089,
+          "market": 42,
+          "hub_cost": 6000,
+          "rwy_codes": "12/30"
+        },
+        "full_distance": 8299.802542485297,
+        "exists": true
+      },
+      "flight_time": 7.575785160064697,
+      "trips_per_day_per_ac": 3,
+      "num_ac": 2,
+      "config": {
+        "y": 122,
+        "j": 39,
+        "f": 10,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 2447,
+        "j": 5023,
+        "f": 7660
+      },
+      "max_income": 571031.0,
+      "income": 565320.695445776,
+      "fuel": 162427.27916709898,
+      "co2": 302549.6711613099,
+      "acheck_cost": 4944.28,
+      "repair_cost": 39.0337725,
+      "profit": 410332.32571694953,
+      "ci": 200,
+      "contribution": 39.83905029296875
+    }
+  },
+  {
+    "airport": {
+      "id": 3851,
+      "name": "Exmouth",
+      "fullname": "Learmonth Airport",
+      "country": "Australia",
+      "continent": "Oceania",
+      "iata": "LEA",
+      "icao": "YPLM",
+      "lat": -22.235599517799997,
+      "lng": 114.088996887,
+      "rwy": 9997,
+      "market": 85,
+      "hub_cost": 48000,
+      "rwy_codes": "18/36"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 711,
+          "j": 149,
+          "f": 186
+        },
+        "cargo_demand": {
+          "l": 356000,
+          "h": 149000
+        },
+        "direct_distance": 5987.904561656933
+      },
+      "warnings": [],
+      "valid": true,
+      "max_tpd": null,
+      "needs_stopover": true,
+      "stopover": {
+        "airport": {
+          "id": 3838,
+          "name": "Adelaide",
+          "fullname": "Adelaide International Airport",
+          "country": "Australia",
+          "continent": "Oceania",
+          "iata": "ADL",
+          "icao": "YPAD",
+          "lat": -34.945,
+          "lng": 138.531006,
+          "rwy": 10171,
+          "market": 69,
+          "hub_cost": 48000,
+          "rwy_codes": "05/23"
+        },
+        "full_distance": 5987.99281056052,
+        "exists": true
+      },
+      "flight_time": 5.465641498565674,
+      "trips_per_day_per_ac": 3,
+      "num_ac": 1,
+      "config": {
+        "y": 0,
+        "j": 22,
+        "f": 62,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 2139,
+        "j": 4418,
+        "f": 6770
+      },
+      "max_income": 516936.0,
+      "income": 511766.64492988586,
+      "fuel": 117185.15817260742,
+      "co2": 218238.81112385986,
+      "acheck_cost": 3708.21,
+      "repair_cost": 39.0337725,
+      "profit": 399801.1331016974,
+      "ci": 200,
+      "contribution": 57.48472595214844
+    }
+  },
+  {
+    "airport": {
+      "id": 3729,
+      "name": "Baucau",
+      "fullname": "Cakung Airport",
+      "country": "Timor-Leste",
+      "continent": "Asia",
+      "iata": "BCH",
+      "icao": "WPEC",
+      "lat": -8.489029884339999,
+      "lng": 126.401000977,
+      "rwy": 8233,
+      "market": 44,
+      "hub_cost": 213300,
+      "rwy_codes": "14/32"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 937,
+          "j": 433,
+          "f": 431
+        },
+        "cargo_demand": {
+          "l": 469000,
+          "h": 433000
+        },
+        "direct_distance": 5982.67162864404
+      },
+      "warnings": [],
+      "valid": true,
+      "max_tpd": null,
+      "needs_stopover": true,
+      "stopover": {
+        "airport": {
+          "id": 3803,
+          "name": "Inverell",
+          "fullname": "Inverell Airport",
+          "country": "Australia",
+          "continent": "Oceania",
+          "iata": "IVR",
+          "icao": "YIVL",
+          "lat": -29.888299942,
+          "lng": 151.143997192,
+          "rwy": 6936,
+          "market": 57,
+          "hub_cost": 48000,
+          "rwy_codes": "04/22"
+        },
+        "full_distance": 5982.700517875115,
+        "exists": true
+      },
+      "flight_time": 5.460811138153076,
+      "trips_per_day_per_ac": 3,
+      "num_ac": 4,
+      "config": {
+        "y": 50,
+        "j": 36,
+        "f": 36,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 2137,
+        "j": 4414,
+        "f": 6765
+      },
+      "max_income": 509294.0,
+      "income": 504201.0648570061,
+      "fuel": 117081.6328742218,
+      "co2": 218084.08584816763,
+      "acheck_cost": 3708.21,
+      "repair_cost": 39.0337725,
+      "profit": 392326.5877707707,
+      "ci": 200,
+      "contribution": 57.43392562866211
+    }
+  },
+  {
+    "airport": {
+      "id": 3649,
+      "name": "Biak-Supiori Island",
+      "fullname": "Frans Kaisiepo Airport",
+      "country": "Indonesia",
+      "continent": "Asia",
+      "iata": "BIK",
+      "icao": "WABB",
+      "lat": -1.190019965171814,
+      "lng": 136.10800170898438,
+      "rwy": 11715,
+      "market": 65,
+      "hub_cost": 54000,
+      "rwy_codes": "11/29"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 922,
+          "j": 256,
+          "f": 132
+        },
+        "cargo_demand": {
+          "l": 461000,
+          "h": 256000
+        },
+        "direct_distance": 5910.365649275873
+      },
+      "warnings": [],
+      "valid": true,
+      "max_tpd": null,
+      "needs_stopover": true,
+      "stopover": {
+        "airport": {
+          "id": 3742,
+          "name": "Cairns",
+          "fullname": "Cairns International Airport",
+          "country": "Australia",
+          "continent": "Oceania",
+          "iata": "CNS",
+          "icao": "YBCS",
+          "lat": -16.885799408,
+          "lng": 145.755004883,
+          "rwy": 10489,
+          "market": 87,
+          "hub_cost": 48000,
+          "rwy_codes": "12/30"
+        },
+        "full_distance": 5922.330504762347,
+        "exists": true
+      },
+      "flight_time": 5.405707359313965,
+      "trips_per_day_per_ac": 3,
+      "num_ac": 2,
+      "config": {
+        "y": 78,
+        "j": 43,
+        "f": 22,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 2113,
+        "j": 4367,
+        "f": 6696
+      },
+      "max_income": 499907.0,
+      "income": 494907.93476748466,
+      "fuel": 115900.19199264527,
+      "co2": 215905.68605732804,
+      "acheck_cost": 3708.21,
+      "repair_cost": 39.0337725,
+      "profit": 384121.8742732536,
+      "ci": 200,
+      "contribution": 56.854373931884766
+    }
+  },
+  {
+    "airport": {
+      "id": 3854,
+      "name": "Port Hedland",
+      "fullname": "Port Hedland International Airport",
+      "country": "Australia",
+      "continent": "Oceania",
+      "iata": "PHE",
+      "icao": "YPPD",
+      "lat": -20.3777999878,
+      "lng": 118.625999451,
+      "rwy": 8202,
+      "market": 36,
+      "hub_cost": 48000,
+      "rwy_codes": "14/32"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 1014,
+          "j": 134,
+          "f": 131
+        },
+        "cargo_demand": {
+          "l": 507000,
+          "h": 134000
+        },
+        "direct_distance": 5732.650897258307
+      },
+      "warnings": [],
+      "valid": true,
+      "max_tpd": null,
+      "needs_stopover": true,
+      "stopover": {
+        "airport": {
+          "id": 3778,
+          "name": "Cooma",
+          "fullname": "Cooma Snowy Mountains Airport",
+          "country": "Australia",
+          "continent": "Oceania",
+          "iata": "OOM",
+          "icao": "YCOM",
+          "lat": -36.3005981445,
+          "lng": 148.973999023,
+          "rwy": 6955,
+          "market": 38,
+          "hub_cost": 48000,
+          "rwy_codes": "14/32"
+        },
+        "full_distance": 5732.7743607073335,
+        "exists": true
+      },
+      "flight_time": 5.232686996459961,
+      "trips_per_day_per_ac": 3,
+      "num_ac": 1,
+      "config": {
+        "y": 8,
+        "j": 45,
+        "f": 44,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 2054,
+        "j": 4252,
+        "f": 6526
+      },
+      "max_income": 494916.0,
+      "income": 489966.8447198868,
+      "fuel": 112190.50285049438,
+      "co2": 208953.6362916903,
+      "acheck_cost": 3708.21,
+      "repair_cost": 39.0337725,
+      "profit": 382611.8125970378,
+      "ci": 200,
+      "contribution": 55.034629821777344
+    }
+  },
+  {
+    "airport": {
+      "id": 3840,
+      "name": "Paraburdoo",
+      "fullname": "Paraburdoo Airport",
+      "country": "Australia",
+      "continent": "Oceania",
+      "iata": "PBO",
+      "icao": "YPBO",
+      "lat": -23.1711006165,
+      "lng": 117.745002747,
+      "rwy": 6995,
+      "market": 37,
+      "hub_cost": 48000,
+      "rwy_codes": "06/24"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 834,
+          "j": 134,
+          "f": 228
+        },
+        "cargo_demand": {
+          "l": 417000,
+          "h": 134000
+        },
+        "direct_distance": 5622.3022279471115
+      },
+      "warnings": [],
+      "valid": true,
+      "max_tpd": null,
+      "needs_stopover": true,
+      "stopover": {
+        "airport": {
+          "id": 3838,
+          "name": "Adelaide",
+          "fullname": "Adelaide International Airport",
+          "country": "Australia",
+          "continent": "Oceania",
+          "iata": "ADL",
+          "icao": "YPAD",
+          "lat": -34.945,
+          "lng": 138.531006,
+          "rwy": 10171,
+          "market": 69,
+          "hub_cost": 48000,
+          "rwy_codes": "05/23"
+        },
+        "full_distance": 5625.617102642529,
+        "exists": true
+      },
+      "flight_time": 5.1348772048950195,
+      "trips_per_day_per_ac": 3,
+      "num_ac": 1,
+      "config": {
+        "y": 0,
+        "j": 1,
+        "f": 76,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 2018,
+        "j": 4181,
+        "f": 6421
+      },
+      "max_income": 492177.0,
+      "income": 487255.23469376564,
+      "fuel": 110093.38168319702,
+      "co2": 205029.58325895265,
+      "acheck_cost": 3708.21,
+      "repair_cost": 39.0337725,
+      "profit": 381839.07375195343,
+      "ci": 200,
+      "contribution": 54.00592041015625
+    }
+  },
+  {
+    "airport": {
+      "id": 2665,
+      "name": "Banana",
+      "fullname": "Cassidy International Airport",
+      "country": "Kiribati",
+      "continent": "Oceania",
+      "iata": "CXI",
+      "icao": "PLCH",
+      "lat": 1.9861600399017334,
+      "lng": -157.35000610351562,
+      "rwy": 6900,
+      "market": 73,
+      "hub_cost": 6000,
+      "rwy_codes": "08/26"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 310,
+          "j": 264,
+          "f": 88
+        },
+        "cargo_demand": {
+          "l": 155000,
+          "h": 264000
+        },
+        "direct_distance": 5576.957961847433
+      },
+      "warnings": [],
+      "valid": true,
+      "max_tpd": null,
+      "needs_stopover": true,
+      "stopover": {
+        "airport": {
+          "id": 2315,
+          "name": "Alofi",
+          "fullname": "Niue International Airport",
+          "country": "Niue",
+          "continent": "Oceania",
+          "iata": "IUE",
+          "icao": "NIUE",
+          "lat": -19.079030990600586,
+          "lng": -169.92559814453125,
+          "rwy": 7660,
+          "market": 81,
+          "hub_cost": 213300,
+          "rwy_codes": "10/28"
+        },
+        "full_distance": 5581.976598431958,
+        "exists": true
+      },
+      "flight_time": 5.095043659210205,
+      "trips_per_day_per_ac": 3,
+      "num_ac": 1,
+      "config": {
+        "y": 1,
+        "j": 71,
+        "f": 29,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 2003,
+        "j": 4151,
+        "f": 6378
+      },
+      "max_income": 481686.0,
+      "income": 476869.14459371567,
+      "fuel": 109239.34689651488,
+      "co2": 203463.6908144895,
+      "acheck_cost": 3708.21,
+      "repair_cost": 39.0337725,
+      "profit": 372238.71509591653,
+      "ci": 200,
+      "contribution": 53.586971282958984
+    }
+  },
+  {
+    "airport": {
+      "id": 3758,
+      "name": "Broome",
+      "fullname": "Broome International Airport",
+      "country": "Australia",
+      "continent": "Oceania",
+      "iata": "BME",
+      "icao": "YBRM",
+      "lat": -17.944700241088867,
+      "lng": 122.23200225830078,
+      "rwy": 8064,
+      "market": 59,
+      "hub_cost": 48000,
+      "rwy_codes": "10/28"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 929,
+          "j": 160,
+          "f": 93
+        },
+        "cargo_demand": {
+          "l": 465000,
+          "h": 160000
+        },
+        "direct_distance": 5602.3988228417875
+      },
+      "warnings": [],
+      "valid": true,
+      "max_tpd": null,
+      "needs_stopover": true,
+      "stopover": {
+        "airport": {
+          "id": 3869,
+          "name": "Nowra",
+          "fullname": "Nowra Airport",
+          "country": "Australia",
+          "continent": "Oceania",
+          "iata": "NOA",
+          "icao": "YSNW",
+          "lat": -34.94889831542969,
+          "lng": 150.53700256347656,
+          "rwy": 6870,
+          "market": 53,
+          "hub_cost": 48000,
+          "rwy_codes": "03/21"
+        },
+        "full_distance": 5602.597988486332,
+        "exists": true
+      },
+      "flight_time": 5.113866329193115,
+      "trips_per_day_per_ac": 3,
+      "num_ac": 1,
+      "config": {
+        "y": 31,
+        "j": 53,
+        "f": 31,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 2011,
+        "j": 4168,
+        "f": 6402
+      },
+      "max_income": 481707.0,
+      "income": 476889.93459391594,
+      "fuel": 109642.88029022218,
+      "co2": 204228.91863769828,
+      "acheck_cost": 3708.21,
+      "repair_cost": 39.0337725,
+      "profit": 371885.20438173664,
+      "ci": 200,
+      "contribution": 53.784942626953125
+    }
+  },
+  {
+    "airport": {
+      "id": 3654,
+      "name": "Jayapura-Papua Island",
+      "fullname": "Sentani International Airport",
+      "country": "Indonesia",
+      "continent": "Asia",
+      "iata": "DJJ",
+      "icao": "WAJJ",
+      "lat": -2.5769500733,
+      "lng": 140.5160064698,
+      "rwy": 7161,
+      "market": 80,
+      "hub_cost": 54000,
+      "rwy_codes": "12/30"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 919,
+          "j": 162,
+          "f": 306
+        },
+        "cargo_demand": {
+          "l": 460000,
+          "h": 162000
+        },
+        "direct_distance": 5503.68476425417
+      },
+      "warnings": [],
+      "valid": true,
+      "max_tpd": null,
+      "needs_stopover": true,
+      "stopover": {
+        "airport": {
+          "id": 18,
+          "name": "Port Moresby",
+          "fullname": "Port Moresby Jacksons International Airport",
+          "country": "Papua New Guinea",
+          "continent": "Oceania",
+          "iata": "POM",
+          "icao": "AYPY",
+          "lat": -9.443380355834961,
+          "lng": 147.22000122070312,
+          "rwy": 9022,
+          "market": 41,
+          "hub_cost": 237000,
+          "rwy_codes": "14L/32R"
+        },
+        "full_distance": 5522.889293863718,
+        "exists": true
+      },
+      "flight_time": 5.041110515594482,
+      "trips_per_day_per_ac": 3,
+      "num_ac": 2,
+      "config": {
+        "y": 23,
+        "j": 27,
+        "f": 51,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 1979,
+        "j": 4104,
+        "f": 6308
+      },
+      "max_income": 478033.0,
+      "income": 473252.67455887794,
+      "fuel": 108082.95561454774,
+      "co2": 201310.92398260764,
+      "acheck_cost": 3708.21,
+      "repair_cost": 39.0337725,
+      "profit": 369690.0509782816,
+      "ci": 200,
+      "contribution": 53.01973342895508
+    }
+  },
+  {
+    "airport": {
+      "id": 2663,
+      "name": "Majuro Atoll",
+      "fullname": "Marshall Islands International Airport",
+      "country": "Marshall Islands",
+      "continent": "Oceania",
+      "iata": "MAJ",
+      "icao": "PKMJ",
+      "lat": 7.064760208129883,
+      "lng": 171.27200317382812,
+      "rwy": 7897,
+      "market": 80,
+      "hub_cost": 213300,
+      "rwy_codes": "07/25"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 1371,
+          "j": 264,
+          "f": 100
+        },
+        "cargo_demand": {
+          "l": 686000,
+          "h": 264000
+        },
+        "direct_distance": 5392.998973021949
+      },
+      "warnings": [],
+      "valid": true,
+      "max_tpd": null,
+      "needs_stopover": false,
+      "stopover": {
+        "exists": false
+      },
+      "flight_time": 4.922551155090332,
+      "trips_per_day_per_ac": 3,
+      "num_ac": 1,
+      "config": {
+        "y": 1,
+        "j": 65,
+        "f": 33,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 1942,
+        "j": 4032,
+        "f": 6202
+      },
+      "max_income": 468688.0,
+      "income": 464001.1244697571,
+      "fuel": 105541.00835418701,
+      "co2": 196576.77160837947,
+      "acheck_cost": 3090.175,
+      "repair_cost": 39.0337725,
+      "profit": 363403.9972563206,
+      "ci": 200,
+      "contribution": 51.772789001464844
+    }
+  },
+  {
+    "airport": {
+      "id": 3651,
+      "name": "Timika-Papua Island",
+      "fullname": "Moses Kilangin Airport",
+      "country": "Indonesia",
+      "continent": "Asia",
+      "iata": "TIM",
+      "icao": "WABP",
+      "lat": -4.528279781341553,
+      "lng": 136.88699340820312,
+      "rwy": 7841,
+      "market": 54,
+      "hub_cost": 54000,
+      "rwy_codes": "12/30"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 1055,
+          "j": 282,
+          "f": 67
+        },
+        "cargo_demand": {
+          "l": 528000,
+          "h": 282000
+        },
+        "direct_distance": 5560.432497487374
+      },
+      "warnings": [],
+      "valid": true,
+      "max_tpd": null,
+      "needs_stopover": true,
+      "stopover": {
+        "airport": {
+          "id": 3742,
+          "name": "Cairns",
+          "fullname": "Cairns International Airport",
+          "country": "Australia",
+          "continent": "Oceania",
+          "iata": "CNS",
+          "icao": "YBCS",
+          "lat": -16.885799408,
+          "lng": 145.755004883,
+          "rwy": 10489,
+          "market": 87,
+          "hub_cost": 48000,
+          "rwy_codes": "12/30"
+        },
+        "full_distance": 5562.677514530965,
+        "exists": true
+      },
+      "flight_time": 5.077428340911865,
+      "trips_per_day_per_ac": 3,
+      "num_ac": 2,
+      "config": {
+        "y": 103,
+        "j": 47,
+        "f": 11,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 1997,
+        "j": 4141,
+        "f": 6362
+      },
+      "max_income": 470300.0,
+      "income": 465597.0044851303,
+      "fuel": 108861.6459024048,
+      "co2": 202820.5532302059,
+      "acheck_cost": 3708.21,
+      "repair_cost": 39.0337725,
+      "profit": 361308.14219332224,
+      "ci": 200,
+      "contribution": 53.401702880859375
+    }
+  },
+  {
+    "airport": {
+      "id": 3855,
+      "name": "Perth Int",
+      "fullname": "Perth International Airport",
+      "country": "Australia",
+      "continent": "Oceania",
+      "iata": "PER",
+      "icao": "YPPH",
+      "lat": -31.94029998779297,
+      "lng": 115.96700286865234,
+      "rwy": 11299,
+      "market": 75,
+      "hub_cost": 48000,
+      "rwy_codes": "03/21"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 789,
+          "j": 156,
+          "f": 155
+        },
+        "cargo_demand": {
+          "l": 395000,
+          "h": 156000
+        },
+        "direct_distance": 5251.298296033189
+      },
+      "warnings": [],
+      "valid": true,
+      "max_tpd": null,
+      "needs_stopover": false,
+      "stopover": {
+        "exists": false
+      },
+      "flight_time": 4.793211460113525,
+      "trips_per_day_per_ac": 3,
+      "num_ac": 1,
+      "config": {
+        "y": 0,
+        "j": 37,
+        "f": 52,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 1895,
+        "j": 3940,
+        "f": 6067
+      },
+      "max_income": 461264.0,
+      "income": 456651.3643989563,
+      "fuel": 102767.93939743043,
+      "co2": 191404.35732376843,
+      "acheck_cost": 3090.175,
+      "repair_cost": 39.0337725,
+      "profit": 358616.0751694028,
+      "ci": 200,
+      "contribution": 50.41246032714844
+    }
+  },
+  {
+    "airport": {
+      "id": 3818,
+      "name": "Meekatharra",
+      "fullname": "Meekatharra Airport",
+      "country": "Australia",
+      "continent": "Oceania",
+      "iata": "MKR",
+      "icao": "YMEK",
+      "lat": -26.6117000579834,
+      "lng": 118.5479965209961,
+      "rwy": 7156,
+      "market": 33,
+      "hub_cost": 48000,
+      "rwy_codes": "09/27"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 931,
+          "j": 396,
+          "f": 104
+        },
+        "cargo_demand": {
+          "l": 466000,
+          "h": 396000
+        },
+        "direct_distance": 5340.686829870901
+      },
+      "warnings": [],
+      "valid": true,
+      "max_tpd": null,
+      "needs_stopover": false,
+      "stopover": {
+        "exists": false
+      },
+      "flight_time": 4.874802589416504,
+      "trips_per_day_per_ac": 3,
+      "num_ac": 2,
+      "config": {
+        "y": 47,
+        "j": 66,
+        "f": 17,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 1925,
+        "j": 3998,
+        "f": 6153
+      },
+      "max_income": 458944.0,
+      "income": 454354.56437683105,
+      "fuel": 104517.30167015074,
+      "co2": 194702.01373097647,
+      "acheck_cost": 3090.175,
+      "repair_cost": 39.0337725,
+      "profit": 354699.00278750836,
+      "ci": 200,
+      "contribution": 51.27059555053711
+    }
+  },
+  {
+    "airport": {
+      "id": 3842,
+      "name": "Darwin",
+      "fullname": "Darwin International Airport",
+      "country": "Australia",
+      "continent": "Oceania",
+      "iata": "DRW",
+      "icao": "YPDN",
+      "lat": -12.41469955444336,
+      "lng": 130.8769989013672,
+      "rwy": 11004,
+      "market": 58,
+      "hub_cost": 48000,
+      "rwy_codes": "11/29"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 932,
+          "j": 398,
+          "f": 88
+        },
+        "cargo_demand": {
+          "l": 466000,
+          "h": 398000
+        },
+        "direct_distance": 5328.481902399008
+      },
+      "warnings": [],
+      "valid": true,
+      "max_tpd": null,
+      "needs_stopover": false,
+      "stopover": {
+        "exists": false
+      },
+      "flight_time": 4.863662242889404,
+      "trips_per_day_per_ac": 3,
+      "num_ac": 2,
+      "config": {
+        "y": 54,
+        "j": 67,
+        "f": 14,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 1921,
+        "j": 3990,
+        "f": 6141
+      },
+      "max_income": 457038.0,
+      "income": 452467.624358654,
+      "fuel": 104278.5476738739,
+      "co2": 194262.54334091116,
+      "acheck_cost": 3090.175,
+      "repair_cost": 39.0337725,
+      "profit": 353031.92701353296,
+      "ci": 200,
+      "contribution": 51.15342712402344
+    }
+  },
+  {
+    "airport": {
+      "id": 14,
+      "name": "Mount Hagen",
+      "fullname": "Mount Hagen Kagamuga Airport",
+      "country": "Papua New Guinea",
+      "continent": "Oceania",
+      "iata": "HGU",
+      "icao": "AYMH",
+      "lat": -5.826789855957031,
+      "lng": 144.29600524902344,
+      "rwy": 7185,
+      "market": 33,
+      "hub_cost": 12000,
+      "rwy_codes": "08/26"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 234,
+          "j": 272,
+          "f": 103
+        },
+        "cargo_demand": {
+          "l": 117000,
+          "h": 272000
+        },
+        "direct_distance": 4971.503919679508
+      },
+      "warnings": [],
+      "valid": true,
+      "max_tpd": null,
+      "needs_stopover": false,
+      "stopover": {
+        "exists": false
+      },
+      "flight_time": 4.5378241539001465,
+      "trips_per_day_per_ac": 3,
+      "num_ac": 1,
+      "config": {
+        "y": 0,
+        "j": 64,
+        "f": 34,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 1803,
+        "j": 3759,
+        "f": 5800
+      },
+      "max_income": 437776.0,
+      "income": 433398.2441749573,
+      "fuel": 97292.44918281556,
+      "co2": 181220.04827160665,
+      "acheck_cost": 3090.175,
+      "repair_cost": 39.0337725,
+      "profit": 340417.9151818936,
+      "ci": 200,
+      "contribution": 47.726436614990234
+    }
+  },
+  {
+    "airport": {
+      "id": 3856,
+      "name": "Katherine",
+      "fullname": "Tindal Airport",
+      "country": "Australia",
+      "continent": "Oceania",
+      "iata": "KTR",
+      "icao": "YPTN",
+      "lat": -14.521100044250488,
+      "lng": 132.3780059814453,
+      "rwy": 9003,
+      "market": 33,
+      "hub_cost": 48000,
+      "rwy_codes": "14/32"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 795,
+          "j": 401,
+          "f": 62
+        },
+        "cargo_demand": {
+          "l": 398000,
+          "h": 401000
+        },
+        "direct_distance": 5048.063485636775
+      },
+      "warnings": [],
+      "valid": true,
+      "max_tpd": null,
+      "needs_stopover": false,
+      "stopover": {
+        "exists": false
+      },
+      "flight_time": 4.607705116271973,
+      "trips_per_day_per_ac": 3,
+      "num_ac": 2,
+      "config": {
+        "y": 66,
+        "j": 67,
+        "f": 10,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 1828,
+        "j": 3809,
+        "f": 5873
+      },
+      "max_income": 434581.0,
+      "income": 430235.1941444874,
+      "fuel": 98790.72835945128,
+      "co2": 184054.2821292624,
+      "acheck_cost": 3090.175,
+      "repair_cost": 39.0337725,
+      "profit": 335865.96166486,
+      "ci": 200,
+      "contribution": 48.46141052246094
+    }
+  },
+  {
+    "airport": {
+      "id": 3843,
+      "name": "Nhulunbuy",
+      "fullname": "Gove Airport",
+      "country": "Australia",
+      "continent": "Oceania",
+      "iata": "GOV",
+      "icao": "YPGV",
+      "lat": -12.269399642899998,
+      "lng": 136.817993164,
+      "rwy": 7244,
+      "market": 58,
+      "hub_cost": 48000,
+      "rwy_codes": "13/31"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 370,
+          "j": 480,
+          "f": 129
+        },
+        "cargo_demand": {
+          "l": 185000,
+          "h": 480000
+        },
+        "direct_distance": 4898.668250858652
+      },
+      "warnings": [],
+      "valid": true,
+      "max_tpd": null,
+      "needs_stopover": false,
+      "stopover": {
+        "exists": false
+      },
+      "flight_time": 4.47134256362915,
+      "trips_per_day_per_ac": 3,
+      "num_ac": 2,
+      "config": {
+        "y": 7,
+        "j": 80,
+        "f": 21,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 1779,
+        "j": 3712,
+        "f": 5731
+      },
+      "max_income": 429764.0,
+      "income": 425466.3640985489,
+      "fuel": 95866.97040504456,
+      "co2": 178576.3414509216,
+      "acheck_cost": 3090.175,
+      "repair_cost": 39.0337725,
+      "profit": 333801.1150684071,
+      "ci": 200,
+      "contribution": 47.02721405029297
+    }
+  },
+  {
+    "airport": {
+      "id": 17,
+      "name": "Lae",
+      "fullname": "Nadzab Airport",
+      "country": "Papua New Guinea",
+      "continent": "Oceania",
+      "iata": "LAE",
+      "icao": "AYNZ",
+      "lat": -6.569803,
+      "lng": 146.725977,
+      "rwy": 8004,
+      "market": 66,
+      "hub_cost": 12000,
+      "rwy_codes": "09/27"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 392,
+          "j": 282,
+          "f": 91
+        },
+        "cargo_demand": {
+          "l": 196000,
+          "h": 282000
+        },
+        "direct_distance": 4758.800890584403
+      },
+      "warnings": [],
+      "valid": true,
+      "max_tpd": null,
+      "needs_stopover": false,
+      "stopover": {
+        "exists": false
+      },
+      "flight_time": 4.3436760902404785,
+      "trips_per_day_per_ac": 3,
+      "num_ac": 1,
+      "config": {
+        "y": 0,
+        "j": 70,
+        "f": 30,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 1733,
+        "j": 3621,
+        "f": 5597
+      },
+      "max_income": 421380.0,
+      "income": 417166.20401859283,
+      "fuel": 93129.91024772645,
+      "co2": 173472.96204481224,
+      "acheck_cost": 3090.175,
+      "repair_cost": 39.0337725,
+      "profit": 328029.30262730684,
+      "ci": 200,
+      "contribution": 45.684486389160156
+    }
+  },
+  {
+    "airport": {
+      "id": 2345,
+      "name": "Hao Island",
+      "fullname": "Hao Airport",
+      "country": "French Polynesia",
+      "continent": "Oceania",
+      "iata": "HOI",
+      "icao": "NTTO",
+      "lat": -18.074800491333008,
+      "lng": -140.9459991455078,
+      "rwy": 11089,
+      "market": 42,
+      "hub_cost": 6000,
+      "rwy_codes": "12/30"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 675,
+          "j": 104,
+          "f": 53
+        },
+        "cargo_demand": {
+          "l": 338000,
+          "h": 104000
+        },
+        "direct_distance": 4920.820240128661
+      },
+      "warnings": [],
+      "valid": true,
+      "max_tpd": null,
+      "needs_stopover": false,
+      "stopover": {
+        "exists": false
+      },
+      "flight_time": 4.4915618896484375,
+      "trips_per_day_per_ac": 3,
+      "num_ac": 1,
+      "config": {
+        "y": 109,
+        "j": 35,
+        "f": 17,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 1786,
+        "j": 3726,
+        "f": 5752
+      },
+      "max_income": 422868.0,
+      "income": 418639.3240327835,
+      "fuel": 96300.64159828186,
+      "co2": 179436.67455287633,
+      "acheck_cost": 3090.175,
+      "repair_cost": 39.0337725,
+      "profit": 326567.265195141,
+      "ci": 200,
+      "contribution": 47.23987579345703
+    }
+  },
+  {
+    "airport": {
+      "id": 3,
+      "name": "Yaren District",
+      "fullname": "Nauru International Airport",
+      "country": "Nauru",
+      "continent": "Oceania",
+      "iata": "INU",
+      "icao": "ANYN",
+      "lat": -0.547458,
+      "lng": 166.919006,
+      "rwy": 7054,
+      "market": 50,
+      "hub_cost": 237000,
+      "rwy_codes": "12/30"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 1501,
+          "j": 238,
+          "f": 176
+        },
+        "cargo_demand": {
+          "l": 751000,
+          "h": 238000
+        },
+        "direct_distance": 4603.339254436279
+      },
+      "warnings": [],
+      "valid": true,
+      "max_tpd": null,
+      "needs_stopover": false,
+      "stopover": {
+        "exists": false
+      },
+      "flight_time": 4.201776027679443,
+      "trips_per_day_per_ac": 3,
+      "num_ac": 1,
+      "config": {
+        "y": 1,
+        "j": 26,
+        "f": 59,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 1682,
+        "j": 3520,
+        "f": 5449
+      },
+      "max_income": 414693.0,
+      "income": 410546.07395482063,
+      "fuel": 90087.36239517212,
+      "co2": 167794.87913141435,
+      "acheck_cost": 3090.175,
+      "repair_cost": 39.0337725,
+      "profit": 324220.32600993046,
+      "ci": 200,
+      "contribution": 44.192054748535156
+    }
+  },
+  {
+    "airport": {
+      "id": 2342,
+      "name": "Rangiroa",
+      "fullname": "Rangiroa Airport",
+      "country": "French Polynesia",
+      "continent": "Oceania",
+      "iata": "RGI",
+      "icao": "NTTG",
+      "lat": -14.954299926757812,
+      "lng": -147.66099548339844,
+      "rwy": 6890,
+      "market": 74,
+      "hub_cost": 6000,
+      "rwy_codes": "09/27"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 371,
+          "j": 149,
+          "f": 61
+        },
+        "cargo_demand": {
+          "l": 186000,
+          "h": 149000
+        },
+        "direct_distance": 4645.482234599897
+      },
+      "warnings": [],
+      "valid": true,
+      "max_tpd": null,
+      "needs_stopover": false,
+      "stopover": {
+        "exists": false
+      },
+      "flight_time": 4.2402424812316895,
+      "trips_per_day_per_ac": 3,
+      "num_ac": 1,
+      "config": {
+        "y": 70,
+        "j": 50,
+        "f": 20,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 1696,
+        "j": 3548,
+        "f": 5489
+      },
+      "max_income": 405900.0,
+      "income": 401841.00387096405,
+      "fuel": 90912.23788230895,
+      "co2": 169384.48789709082,
+      "acheck_cost": 3090.175,
+      "repair_cost": 39.0337725,
+      "profit": 314747.0900331969,
+      "ci": 200,
+      "contribution": 44.59663009643555
+    }
+  },
+  {
+    "airport": {
+      "id": 18,
+      "name": "Port Moresby",
+      "fullname": "Port Moresby Jacksons International Airport",
+      "country": "Papua New Guinea",
+      "continent": "Oceania",
+      "iata": "POM",
+      "icao": "AYPY",
+      "lat": -9.443380355834961,
+      "lng": 147.22000122070312,
+      "rwy": 9022,
+      "market": 41,
+      "hub_cost": 237000,
+      "rwy_codes": "14L/32R"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 1494,
+          "j": 327,
+          "f": 157
+        },
+        "cargo_demand": {
+          "l": 747000,
+          "h": 327000
+        },
+        "direct_distance": 4458.996512004705
+      },
+      "warnings": [],
+      "valid": true,
+      "max_tpd": null,
+      "needs_stopover": false,
+      "stopover": {
+        "exists": false
+      },
+      "flight_time": 4.070024490356445,
+      "trips_per_day_per_ac": 3,
+      "num_ac": 2,
+      "config": {
+        "y": 42,
+        "j": 55,
+        "f": 26,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 1634,
+        "j": 3427,
+        "f": 5311
+      },
+      "max_income": 395199.0,
+      "income": 391247.01376891136,
+      "fuel": 87262.62863922119,
+      "co2": 162573.28436895311,
+      "acheck_cost": 3090.175,
+      "repair_cost": 39.0337725,
+      "profit": 307525.17082468217,
+      "ci": 200,
+      "contribution": 42.806365966796875
+    }
+  },
+  {
+    "airport": {
+      "id": 3736,
+      "name": "Ayers Rock",
+      "fullname": "Ayers Rock Connellan Airport",
+      "country": "Australia",
+      "continent": "Oceania",
+      "iata": "AYQ",
+      "icao": "YAYE",
+      "lat": -25.1861,
+      "lng": 130.975998,
+      "rwy": 8527,
+      "market": 86,
+      "hub_cost": 48000,
+      "rwy_codes": "13/31"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 509,
+          "j": 500,
+          "f": 139
+        },
+        "cargo_demand": {
+          "l": 255000,
+          "h": 500000
+        },
+        "direct_distance": 4395.83194557013
+      },
+      "warnings": [],
+      "valid": true,
+      "max_tpd": null,
+      "needs_stopover": false,
+      "stopover": {
+        "exists": false
+      },
+      "flight_time": 4.0123701095581055,
+      "trips_per_day_per_ac": 3,
+      "num_ac": 2,
+      "config": {
+        "y": 1,
+        "j": 80,
+        "f": 23,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 1613,
+        "j": 3386,
+        "f": 5251
+      },
+      "max_income": 393266.0,
+      "income": 389333.34375047684,
+      "fuel": 86026.5874584961,
+      "co2": 160253.23930038547,
+      "acheck_cost": 3090.175,
+      "repair_cost": 39.0337725,
+      "profit": 306755.1350409834,
+      "ci": 200,
+      "contribution": 42.19998550415039
+    }
+  },
+  {
+    "airport": {
+      "id": 2321,
+      "name": "Papeete",
+      "fullname": "Faa'a International Airport",
+      "country": "French Polynesia",
+      "continent": "Oceania",
+      "iata": "PPT",
+      "icao": "NTAA",
+      "lat": -17.553699,
+      "lng": -149.606995,
+      "rwy": 11360,
+      "market": 36,
+      "hub_cost": 237000,
+      "rwy_codes": "04/22"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 1074,
+          "j": 551,
+          "f": 388
+        },
+        "cargo_demand": {
+          "l": 537000,
+          "h": 551000
+        },
+        "direct_distance": 4293.182678972116
+      },
+      "warnings": [],
+      "valid": true,
+      "max_tpd": null,
+      "needs_stopover": false,
+      "stopover": {
+        "exists": false
+      },
+      "flight_time": 3.918674945831299,
+      "trips_per_day_per_ac": 3,
+      "num_ac": 3,
+      "config": {
+        "y": 1,
+        "j": 50,
+        "f": 43,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 1579,
+        "j": 3319,
+        "f": 5153
+      },
+      "max_income": 389108.0,
+      "income": 385216.92371082306,
+      "fuel": 84017.72698982237,
+      "co2": 156503.49458397526,
+      "acheck_cost": 2472.14,
+      "repair_cost": 39.0337725,
+      "profit": 305112.92169537034,
+      "ci": 200,
+      "contribution": 41.21455383300781
+    }
+  },
+  {
+    "airport": {
+      "id": 3749,
+      "name": "Mount Isa",
+      "fullname": "Mount Isa Airport",
+      "country": "Australia",
+      "continent": "Oceania",
+      "iata": "ISA",
+      "icao": "YBMA",
+      "lat": -20.663900375399997,
+      "lng": 139.488998413,
+      "rwy": 8399,
+      "market": 75,
+      "hub_cost": 48000,
+      "rwy_codes": "12/30"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 409,
+          "j": 342,
+          "f": 166
+        },
+        "cargo_demand": {
+          "l": 205000,
+          "h": 342000
+        },
+        "direct_distance": 4031.6425292617305
+      },
+      "warnings": [],
+      "valid": true,
+      "max_tpd": null,
+      "needs_stopover": false,
+      "stopover": {
+        "exists": false
+      },
+      "flight_time": 3.679949998855591,
+      "trips_per_day_per_ac": 3,
+      "num_ac": 1,
+      "config": {
+        "y": 1,
+        "j": 32,
+        "f": 55,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 1493,
+        "j": 3150,
+        "f": 4904
+      },
+      "max_income": 372013.0,
+      "income": 368292.87354779243,
+      "fuel": 78899.38926963806,
+      "co2": 146969.0695169522,
+      "acheck_cost": 2472.14,
+      "repair_cost": 39.0337725,
+      "profit": 292915.8389445115,
+      "ci": 200,
+      "contribution": 38.703765869140625
+    }
+  },
+  {
+    "airport": {
+      "id": 3738,
+      "name": "Alice Springs",
+      "fullname": "Alice Springs Airport",
+      "country": "Australia",
+      "continent": "Oceania",
+      "iata": "ASP",
+      "icao": "YBAS",
+      "lat": -23.806699752807617,
+      "lng": 133.90199279785156,
+      "rwy": 7999,
+      "market": 33,
+      "hub_cost": 48000,
+      "rwy_codes": "12/30"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 557,
+          "j": 396,
+          "f": 69
+        },
+        "cargo_demand": {
+          "l": 279000,
+          "h": 396000
+        },
+        "direct_distance": 4247.780637291117
+      },
+      "warnings": [],
+      "valid": true,
+      "max_tpd": null,
+      "needs_stopover": false,
+      "stopover": {
+        "exists": false
+      },
+      "flight_time": 3.8772337436676025,
+      "trips_per_day_per_ac": 3,
+      "num_ac": 2,
+      "config": {
+        "y": 65,
+        "j": 66,
+        "f": 11,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 1564,
+        "j": 3290,
+        "f": 5110
+      },
+      "max_income": 375010.0,
+      "income": 371259.90357637405,
+      "fuel": 83129.24900367737,
+      "co2": 154897.48182094534,
+      "acheck_cost": 2472.14,
+      "repair_cost": 39.0337725,
+      "profit": 291970.5576827864,
+      "ci": 200,
+      "contribution": 40.77869415283203
+    }
+  },
+  {
+    "airport": {
+      "id": 1,
+      "name": "Honiara",
+      "fullname": "Honiara International Airport",
+      "country": "Solomon Islands",
+      "continent": "Oceania",
+      "iata": "HIR",
+      "icao": "AGGH",
+      "lat": -9.4280004501343,
+      "lng": 160.05499267578,
+      "rwy": 7218,
+      "market": 55,
+      "hub_cost": 213300,
+      "rwy_codes": "06/24"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 1301,
+          "j": 334,
+          "f": 169
+        },
+        "cargo_demand": {
+          "l": 651000,
+          "h": 334000
+        },
+        "direct_distance": 3831.270024328517
+      },
+      "warnings": [],
+      "valid": true,
+      "max_tpd": null,
+      "needs_stopover": false,
+      "stopover": {
+        "exists": false
+      },
+      "flight_time": 3.497056484222412,
+      "trips_per_day_per_ac": 3,
+      "num_ac": 1,
+      "config": {
+        "y": 0,
+        "j": 31,
+        "f": 56,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 1427,
+        "j": 3020,
+        "f": 4713
+      },
+      "max_income": 357548.0,
+      "income": 353972.52340984344,
+      "fuel": 74978.14843078614,
+      "co2": 139668.1898401172,
+      "acheck_cost": 2472.14,
+      "repair_cost": 39.0337725,
+      "profit": 282216.46295497904,
+      "ci": 200,
+      "contribution": 36.78019332885742
+    }
+  },
+  {
+    "airport": {
+      "id": 3742,
+      "name": "Cairns",
+      "fullname": "Cairns International Airport",
+      "country": "Australia",
+      "continent": "Oceania",
+      "iata": "CNS",
+      "icao": "YBCS",
+      "lat": -16.885799408,
+      "lng": 145.755004883,
+      "rwy": 10489,
+      "market": 87,
+      "hub_cost": 48000,
+      "rwy_codes": "12/30"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 473,
+          "j": 473,
+          "f": 145
+        },
+        "cargo_demand": {
+          "l": 237000,
+          "h": 473000
+        },
+        "direct_distance": 3882.5526875169876
+      },
+      "warnings": [],
+      "valid": true,
+      "max_tpd": null,
+      "needs_stopover": false,
+      "stopover": {
+        "exists": false
+      },
+      "flight_time": 3.54386568069458,
+      "trips_per_day_per_ac": 3,
+      "num_ac": 2,
+      "config": {
+        "y": 0,
+        "j": 79,
+        "f": 24,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 1444,
+        "j": 3053,
+        "f": 4761
+      },
+      "max_income": 355451.0,
+      "income": 351896.4933898449,
+      "fuel": 75981.69801513672,
+      "co2": 141552.42275835897,
+      "acheck_cost": 2472.14,
+      "repair_cost": 39.0337725,
+      "profit": 279211.8402757461,
+      "ci": 200,
+      "contribution": 37.27250671386719
+    }
+  },
+  {
+    "airport": {
+      "id": 3761,
+      "name": "Townsville",
+      "fullname": "Townsville Airport",
+      "country": "Australia",
+      "continent": "Oceania",
+      "iata": "TSV",
+      "icao": "YBTL",
+      "lat": -19.252500534057617,
+      "lng": 146.76499938964844,
+      "rwy": 7999,
+      "market": 40,
+      "hub_cost": 48000,
+      "rwy_codes": "01/19"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 656,
+          "j": 341,
+          "f": 186
+        },
+        "cargo_demand": {
+          "l": 328000,
+          "h": 341000
+        },
+        "direct_distance": 3612.8149528926397
+      },
+      "warnings": [],
+      "valid": true,
+      "max_tpd": null,
+      "needs_stopover": false,
+      "stopover": {
+        "exists": false
+      },
+      "flight_time": 3.2976579666137695,
+      "trips_per_day_per_ac": 3,
+      "num_ac": 1,
+      "config": {
+        "y": 0,
+        "j": 22,
+        "f": 62,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 1355,
+        "j": 2879,
+        "f": 4504
+      },
+      "max_income": 342586.0,
+      "income": 339160.1432671547,
+      "fuel": 70702.88629745484,
+      "co2": 131706.25529801328,
+      "acheck_cost": 2472.14,
+      "repair_cost": 39.0337725,
+      "profit": 271352.1984506747,
+      "ci": 200,
+      "contribution": 34.683021545410156
+    }
+  },
+  {
+    "airport": {
+      "id": 2318,
+      "name": "Apia",
+      "fullname": "Faleolo International Airport",
+      "country": "Samoa",
+      "continent": "Oceania",
+      "iata": "APW",
+      "icao": "NSFA",
+      "lat": -13.829999923706055,
+      "lng": -172.00799560546875,
+      "rwy": 9843,
+      "market": 33,
+      "hub_cost": 237000,
+      "rwy_codes": "08/26"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 1426,
+          "j": 202,
+          "f": 234
+        },
+        "cargo_demand": {
+          "l": 713000,
+          "h": 202000
+        },
+        "direct_distance": 3313.097043621937
+      },
+      "warnings": [],
+      "valid": true,
+      "max_tpd": null,
+      "needs_stopover": false,
+      "stopover": {
+        "exists": false
+      },
+      "flight_time": 3.024085283279419,
+      "trips_per_day_per_ac": 3,
+      "num_ac": 1,
+      "config": {
+        "y": 0,
+        "j": 1,
+        "f": 76,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 1256,
+        "j": 2684,
+        "f": 4218
+      },
+      "max_income": 323252.0,
+      "income": 320019.4830827713,
+      "fuel": 64837.365988922116,
+      "co2": 120779.85650208083,
+      "acheck_cost": 2472.14,
+      "repair_cost": 39.0337725,
+      "profit": 257628.5703377761,
+      "ci": 200,
+      "contribution": 31.805728912353516
+    }
+  },
+  {
+    "airport": {
+      "id": 3756,
+      "name": "Proserpine",
+      "fullname": "Proserpine Whitsunday Coast Airport",
+      "country": "Australia",
+      "continent": "Oceania",
+      "iata": "PPP",
+      "icao": "YBPN",
+      "lat": -20.4950008392,
+      "lng": 148.552001953,
+      "rwy": 6801,
+      "market": 32,
+      "hub_cost": 48000,
+      "rwy_codes": "06/24"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 533,
+          "j": 283,
+          "f": 118
+        },
+        "cargo_demand": {
+          "l": 267000,
+          "h": 283000
+        },
+        "direct_distance": 3385.930228120612
+      },
+      "warnings": [],
+      "valid": true,
+      "max_tpd": null,
+      "needs_stopover": false,
+      "stopover": {
+        "exists": false
+      },
+      "flight_time": 3.0905649662017822,
+      "trips_per_day_per_ac": 3,
+      "num_ac": 1,
+      "config": {
+        "y": 1,
+        "j": 56,
+        "f": 39,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 1280,
+        "j": 2732,
+        "f": 4288
+      },
+      "max_income": 321504.0,
+      "income": 318288.9630661011,
+      "fuel": 66262.84476669312,
+      "co2": 123452.56332276587,
+      "acheck_cost": 2472.14,
+      "repair_cost": 39.0337725,
+      "profit": 254579.49035818395,
+      "ci": 200,
+      "contribution": 32.50492858886719
+    }
+  },
+  {
+    "airport": {
+      "id": 2317,
+      "name": "Wallis Island",
+      "fullname": "Hihifo Airport",
+      "country": "Wallis and Futuna",
+      "continent": "Oceania",
+      "iata": "WLS",
+      "icao": "NLWW",
+      "lat": -13.2383003235,
+      "lng": -176.199005127,
+      "rwy": 6890,
+      "market": 34,
+      "hub_cost": 237000,
+      "rwy_codes": "08/26"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 906,
+          "j": 578,
+          "f": 355
+        },
+        "cargo_demand": {
+          "l": 453000,
+          "h": 578000
+        },
+        "direct_distance": 3242.9167308465617
+      },
+      "warnings": [],
+      "valid": true,
+      "max_tpd": null,
+      "needs_stopover": false,
+      "stopover": {
+        "exists": false
+      },
+      "flight_time": 2.9600272178649902,
+      "trips_per_day_per_ac": 3,
+      "num_ac": 2,
+      "config": {
+        "y": 1,
+        "j": 26,
+        "f": 59,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 1233,
+        "j": 2639,
+        "f": 4151
+      },
+      "max_income": 314756.0,
+      "income": 311608.44300174713,
+      "fuel": 63463.94341033936,
+      "co2": 118232.05879922972,
+      "acheck_cost": 1854.105,
+      "repair_cost": 39.0337725,
+      "profit": 251102.69678610202,
+      "ci": 200,
+      "contribution": 31.131999969482422
+    }
+  },
+  {
+    "airport": {
+      "id": 2320,
+      "name": "Pago Pago",
+      "fullname": "Pago Pago International Airport",
+      "country": "American Samoa",
+      "continent": "Oceania",
+      "iata": "PPG",
+      "icao": "NSTU",
+      "lat": -14.3310003281,
+      "lng": -170.710006714,
+      "rwy": 10000,
+      "market": 44,
+      "hub_cost": 237000,
+      "rwy_codes": "05/23"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 1635,
+          "j": 303,
+          "f": 96
+        },
+        "cargo_demand": {
+          "l": 818000,
+          "h": 303000
+        },
+        "direct_distance": 3311.767315371886
+      },
+      "warnings": [],
+      "valid": true,
+      "max_tpd": null,
+      "needs_stopover": false,
+      "stopover": {
+        "exists": false
+      },
+      "flight_time": 3.022871732711792,
+      "trips_per_day_per_ac": 3,
+      "num_ac": 1,
+      "config": {
+        "y": 0,
+        "j": 67,
+        "f": 32,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 1255,
+        "j": 2684,
+        "f": 4217
+      },
+      "max_income": 314772.0,
+      "income": 311624.2830018997,
+      "fuel": 64811.337889328,
+      "co2": 120753.4019431639,
+      "acheck_cost": 2472.14,
+      "repair_cost": 39.0337725,
+      "profit": 249254.76447369048,
+      "ci": 200,
+      "contribution": 31.792964935302734
+    }
+  },
+  {
+    "airport": {
+      "id": 3745,
+      "name": "Broken Hill",
+      "fullname": "Broken Hill Airport",
+      "country": "Australia",
+      "continent": "Oceania",
+      "iata": "BHQ",
+      "icao": "YBHI",
+      "lat": -32.0013999939,
+      "lng": 141.472000122,
+      "rwy": 8251,
+      "market": 42,
+      "hub_cost": 48000,
+      "rwy_codes": "05/23"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 597,
+          "j": 319,
+          "f": 253
+        },
+        "cargo_demand": {
+          "l": 299000,
+          "h": 319000
+        },
+        "direct_distance": 3126.0469647684668
+      },
+      "warnings": [],
+      "valid": true,
+      "max_tpd": null,
+      "needs_stopover": false,
+      "stopover": {
+        "exists": false
+      },
+      "flight_time": 2.8533520698547363,
+      "trips_per_day_per_ac": 3,
+      "num_ac": 1,
+      "config": {
+        "y": 0,
+        "j": 1,
+        "f": 76,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 1194,
+        "j": 2563,
+        "f": 4040
+      },
+      "max_income": 309603.0,
+      "income": 306506.9729526043,
+      "fuel": 61176.797546005255,
+      "co2": 113965.25105439917,
+      "acheck_cost": 1854.105,
+      "repair_cost": 39.0337725,
+      "profit": 248114.2457713727,
+      "ci": 200,
+      "contribution": 30.010047912597656
+    }
+  },
+  {
+    "airport": {
+      "id": 3838,
+      "name": "Adelaide",
+      "fullname": "Adelaide International Airport",
+      "country": "Australia",
+      "continent": "Oceania",
+      "iata": "ADL",
+      "icao": "YPAD",
+      "lat": -34.945,
+      "lng": 138.531006,
+      "rwy": 10171,
+      "market": 69,
+      "hub_cost": 48000,
+      "rwy_codes": "05/23"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 335,
+          "j": 387,
+          "f": 91
+        },
+        "cargo_demand": {
+          "l": 168000,
+          "h": 387000
+        },
+        "direct_distance": 3226.1482553831675
+      },
+      "warnings": [],
+      "valid": true,
+      "max_tpd": null,
+      "needs_stopover": false,
+      "stopover": {
+        "exists": false
+      },
+      "flight_time": 2.944721221923828,
+      "trips_per_day_per_ac": 3,
+      "num_ac": 1,
+      "config": {
+        "y": 0,
+        "j": 70,
+        "f": 30,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 1227,
+        "j": 2628,
+        "f": 4135
+      },
+      "max_income": 308010.0,
+      "income": 304929.90293741226,
+      "fuel": 63135.754515457156,
+      "co2": 117635.09417288587,
+      "acheck_cost": 1854.105,
+      "repair_cost": 39.0337725,
+      "profit": 244725.52470334593,
+      "ci": 200,
+      "contribution": 30.971023559570312
+    }
+  },
+  {
+    "airport": {
+      "id": 3757,
+      "name": "Rockhampton",
+      "fullname": "Rockhampton Airport",
+      "country": "Australia",
+      "continent": "Oceania",
+      "iata": "ROK",
+      "icao": "YBRK",
+      "lat": -23.3819007874,
+      "lng": 150.475006104,
+      "rwy": 8622,
+      "market": 83,
+      "hub_cost": 48000,
+      "rwy_codes": "04/22"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 953,
+          "j": 146,
+          "f": 157
+        },
+        "cargo_demand": {
+          "l": 477000,
+          "h": 146000
+        },
+        "direct_distance": 3014.4792591916753
+      },
+      "warnings": [],
+      "valid": true,
+      "max_tpd": null,
+      "needs_stopover": false,
+      "stopover": {
+        "exists": false
+      },
+      "flight_time": 2.751516819000244,
+      "trips_per_day_per_ac": 3,
+      "num_ac": 1,
+      "config": {
+        "y": 0,
+        "j": 37,
+        "f": 52,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 1157,
+        "j": 2491,
+        "f": 3933
+      },
+      "max_income": 296683.0,
+      "income": 293716.1728293896,
+      "fuel": 58993.37268005371,
+      "co2": 109912.5329052527,
+      "acheck_cost": 1854.105,
+      "repair_cost": 39.0337725,
+      "profit": 237338.16923222164,
+      "ci": 200,
+      "contribution": 28.939001083374023
+    }
+  },
+  {
+    "airport": {
+      "id": 2305,
+      "name": "Avarua",
+      "fullname": "Rarotonga International Airport",
+      "country": "Cook Islands",
+      "continent": "Oceania",
+      "iata": "RAR",
+      "icao": "NCRG",
+      "lat": -21.2026996613,
+      "lng": -159.805999756,
+      "rwy": 7638,
+      "market": 71,
+      "hub_cost": 6000,
+      "rwy_codes": "08/26"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 621,
+          "j": 138,
+          "f": 42
+        },
+        "cargo_demand": {
+          "l": 311000,
+          "h": 138000
+        },
+        "direct_distance": 3267.645250010204
+      },
+      "warnings": [],
+      "valid": true,
+      "max_tpd": null,
+      "needs_stopover": false,
+      "stopover": {
+        "exists": false
+      },
+      "flight_time": 2.9825985431671143,
+      "trips_per_day_per_ac": 3,
+      "num_ac": 1,
+      "config": {
+        "y": 96,
+        "j": 46,
+        "f": 14,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 1241,
+        "j": 2655,
+        "f": 4175
+      },
+      "max_income": 299716.0,
+      "income": 296718.8428583145,
+      "fuel": 63947.90950279236,
+      "co2": 119203.02213909166,
+      "acheck_cost": 1854.105,
+      "repair_cost": 39.0337725,
+      "profit": 235757.80477716887,
+      "ci": 200,
+      "contribution": 31.369394302368164
+    }
+  },
+  {
+    "airport": {
+      "id": 2315,
+      "name": "Alofi",
+      "fullname": "Niue International Airport",
+      "country": "Niue",
+      "continent": "Oceania",
+      "iata": "IUE",
+      "icao": "NIUE",
+      "lat": -19.079030990600586,
+      "lng": -169.92559814453125,
+      "rwy": 7660,
+      "market": 81,
+      "hub_cost": 213300,
+      "rwy_codes": "10/28"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 968,
+          "j": 306,
+          "f": 445
+        },
+        "cargo_demand": {
+          "l": 484000,
+          "h": 306000
+        },
+        "direct_distance": 2866.191480080071
+      },
+      "warnings": [],
+      "valid": true,
+      "max_tpd": null,
+      "needs_stopover": false,
+      "stopover": {
+        "exists": false
+      },
+      "flight_time": 2.6161646842956543,
+      "trips_per_day_per_ac": 3,
+      "num_ac": 2,
+      "config": {
+        "y": 0,
+        "j": 4,
+        "f": 74,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 1108,
+        "j": 2395,
+        "f": 3792
+      },
+      "max_income": 290188.0,
+      "income": 287286.1227674484,
+      "fuel": 56091.53312530517,
+      "co2": 104499.39606599986,
+      "acheck_cost": 1854.105,
+      "repair_cost": 39.0337725,
+      "profit": 233588.9832793148,
+      "ci": 200,
+      "contribution": 27.51543617248535
+    }
+  },
+  {
+    "airport": {
+      "id": 2350,
+      "name": "Port Vila",
+      "fullname": "Bauerfield International Airport",
+      "country": "Vanuatu",
+      "continent": "Oceania",
+      "iata": "VLI",
+      "icao": "NVVV",
+      "lat": -17.699300765991,
+      "lng": 168.32000732422,
+      "rwy": 8530,
+      "market": 80,
+      "hub_cost": 213300,
+      "rwy_codes": "11/29"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 682,
+          "j": 525,
+          "f": 256
+        },
+        "cargo_demand": {
+          "l": 341000,
+          "h": 525000
+        },
+        "direct_distance": 2699.1422862668796
+      },
+      "warnings": [],
+      "valid": true,
+      "max_tpd": null,
+      "needs_stopover": false,
+      "stopover": {
+        "exists": false
+      },
+      "flight_time": 2.4636878967285156,
+      "trips_per_day_per_ac": 3,
+      "num_ac": 1,
+      "config": {
+        "y": 0,
+        "j": 1,
+        "f": 76,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 1053,
+        "j": 2287,
+        "f": 3632
+      },
+      "max_income": 278319.0,
+      "income": 275535.8126542568,
+      "fuel": 52822.36467628479,
+      "co2": 98412.43060203179,
+      "acheck_cost": 1854.105,
+      "repair_cost": 39.0337725,
+      "profit": 224857.52693611366,
+      "ci": 200,
+      "contribution": 25.911766052246094
+    }
+  },
+  {
+    "airport": {
+      "id": 2306,
+      "name": "Nadi",
+      "fullname": "Nadi International Airport",
+      "country": "Fiji",
+      "continent": "Oceania",
+      "iata": "NAN",
+      "icao": "NFFN",
+      "lat": -17.755399703979492,
+      "lng": 177.4429931640625,
+      "rwy": 10739,
+      "market": 66,
+      "hub_cost": 213300,
+      "rwy_codes": "02/20"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 1759,
+          "j": 356,
+          "f": 165
+        },
+        "cargo_demand": {
+          "l": 880000,
+          "h": 356000
+        },
+        "direct_distance": 2633.113282254923
+      },
+      "warnings": [],
+      "valid": true,
+      "max_tpd": null,
+      "needs_stopover": false,
+      "stopover": {
+        "exists": false
+      },
+      "flight_time": 2.403418779373169,
+      "trips_per_day_per_ac": 3,
+      "num_ac": 1,
+      "config": {
+        "y": 1,
+        "j": 32,
+        "f": 55,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 1031,
+        "j": 2244,
+        "f": 3569
+      },
+      "max_income": 269134.0,
+      "income": 266442.66256666183,
+      "fuel": 51530.15759643554,
+      "co2": 96017.82569580125,
+      "acheck_cost": 1854.105,
+      "repair_cost": 39.0337725,
+      "profit": 216956.2743931608,
+      "ci": 200,
+      "contribution": 25.27788734436035
+    }
+  },
+  {
+    "airport": {
+      "id": 3815,
+      "name": "Melbourne Avalon",
+      "fullname": "Avalon Airport",
+      "country": "Australia",
+      "continent": "Oceania",
+      "iata": "AVV",
+      "icao": "YMAV",
+      "lat": -38.039398,
+      "lng": 144.468994,
+      "rwy": 10000,
+      "market": 51,
+      "hub_cost": 48000,
+      "rwy_codes": "18/36"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 435,
+          "j": 370,
+          "f": 170
+        },
+        "cargo_demand": {
+          "l": 218000,
+          "h": 370000
+        },
+        "direct_distance": 2608.07263764464
+      },
+      "warnings": [],
+      "valid": true,
+      "max_tpd": null,
+      "needs_stopover": false,
+      "stopover": {
+        "exists": false
+      },
+      "flight_time": 2.3805625438690186,
+      "trips_per_day_per_ac": 3,
+      "num_ac": 1,
+      "config": {
+        "y": 1,
+        "j": 29,
+        "f": 57,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 1023,
+        "j": 2228,
+        "f": 3546
+      },
+      "max_income": 267757.0,
+      "income": 265079.43255352974,
+      "fuel": 51040.124804077146,
+      "co2": 95104.56843619178,
+      "acheck_cost": 1854.105,
+      "repair_cost": 39.0337725,
+      "profit": 216045.6582058327,
+      "ci": 200,
+      "contribution": 25.037498474121094
+    }
+  },
+  {
+    "airport": {
+      "id": 3826,
+      "name": "Melbourne intl",
+      "fullname": "Melbourne International Airport",
+      "country": "Australia",
+      "continent": "Oceania",
+      "iata": "MEL",
+      "icao": "YMML",
+      "lat": -37.673302,
+      "lng": 144.843002,
+      "rwy": 11998,
+      "market": 78,
+      "hub_cost": 48000,
+      "rwy_codes": "09/27"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 596,
+          "j": 291,
+          "f": 163
+        },
+        "cargo_demand": {
+          "l": 298000,
+          "h": 291000
+        },
+        "direct_distance": 2589.4635269436235
+      },
+      "warnings": [],
+      "valid": true,
+      "max_tpd": null,
+      "needs_stopover": false,
+      "stopover": {
+        "exists": false
+      },
+      "flight_time": 2.363576650619507,
+      "trips_per_day_per_ac": 3,
+      "num_ac": 1,
+      "config": {
+        "y": 0,
+        "j": 34,
+        "f": 54,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 1017,
+        "j": 2215,
+        "f": 3528
+      },
+      "max_income": 265822.0,
+      "income": 263163.78253507614,
+      "fuel": 50675.92710975646,
+      "co2": 94427.56893134626,
+      "acheck_cost": 1854.105,
+      "repair_cost": 39.0337725,
+      "profit": 214466.18651398507,
+      "ci": 200,
+      "contribution": 24.858850479125977
+    }
+  },
+  {
+    "airport": {
+      "id": 3739,
+      "name": "Brisbane",
+      "fullname": "Brisbane International Airport",
+      "country": "Australia",
+      "continent": "Oceania",
+      "iata": "BNE",
+      "icao": "YBBN",
+      "lat": -27.384199142456055,
+      "lng": 153.11700439453125,
+      "rwy": 11680,
+      "market": 81,
+      "hub_cost": 48000,
+      "rwy_codes": "01/19"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 810,
+          "j": 189,
+          "f": 152
+        },
+        "cargo_demand": {
+          "l": 405000,
+          "h": 189000
+        },
+        "direct_distance": 2510.967052267137
+      },
+      "warnings": [],
+      "valid": true,
+      "max_tpd": null,
+      "needs_stopover": false,
+      "stopover": {
+        "exists": false
+      },
+      "flight_time": 2.2919275760650635,
+      "trips_per_day_per_ac": 3,
+      "num_ac": 1,
+      "config": {
+        "y": 1,
+        "j": 38,
+        "f": 51,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 991,
+        "j": 2165,
+        "f": 3453
+      },
+      "max_income": 259364.0,
+      "income": 256770.36247348785,
+      "fuel": 49139.68213371276,
+      "co2": 91569.65699527027,
+      "acheck_cost": 1854.105,
+      "repair_cost": 39.0337725,
+      "profit": 209491.0873679565,
+      "ci": 200,
+      "contribution": 24.105281829833984
+    }
+  },
+  {
+    "airport": {
+      "id": 3765,
+      "name": "Toowoomba",
+      "fullname": "Toowoomba Wellcamp Airport",
+      "country": "Australia",
+      "continent": "Oceania",
+      "iata": "WTB",
+      "icao": "YBWW",
+      "lat": -27.558332,
+      "lng": 151.793335,
+      "rwy": 9416,
+      "market": 85,
+      "hub_cost": 48000,
+      "rwy_codes": "12/30"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 789,
+          "j": 124,
+          "f": 113
+        },
+        "cargo_demand": {
+          "l": 395000,
+          "h": 124000
+        },
+        "direct_distance": 2593.4067691162104
+      },
+      "warnings": [],
+      "valid": true,
+      "max_tpd": null,
+      "needs_stopover": false,
+      "stopover": {
+        "exists": false
+      },
+      "flight_time": 2.367175817489624,
+      "trips_per_day_per_ac": 3,
+      "num_ac": 1,
+      "config": {
+        "y": 34,
+        "j": 41,
+        "f": 38,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 1018,
+        "j": 2218,
+        "f": 3532
+      },
+      "max_income": 259766.0,
+      "income": 257168.34247732162,
+      "fuel": 50753.03290855407,
+      "co2": 94596.11100813784,
+      "acheck_cost": 1854.105,
+      "repair_cost": 39.0337725,
+      "profit": 208396.54734785724,
+      "ci": 200,
+      "contribution": 24.896705627441406
+    }
+  },
+  {
+    "airport": {
+      "id": 3871,
+      "name": "Tamworth",
+      "fullname": "Tamworth Airport",
+      "country": "Australia",
+      "continent": "Oceania",
+      "iata": "TMW",
+      "icao": "YSTW",
+      "lat": -31.0839004517,
+      "lng": 150.847000122,
+      "rwy": 7218,
+      "market": 42,
+      "hub_cost": 48000,
+      "rwy_codes": "06/24|12R/30L"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 378,
+          "j": 532,
+          "f": 189
+        },
+        "cargo_demand": {
+          "l": 189000,
+          "h": 532000
+        },
+        "direct_distance": 2421.1938207446433
+      },
+      "warnings": [],
+      "valid": true,
+      "max_tpd": null,
+      "needs_stopover": false,
+      "stopover": {
+        "exists": false
+      },
+      "flight_time": 2.2099857330322266,
+      "trips_per_day_per_ac": 3,
+      "num_ac": 1,
+      "config": {
+        "y": 1,
+        "j": 20,
+        "f": 63,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 961,
+        "j": 2106,
+        "f": 3367
+      },
+      "max_income": 255202.0,
+      "income": 252649.98243379593,
+      "fuel": 47382.88326110839,
+      "co2": 88293.15642837166,
+      "acheck_cost": 1854.105,
+      "repair_cost": 39.0337725,
+      "profit": 206993.64660711543,
+      "ci": 200,
+      "contribution": 23.243459701538086
+    }
+  },
+  {
+    "airport": {
+      "id": 2309,
+      "name": "Nuku'alofa",
+      "fullname": "Fua'amotu International Airport",
+      "country": "Tonga",
+      "continent": "Oceania",
+      "iata": "TBU",
+      "icao": "NFTF",
+      "lat": -21.241199493408203,
+      "lng": -175.14999389648438,
+      "rwy": 8795,
+      "market": 89,
+      "hub_cost": 237000,
+      "rwy_codes": "11/29"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 780,
+          "j": 653,
+          "f": 318
+        },
+        "cargo_demand": {
+          "l": 390000,
+          "h": 653000
+        },
+        "direct_distance": 2424.682563390901
+      },
+      "warnings": [],
+      "valid": true,
+      "max_tpd": null,
+      "needs_stopover": false,
+      "stopover": {
+        "exists": false
+      },
+      "flight_time": 2.213170051574707,
+      "trips_per_day_per_ac": 3,
+      "num_ac": 2,
+      "config": {
+        "y": 1,
+        "j": 35,
+        "f": 53,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 963,
+        "j": 2109,
+        "f": 3371
+      },
+      "max_income": 253441.0,
+      "income": 250906.59241700172,
+      "fuel": 47451.18256004334,
+      "co2": 88425.30410552969,
+      "acheck_cost": 1854.105,
+      "repair_cost": 39.0337725,
+      "profit": 205186.5893598078,
+      "ci": 200,
+      "contribution": 23.276952743530273
+    }
+  },
+  {
+    "airport": {
+      "id": 3803,
+      "name": "Inverell",
+      "fullname": "Inverell Airport",
+      "country": "Australia",
+      "continent": "Oceania",
+      "iata": "IVR",
+      "icao": "YIVL",
+      "lat": -29.888299942,
+      "lng": 151.143997192,
+      "rwy": 6936,
+      "market": 57,
+      "hub_cost": 48000,
+      "rwy_codes": "04/22"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 693,
+          "j": 389,
+          "f": 114
+        },
+        "cargo_demand": {
+          "l": 347000,
+          "h": 389000
+        },
+        "direct_distance": 2476.3670875814078
+      },
+      "warnings": [],
+      "valid": true,
+      "max_tpd": null,
+      "needs_stopover": false,
+      "stopover": {
+        "exists": false
+      },
+      "flight_time": 2.260345935821533,
+      "trips_per_day_per_ac": 3,
+      "num_ac": 1,
+      "config": {
+        "y": 0,
+        "j": 58,
+        "f": 38,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 980,
+        "j": 2142,
+        "f": 3420
+      },
+      "max_income": 254196.0,
+      "income": 251654.04242420197,
+      "fuel": 48462.56014427185,
+      "co2": 90315.1098234457,
+      "acheck_cost": 1854.105,
+      "repair_cost": 39.0337725,
+      "profit": 204999.29837189816,
+      "ci": 200,
+      "contribution": 23.77312469482422
+    }
+  },
+  {
+    "airport": {
+      "id": 2361,
+      "name": "Nouméa Int",
+      "fullname": "La Tontouta International Airport",
+      "country": "New Caledonia",
+      "continent": "Oceania",
+      "iata": "NOU",
+      "icao": "NWWW",
+      "lat": -22.01460075378418,
+      "lng": 166.21299743652344,
+      "rwy": 10663,
+      "market": 79,
+      "hub_cost": 213300,
+      "rwy_codes": "11/29"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 502,
+          "j": 558,
+          "f": 205
+        },
+        "cargo_demand": {
+          "l": 251000,
+          "h": 558000
+        },
+        "direct_distance": 2293.2313383910346
+      },
+      "warnings": [],
+      "valid": true,
+      "max_tpd": null,
+      "needs_stopover": false,
+      "stopover": {
+        "exists": false
+      },
+      "flight_time": 2.0931859016418457,
+      "trips_per_day_per_ac": 3,
+      "num_ac": 1,
+      "config": {
+        "y": 1,
+        "j": 11,
+        "f": 69,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 919,
+        "j": 2024,
+        "f": 3245
+      },
+      "max_income": 247088.0,
+      "income": 244617.1223564148,
+      "fuel": 44878.706100158684,
+      "co2": 83628.31781257187,
+      "acheck_cost": 1854.105,
+      "repair_cost": 39.0337725,
+      "profit": 201273.49117629507,
+      "ci": 200,
+      "contribution": 22.0150203704834
+    }
+  },
+  {
+    "airport": {
+      "id": 3862,
+      "name": "Canberra",
+      "fullname": "Canberra International Airport",
+      "country": "Australia",
+      "continent": "Oceania",
+      "iata": "CBR",
+      "icao": "YSCB",
+      "lat": -35.30690002441406,
+      "lng": 149.19500732421875,
+      "rwy": 10771,
+      "market": 54,
+      "hub_cost": 237000,
+      "rwy_codes": "12/30"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 792,
+          "j": 613,
+          "f": 350
+        },
+        "cargo_demand": {
+          "l": 396000,
+          "h": 613000
+        },
+        "direct_distance": 2322.6430584117247
+      },
+      "warnings": [],
+      "valid": true,
+      "max_tpd": null,
+      "needs_stopover": false,
+      "stopover": {
+        "exists": false
+      },
+      "flight_time": 2.1200318336486816,
+      "trips_per_day_per_ac": 3,
+      "num_ac": 2,
+      "config": {
+        "y": 0,
+        "j": 28,
+        "f": 58,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 929,
+        "j": 2043,
+        "f": 3273
+      },
+      "max_income": 247038.0,
+      "income": 244567.62235593796,
+      "fuel": 45454.259791183475,
+      "co2": 84704.78290862277,
+      "acheck_cost": 1854.105,
+      "repair_cost": 39.0337725,
+      "profit": 200691.92778057477,
+      "ci": 200,
+      "contribution": 22.297372817993164
+    }
+  },
+  {
+    "airport": {
+      "id": 3870,
+      "name": "Sydney intl",
+      "fullname": "Sydney Kingsford Smith International Airport",
+      "country": "Australia",
+      "continent": "Oceania",
+      "iata": "SYD",
+      "icao": "YSSY",
+      "lat": -33.94609832763672,
+      "lng": 151.177001953125,
+      "rwy": 12999,
+      "market": 84,
+      "hub_cost": 237000,
+      "rwy_codes": "07/25|16R/34L"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 820,
+          "j": 718,
+          "f": 206
+        },
+        "cargo_demand": {
+          "l": 410000,
+          "h": 718000
+        },
+        "direct_distance": 2227.690078329587
+      },
+      "warnings": [],
+      "valid": true,
+      "max_tpd": null,
+      "needs_stopover": false,
+      "stopover": {
+        "exists": false
+      },
+      "flight_time": 2.0333619117736816,
+      "trips_per_day_per_ac": 3,
+      "num_ac": 1,
+      "config": {
+        "y": 1,
+        "j": 11,
+        "f": 69,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 898,
+        "j": 1981,
+        "f": 3183
+      },
+      "max_income": 242316.0,
+      "income": 239892.84231090546,
+      "fuel": 43596.088320159906,
+      "co2": 81240.56458594232,
+      "acheck_cost": 1854.105,
+      "repair_cost": 39.0337725,
+      "profit": 197733.57396398045,
+      "ci": 200,
+      "contribution": 21.38582420349121
+    }
+  },
+  {
+    "airport": {
+      "id": 3883,
+      "name": "Williamtown",
+      "fullname": "Newcastle Airport",
+      "country": "Australia",
+      "continent": "Oceania",
+      "iata": "NTL",
+      "icao": "YWLM",
+      "lat": -32.79499816894531,
+      "lng": 151.83399963378906,
+      "rwy": 7999,
+      "market": 34,
+      "hub_cost": 48000,
+      "rwy_codes": "12/30"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 414,
+          "j": 356,
+          "f": 190
+        },
+        "cargo_demand": {
+          "l": 207000,
+          "h": 356000
+        },
+        "direct_distance": 2239.072600527857
+      },
+      "warnings": [],
+      "valid": true,
+      "max_tpd": null,
+      "needs_stopover": false,
+      "stopover": {
+        "exists": false
+      },
+      "flight_time": 2.0437512397766113,
+      "trips_per_day_per_ac": 3,
+      "num_ac": 1,
+      "config": {
+        "y": 1,
+        "j": 20,
+        "f": 63,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 901,
+        "j": 1988,
+        "f": 3194
+      },
+      "max_income": 241883.0,
+      "income": 239464.17230677605,
+      "fuel": 43818.79491668701,
+      "co2": 81658.16073667537,
+      "acheck_cost": 1854.105,
+      "repair_cost": 39.0337725,
+      "profit": 197098.89780419407,
+      "ci": 200,
+      "contribution": 21.49509620666504
+    }
+  },
+  {
+    "airport": {
+      "id": 3822,
+      "name": "Hobart",
+      "fullname": "Hobart International Airport",
+      "country": "Australia",
+      "continent": "Oceania",
+      "iata": "HBA",
+      "icao": "YMHB",
+      "lat": -42.836101532,
+      "lng": 147.509994507,
+      "rwy": 8947,
+      "market": 55,
+      "hub_cost": 48000,
+      "rwy_codes": "12/30"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 596,
+          "j": 162,
+          "f": 163
+        },
+        "cargo_demand": {
+          "l": 298000,
+          "h": 162000
+        },
+        "direct_distance": 2248.9634234373902
+      },
+      "warnings": [],
+      "valid": true,
+      "max_tpd": null,
+      "needs_stopover": false,
+      "stopover": {
+        "exists": false
+      },
+      "flight_time": 2.05277943611145,
+      "trips_per_day_per_ac": 3,
+      "num_ac": 1,
+      "config": {
+        "y": 0,
+        "j": 34,
+        "f": 54,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 905,
+        "j": 1995,
+        "f": 3203
+      },
+      "max_income": 240792.0,
+      "income": 238384.08229637146,
+      "fuel": 44012.34221366882,
+      "co2": 82022.47320862177,
+      "acheck_cost": 1854.105,
+      "repair_cost": 39.0337725,
+      "profit": 195839.60718926866,
+      "ci": 200,
+      "contribution": 21.59004783630371
+    }
+  },
+  {
+    "airport": {
+      "id": 3778,
+      "name": "Cooma",
+      "fullname": "Cooma Snowy Mountains Airport",
+      "country": "Australia",
+      "continent": "Oceania",
+      "iata": "OOM",
+      "icao": "YCOM",
+      "lat": -36.3005981445,
+      "lng": 148.973999023,
+      "rwy": 6955,
+      "market": 38,
+      "hub_cost": 48000,
+      "rwy_codes": "14/32"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 649,
+          "j": 456,
+          "f": 76
+        },
+        "cargo_demand": {
+          "l": 325000,
+          "h": 456000
+        },
+        "direct_distance": 2297.4112909962328
+      },
+      "warnings": [],
+      "valid": true,
+      "max_tpd": null,
+      "needs_stopover": false,
+      "stopover": {
+        "exists": false
+      },
+      "flight_time": 2.097001075744629,
+      "trips_per_day_per_ac": 3,
+      "num_ac": 1,
+      "config": {
+        "y": 1,
+        "j": 77,
+        "f": 25,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 921,
+        "j": 2026,
+        "f": 3249
+      },
+      "max_income": 238148.0,
+      "income": 235766.5222711563,
+      "fuel": 44960.50869888306,
+      "co2": 83802.60356916803,
+      "acheck_cost": 1854.105,
+      "repair_cost": 39.0337725,
+      "profit": 192344.714981138,
+      "ci": 200,
+      "contribution": 22.05514907836914
+    }
+  },
+  {
+    "airport": {
+      "id": 3863,
+      "name": "Coffs Harbour",
+      "fullname": "Coffs Harbour Airport",
+      "country": "Australia",
+      "continent": "Oceania",
+      "iata": "CFS",
+      "icao": "YSCH",
+      "lat": -30.3206005096,
+      "lng": 153.115997314,
+      "rwy": 6824,
+      "market": 56,
+      "hub_cost": 48000,
+      "rwy_codes": "03/21"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 1070,
+          "j": 245,
+          "f": 63
+        },
+        "cargo_demand": {
+          "l": 535000,
+          "h": 245000
+        },
+        "direct_distance": 2296.886977320934
+      },
+      "warnings": [],
+      "valid": true,
+      "max_tpd": null,
+      "needs_stopover": false,
+      "stopover": {
+        "exists": false
+      },
+      "flight_time": 2.096522331237793,
+      "trips_per_day_per_ac": 3,
+      "num_ac": 1,
+      "config": {
+        "y": 3,
+        "j": 82,
+        "f": 21,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 920,
+        "j": 2026,
+        "f": 3249
+      },
+      "max_income": 237121.0,
+      "income": 234749.79226136208,
+      "fuel": 44950.136599044796,
+      "co2": 83786.29460959962,
+      "acheck_cost": 1854.105,
+      "repair_cost": 39.0337725,
+      "profit": 191337.20251637878,
+      "ci": 200,
+      "contribution": 22.050113677978516
+    }
+  },
+  {
+    "airport": {
+      "id": 3869,
+      "name": "Nowra",
+      "fullname": "Nowra Airport",
+      "country": "Australia",
+      "continent": "Oceania",
+      "iata": "NOA",
+      "icao": "YSNW",
+      "lat": -34.94889831542969,
+      "lng": 150.53700256347656,
+      "rwy": 6870,
+      "market": 53,
+      "hub_cost": 48000,
+      "rwy_codes": "03/21"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 1141,
+          "j": 217,
+          "f": 78
+        },
+        "cargo_demand": {
+          "l": 571000,
+          "h": 217000
+        },
+        "direct_distance": 2229.011539679751
+      },
+      "warnings": [],
+      "valid": true,
+      "max_tpd": null,
+      "needs_stopover": false,
+      "stopover": {
+        "exists": false
+      },
+      "flight_time": 2.0345678329467773,
+      "trips_per_day_per_ac": 3,
+      "num_ac": 1,
+      "config": {
+        "y": 6,
+        "j": 73,
+        "f": 26,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 898,
+        "j": 1982,
+        "f": 3184
+      },
+      "max_income": 232858.0,
+      "income": 230529.42222070694,
+      "fuel": 43621.92071975708,
+      "co2": 81312.65482486742,
+      "acheck_cost": 1854.105,
+      "repair_cost": 39.0337725,
+      "profit": 188343.4203653929,
+      "ci": 200,
+      "contribution": 21.398509979248047
+    }
+  },
+  {
+    "airport": {
+      "id": 2381,
+      "name": "Invercargill",
+      "fullname": "Invercargill Airport",
+      "country": "New Zealand",
+      "continent": "Oceania",
+      "iata": "IVC",
+      "icao": "NZNV",
+      "lat": -46.41239929199219,
+      "lng": 168.31300354003906,
+      "rwy": 7251,
+      "market": 80,
+      "hub_cost": 36000,
+      "rwy_codes": "04/22|07/25"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 238,
+          "j": 423,
+          "f": 109
+        },
+        "cargo_demand": {
+          "l": 119000,
+          "h": 423000
+        },
+        "direct_distance": 767.9522223605417
+      },
+      "warnings": [
+        "Reduced contribution (<1000km)"
+      ],
+      "valid": true,
+      "max_tpd": null,
+      "needs_stopover": false,
+      "stopover": {
+        "exists": false
+      },
+      "flight_time": 0.7009613513946533,
+      "trips_per_day_per_ac": 3,
+      "num_ac": 1,
+      "config": {
+        "y": 0,
+        "j": 61,
+        "f": 36,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 416,
+        "j": 1035,
+        "f": 1790
+      },
+      "max_income": 127575.0,
+      "income": 126299.25121665001,
+      "fuel": 15028.976965637208,
+      "co2": 28075.318094635844,
+      "acheck_cost": 618.035,
+      "repair_cost": 39.0337725,
+      "profit": 111752.86039684767,
+      "ci": 200,
+      "contribution": 7.372341156005859
+    }
+  },
+  {
+    "airport": {
+      "id": 2365,
+      "name": "Christchurch",
+      "fullname": "Christchurch International Airport",
+      "country": "New Zealand",
+      "continent": "Oceania",
+      "iata": "CHC",
+      "icao": "NZCH",
+      "lat": -43.48939895629883,
+      "lng": 172.53199768066406,
+      "rwy": 10787,
+      "market": 81,
+      "hub_cost": 36000,
+      "rwy_codes": "01/19|11/29"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 578,
+          "j": 196,
+          "f": 201
+        },
+        "cargo_demand": {
+          "l": 289000,
+          "h": 196000
+        },
+        "direct_distance": 304.32472959552075
+      },
+      "warnings": [
+        "Reduced contribution (<1000km)"
+      ],
+      "valid": true,
+      "max_tpd": null,
+      "needs_stopover": false,
+      "stopover": {
+        "exists": false
+      },
+      "flight_time": 0.2777775526046753,
+      "trips_per_day_per_ac": 3,
+      "num_ac": 1,
+      "config": {
+        "y": 1,
+        "j": 14,
+        "f": 67,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 263,
+        "j": 735,
+        "f": 1348
+      },
+      "max_income": 100869.0,
+      "income": 99860.31096196175,
+      "fuel": 5955.738007125854,
+      "co2": 11169.350312178403,
+      "acheck_cost": 618.035,
+      "repair_cost": 39.0337725,
+      "profit": 93693.90354701225,
+      "ci": 200,
+      "contribution": 2.9215173721313477
+    }
+  },
+  {
+    "airport": {
+      "id": 2362,
+      "name": "Auckland",
+      "fullname": "Auckland International Airport",
+      "country": "New Zealand",
+      "continent": "Oceania",
+      "iata": "AKL",
+      "icao": "NZAA",
+      "lat": -37.008098602299995,
+      "lng": 174.792007446,
+      "rwy": 11926,
+      "market": 75,
+      "hub_cost": 36000,
+      "rwy_codes": "05L/23R"
+    },
+    "ac_route": {
+      "route": {
+        "pax_demand": {
+          "y": 377,
+          "j": 444,
+          "f": 81
+        },
+        "cargo_demand": {
+          "l": 189000,
+          "h": 444000
+        },
+        "direct_distance": 480.2636708758292
+      },
+      "warnings": [
+        "Reduced contribution (<1000km)"
+      ],
+      "valid": true,
+      "max_tpd": null,
+      "needs_stopover": false,
+      "stopover": {
+        "exists": false
+      },
+      "flight_time": 0.4383687973022461,
+      "trips_per_day_per_ac": 3,
+      "num_ac": 1,
+      "config": {
+        "y": 1,
+        "j": 74,
+        "f": 27,
+        "algorithm": "FJY"
+      },
+      "ticket": {
+        "y": 321,
+        "j": 849,
+        "f": 1516
+      },
+      "max_income": 104079.0,
+      "income": 103038.21099257469,
+      "fuel": 9398.883753433227,
+      "co2": 17599.196248907178,
+      "acheck_cost": 618.035,
+      "repair_cost": 39.0337725,
+      "profit": 93690.02004280257,
+      "ci": 200,
+      "contribution": 4.610530853271484
+    }
+  }
+]

@@ -1,6 +1,7 @@
 use serde::{Deserialize, Serialize};
 use std::error::Error;
 use rust_xlsxwriter::*;
+use std::path::Path;
 
 #[derive(Deserialize, Debug)]
 struct Airport {
@@ -97,15 +98,15 @@ fn greet(name: &str) -> String {
 }
 
 #[tauri::command]
-fn process_json(json_string: &str, selected: &str) -> Result<String, String> {//
-    
-    match save_to_excel(json_string, selected) {
-        Ok(_) => Ok("Excel file created successfully!".to_string()),
+fn process_json(json_string: &str, selected: &str, mode: &str) -> Result<String, String> {//
+    println!("Switch: {}", mode);
+    match save_to_excel(json_string, selected, mode) {
+        Ok(file_path) => Ok(file_path),
         Err(e) => Err(format!("Error creating Excel file: {}", e)),
     }
 }
 
-fn save_to_excel(json_string: &str, selected: &str) -> Result<String, Box<dyn Error>> {
+fn save_to_excel(json_string: &str, selected: &str, mode: &str) -> Result<String, Box<dyn Error>> {
     // Parse the JSON string
     
     println!("Selected: {}", selected);
@@ -134,7 +135,7 @@ fn save_to_excel(json_string: &str, selected: &str) -> Result<String, Box<dyn Er
 
     // Add worksheet
     let worksheet = workbook.add_worksheet();
-    let choice = "pax"; // pax,cargo
+    let choice = mode; // pax,cargo
     // Define headers
     let headers: Vec<&str>;
     if choice == "pax"{
@@ -323,11 +324,17 @@ fn save_to_excel(json_string: &str, selected: &str) -> Result<String, Box<dyn Er
 
     // Save the file to the user's Documents folder or current directory
     let filename = "route_analysis.xlsx";
-    println!("Saving file: {}", filename);
-    workbook.save(filename)?;
+    let path = Path::new(selected);
+    
+    let parent = path.parent().unwrap();
+    let stem = path.file_stem().unwrap().to_string_lossy();
+    let new_filename = format!("{}_{}.xlsx", stem, choice);
+    let xlsx_path = parent.join(new_filename).to_string_lossy().to_string();
+    println!("file stored in: {}", xlsx_path);
+    workbook.save(&xlsx_path)?;
     println!("File saved successfully");
 
-    Ok(filename.to_string())
+    Ok(xlsx_path.to_string())
 }
 
 #[cfg_attr(mobile, tauri::mobile_entry_point)]

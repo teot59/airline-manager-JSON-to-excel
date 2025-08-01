@@ -5,7 +5,8 @@ import { readTextFile } from '@tauri-apps/plugin-fs';
 import { invoke } from '@tauri-apps/api/core';
 
 const greetMsg = ref("");
-const fileContent = ref<string>("");
+//const fileContent = ref<string>("");
+const switchValue = ref<string>("pax"); // Default to "pax"
 
 async function openFileExplorer() {
   try {
@@ -21,39 +22,57 @@ async function openFileExplorer() {
     }
     
     const content = await readTextFile(selected);
-    fileContent.value = content;
-    greetMsg.value = `File loaded: ${selected.split('/').pop()}`;
+    //fileContent.value = content;
     
-    // Send the JSON to Rust
-    await invoke('process_json', { jsonString: content, selected: selected});
     
+    // Send the JSON to Rust with switch value
+    const filepath : string = await invoke('process_json', { 
+      jsonString: content, 
+      selected: selected,
+      mode: switchValue.value 
+    });
+    greetMsg.value = `File saved: ${filepath.split('/').pop()}`;
     
   } catch (error) {
     console.error("Error:", error);
     greetMsg.value = `Error: ${error instanceof Error ? error.message : String(error)}`;
   }
 }
+
+function toggleSwitch() {
+  switchValue.value = switchValue.value === "pax" ? "cargo" : "pax";
+}
 </script>
 
 <template>
   <main class="container">
-    <h1>JSON File Reader</h1>
 
-    <p>Select a JSON file to view its content</p>
-
-    <!-- File Selection Button -->
+    <!-- File Selection Button and Switch -->
     <div class="file-selector">
-      <button @click="openFileExplorer" class="select-button">
-        Select JSON File
-      </button>
+      <div class="controls-row">
+        <button @click="openFileExplorer" class="select-button square-button">
+          📁
+        </button>
+        
+        <div class="switch-container">
+          <div class="switch" @click="toggleSwitch" :class="{ 'switched': switchValue === 'cargo' }">
+            <div class="switch-slider"></div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Switch output display -->
+      <div class="switch-output">
+        {{ switchValue }}
+      </div>
     </div>
 
     <p>{{ greetMsg }}</p>
 
-    <div v-if="fileContent" class="content-display">
+    <!--div v-if="fileContent" class="content-display">
       <h3>File Content:</h3>
       <pre>{{ fileContent }}</pre>
-    </div>
+    </div-->
   </main>
 </template>
 
@@ -79,8 +98,14 @@ pre {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 8px;
+  gap: 12px;
   margin: 20px 0;
+}
+
+.controls-row {
+  display: flex;
+  align-items: center;
+  gap: 20px;
 }
 
 .select-button {
@@ -93,8 +118,63 @@ pre {
   transition: background-color 0.3s ease;
 }
 
+.square-button {
+  width: 100px;
+  height: 100px;
+  padding: 0;
+  font-size: 2.5em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .select-button:hover {
   background-color: #2a5bc7;
+}
+
+.switch-container {
+  display: flex;
+  align-items: center;
+}
+
+.switch {
+  width: 120px;
+  height: 70px;
+  background-color: #ccc;
+  border-radius: 8px;
+  position: relative;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.switch.switched {
+  background-color: #396cd8;
+}
+
+.switch-slider {
+  width: 36px;
+  height: 66px;
+  background-color: white;
+  border-radius: 6px;
+  position: absolute;
+  top: 2px;
+  left: 3px;
+  transition: transform 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.switch.switched .switch-slider {
+  transform: translateX(78px);
+}
+
+.switch-output {
+  padding: 8px 16px;
+  background-color: #f0f0f0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-weight: 500;
+  min-width: 60px;
+  text-align: center;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -104,12 +184,26 @@ pre {
   
   .select-button {
     background-color: #24c8db;
-  color: #0f0f0f;
-  font-weight: bold;
+    color: #0f0f0f;
+    font-weight: bold;
   }
   
   .select-button:hover {
     background-color: #1eb8c9;
+  }
+  
+  .switch {
+    background-color: #555;
+  }
+  
+  .switch.switched {
+    background-color: #24c8db;
+  }
+  
+  .switch-output {
+    background-color: #333;
+    border-color: #555;
+    color: #f6f6f6;
   }
 }
 </style>
@@ -223,5 +317,4 @@ button {
   button:active {
     background-color: #0f0f0f69;
   }
-}
-</style>
+}</style>
