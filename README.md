@@ -28,7 +28,7 @@ A simple GUI application that converts JSON dictionaries from Airline Manager 4 
 
 <div align="center">
   <img src="https://github.com/teot59/airline-manager-JSON-to-excel/blob/e181b580a332b6106d3a5f00ff5cbe2a179f8bd0/images/pax.png" alt="Passenger mode" width="45%" style="display: inline-block; margin: 5px;">
-  <img src="https://github.com/teot59/airline-manager-JSON-to-excel/blob/e181b580a332b6106d3a5f00ff5cbe2a179f8bd0/images/fileSaved.png" alt="File saved" width="45%" style="display: inline-block; margin: 5px;">
+  <img src="https://github.com/teot59/airline-manager-JSON-to-excel/blob/23d9d0fa985655499ae6a8fc7b94b9fef408d32a/images/fileSaved.png" alt="File saved" width="45%" style="display: inline-block; margin: 5px;">
 </div>
 
 <div align="center">
