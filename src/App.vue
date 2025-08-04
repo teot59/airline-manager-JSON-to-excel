@@ -154,7 +154,7 @@ function selectMode(mode: string) {
           <p class="message-body">{{ errorMsg }}</p>
         </div>
         <button v-if="copyButton" @click="copyToClipboard" class="copy-button">
-          📋
+          <img src="/src-tauri/icons/clipboard_96x96.png" alt="Submit"></img>
         </button>
       </div>
     </div>
@@ -377,6 +377,12 @@ pre {
   justify-content: center;
   transition: background-color 0.3s ease, transform 0.1s ease;
   flex-shrink: 0;
+}
+.copy-button img {
+  max-width: 65%;
+  max-height: 65%;
+  object-fit: contain;
+ 
 }
 
 .copy-button:hover {
