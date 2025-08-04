@@ -1,14 +1,66 @@
 <script setup lang="ts">
-import { ref } from "vue";
+import { ref, nextTick, onMounted } from "vue";
 import { open } from '@tauri-apps/plugin-dialog';
 import { readTextFile } from '@tauri-apps/plugin-fs';
 import { invoke } from '@tauri-apps/api/core';
+import { getCurrentWindow, LogicalSize } from "@tauri-apps/api/window";
 
-const greetMsg = ref("");
+
+const errorPrefix = ref("");
+const errorMsg = ref("");
 //const fileContent = ref<string>("");
 const switchValue = ref<string>("pax"); // Default to "pax"
+const copyButton = ref(false);
+const showErrorBox = ref(false);
+const containerRef = ref(null);
+const fileSelectorRef = ref(null);
+const messageContainerRef = ref(null);
+
+onMounted(async () => {
+  try {
+    await resizeWindowToContent();
+
+  } catch (error) {
+    console.error('Error getting window size:', error);
+  }
+});
+
+/*function getElementHeight(element: HTMLElement | null): number {
+  return element?.offsetHeight || 0;
+}*/
+
+async function getAllElementHeights() {
+  await nextTick();
+  await new Promise(resolve => setTimeout(resolve, 10));
+  var body = document.body,
+      html = document.documentElement;
+
+  var height = Math.max( body.scrollHeight, body.offsetHeight, html.offsetHeight);
+  //Math.max( body.scrollHeight, body.offsetHeight, html.clientHeight, html.scrollHeight, html.offsetHeight );
+  /*const heights = {
+    container: getElementHeight(containerRef.value),
+    fileSelector: getElementHeight(fileSelectorRef.value),
+    messageContainer: getElementHeight(messageContainerRef.value),
+    total: 0
+  };
+  
+  heights.total = heights.container;
+  console.log('Element heights:', heights);
+  return heights;*/
+  return height;
+}
+
+async function resizeWindowToContent() {
+  let defaultWidth = (await getCurrentWindow().innerSize()).width;
+  let height = await getAllElementHeights();
+  await getCurrentWindow().setSize(new LogicalSize(defaultWidth, Math.max(height + 20, 200)));
+}
 
 async function openFileExplorer() {
+  
+  copyButton.value = false;
+  showErrorBox.value = false;
+  await resizeWindowToContent();
   try {
     const selected = await open({
       multiple: false,
@@ -17,12 +69,14 @@ async function openFileExplorer() {
     });
     
     if (selected === null || Array.isArray(selected)) {
-      greetMsg.value = "No file selected";
+      showErrorBox.value = true;
+      errorMsg.value = "No file selected";
+      await resizeWindowToContent();
+      
       return;
     }
     
     const content = await readTextFile(selected);
-    //fileContent.value = content;
     
     
     // Send the JSON to Rust with switch value
@@ -31,48 +85,81 @@ async function openFileExplorer() {
       selected: selected,
       mode: switchValue.value 
     });
-    greetMsg.value = `File saved: ${filepath.split('/').pop()}`;
+    copyButton.value = true;
+    showErrorBox.value = true;
+    errorPrefix.value = `File saved: `
+    errorMsg.value = `${filepath.split('/').pop()}`;
+    await resizeWindowToContent();
     
   } catch (error) {
     console.error("Error:", error);
-    greetMsg.value = `Error: ${error instanceof Error ? error.message : String(error)}`;
+    copyButton.value = true;
+    showErrorBox.value = true;
+    errorPrefix.value = `Error: `
+    errorMsg.value = `${error instanceof Error ? error.message : String(error)}`;
+    await resizeWindowToContent();
   }
 }
 
-function toggleSwitch() {
-  switchValue.value = switchValue.value === "pax" ? "cargo" : "pax";
+async function copyToClipboard() {
+  try {
+    await navigator.clipboard.writeText(errorMsg.value);
+  } catch (error) {
+    console.error('Failed to copy:', error);
+  }
 }
+
+function selectMode(mode: string) {
+  switchValue.value = mode;
+}
+
 </script>
 
 <template>
-  <main class="container">
+  <main class="container" ref="containerRef">
 
-    <!-- File Selection Button and Switch -->
-    <div class="file-selector">
+    <div class="file-selector" ref="fileSelectorRef">
       <div class="controls-row">
         <button @click="openFileExplorer" class="select-button square-button">
-          📁
+          <div>
+            <img src="/src-tauri/icons/folder_144x144.png" alt="Submit"></img>
+          </div>
+
+            
+
         </button>
-        
-        <div class="switch-container">
-          <div class="switch" @click="toggleSwitch" :class="{ 'switched': switchValue === 'cargo' }">
-            <div class="switch-slider"></div>
+        <div class="checkbox-container">
+          <div class="checkbox-row">
+            <input type="checkbox" id="pax_check" value="pax" :checked="switchValue === 'pax'" @change="selectMode('pax')">
+            <label for="pax_check">pax</label>
+          </div>
+          <div class="checkbox-row">
+            <input type="checkbox" id="cargo_check" value="cargo" :checked="switchValue === 'cargo'" @change="selectMode('cargo')">
+            <label for="cargo_check">cargo</label>
           </div>
         </div>
+
       </div>
-      
-      <!-- Switch output display -->
-      <div class="switch-output">
+      <!--div class="row"-->
+        
+      <!--/div-->
+      <!--div class="switch-output">
         {{ switchValue }}
+      </div-->
+    </div>
+    <div v-if="showErrorBox" class="message-container" ref="messageContainerRef">
+      <div class="message-content">
+        <div class="message-text">
+          <p class="message-prefix">{{ errorPrefix }}</p>
+          <p class="message-body">{{ errorMsg }}</p>
+        </div>
+        <button v-if="copyButton" @click="copyToClipboard" class="copy-button">
+          📋
+        </button>
       </div>
     </div>
+    
 
-    <p>{{ greetMsg }}</p>
-
-    <!--div v-if="fileContent" class="content-display">
-      <h3>File Content:</h3>
-      <pre>{{ fileContent }}</pre>
-    </div-->
   </main>
 </template>
 
@@ -92,6 +179,68 @@ function toggleSwitch() {
 pre {
   white-space: pre-wrap;
   word-wrap: break-word;
+}
+
+.checkbox-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+}
+
+.checkbox-row {
+  margin: 1px 0;
+}
+
+.checkbox-row input[type="checkbox"] {
+  display: none;
+}
+
+.checkbox-row label {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #ffffff;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  cursor: pointer;
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 1em;
+  font-weight: 500;
+  color: #0f0f0f;
+  transition: border-color 0.25s;
+  user-select: none;
+  width: 60%;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.checkbox-row label:hover {
+  border-color: #396cd8;
+}
+
+.checkbox-row input[type="checkbox"]:checked + label {
+  border-color: #396cd8;
+  color: #396cd8;
+  background-color: #e8e8e8;
+}
+
+@media (prefers-color-scheme: dark) {
+  .checkbox-row label {
+    color: #ffffff;
+    background-color: #0f0f0f98;
+  }
+
+  .checkbox-row label:hover {
+    border-color: #24c8db;
+  }
+
+  .checkbox-row input[type="checkbox"]:checked + label {
+    border-color: #24c8db;
+    color: #24c8db;
+    background-color: #0f0f0f69;
+  }
+}
+
+.checkbox-row label:active {
+    transform: translateY(2px);
 }
 
 .file-selector {
@@ -131,40 +280,11 @@ pre {
 .select-button:hover {
   background-color: #2a5bc7;
 }
-
-.switch-container {
-  display: flex;
-  align-items: center;
-}
-
-.switch {
-  width: 120px;
-  height: 70px;
-  background-color: #ccc;
-  border-radius: 8px;
-  position: relative;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-.switch.switched {
-  background-color: #396cd8;
-}
-
-.switch-slider {
-  width: 36px;
-  height: 66px;
-  background-color: white;
-  border-radius: 6px;
-  position: absolute;
-  top: 2px;
-  left: 3px;
-  transition: transform 0.3s ease;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-}
-
-.switch.switched .switch-slider {
-  transform: translateX(78px);
+.square-button img {
+  max-width: 70%;
+  max-height: 70%;
+  object-fit: contain;
+  padding-top: 10%;
 }
 
 .switch-output {
@@ -192,20 +312,105 @@ pre {
     background-color: #1eb8c9;
   }
   
-  .switch {
-    background-color: #555;
-  }
-  
-  .switch.switched {
-    background-color: #24c8db;
-  }
-  
   .switch-output {
     background-color: #333;
     border-color: #555;
     color: #f6f6f6;
   }
 }
+
+.message-container {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+
+.message-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 24px;
+  background-color: #ffffff;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+  transition: border-color 0.25s;
+}
+
+.message-text {
+  flex: 1;
+  text-align: left;
+  cursor: pointer;
+  user-select: none;
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+.message-prefix {
+  margin: 0;
+  font-weight: 600;
+  color: #0f0f0f;
+}
+
+.message-body {
+  margin: 4px 0 0 0;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  hyphens: auto;
+  color: #0f0f0f;
+  min-width: 0;
+}
+
+.copy-button {
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  margin-left: 12px;
+  font-size: 1.2em;
+  background-color: #396cd8;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s ease, transform 0.1s ease;
+  flex-shrink: 0;
+}
+
+.copy-button:hover {
+  background-color: #2a5bc7;
+}
+
+.copy-button:active {
+  transform: translateY(1px);
+}
+@media (prefers-color-scheme: dark) {
+  .message-content {
+    background-color: #0f0f0f98;
+  }
+  
+
+  .message-prefix,
+  .message-body {
+    color: #ffffff;
+  }
+
+  .copy-button {
+    background-color: #24c8db;
+    color: #0f0f0f;
+    font-weight: bold;
+  }
+  
+  .copy-button:hover {
+    background-color: #1eb8c9;
+  }
+}
+
+
+
+
 </style>
 
 <style>
@@ -232,17 +437,6 @@ pre {
   flex-direction: column;
   justify-content: center;
   text-align: center;
-}
-
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: 0.75s;
-}
-
-.logo.tauri:hover {
-  filter: drop-shadow(0 0 2em #24c8db);
 }
 
 .row {
@@ -317,4 +511,5 @@ button {
   button:active {
     background-color: #0f0f0f69;
   }
-}</style>
+}
+</style>

@@ -1,7 +1,7 @@
 {
   "$schema": "https://schema.tauri.app/config/2",
   "productName": "am-dropdown",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "identifier": "com.am-dropdown.app",
   "build": {
     "beforeDevCommand": "npm run dev",
@@ -14,9 +14,10 @@
     
     "windows": [
       {
+        "resizable": true,
         "title": "AM4-file-converter",
-        "width": 460,
-        "height": 330,
+        "width": 340,
+        "height": 200,
         "decorations": true,
         "transparent": true,
         "dragDropEnabled": false
